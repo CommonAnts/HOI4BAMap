@@ -1,0 +1,10 @@
+state={
+	id=123
+	name="STATE_123"
+	provinces={
+		344 524 828 942 984 1836 2020 2146 2490 2545 2606 2664 2849 4332 4429 4546 6173 6210 6234 6282 6283 6319 6328 6356 6418 
+	}
+	buildings_max_level_factor=1.000
+        manpower=1
+        state_category = town
+}
