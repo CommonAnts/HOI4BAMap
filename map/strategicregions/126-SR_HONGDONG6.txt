@@ -8,7 +8,7 @@ strategic_region={
 	weather={
 		period={
 			between={ 0.0 30.0 }
-			temperature={ 5.000 30.000 }
+			temperature={ 5.0 30.0 }
 			no_phenomenon=1.000
 			rain_light=0.700
 			rain_heavy=0.300
@@ -21,7 +21,7 @@ strategic_region={
 		}
 		period={
 			between={ 0.1 27.1 }
-			temperature={ 4.000 28.000 }
+			temperature={ 4.0 28.0 }
 			no_phenomenon=1.000
 			rain_light=0.612
 			rain_heavy=0.252
@@ -34,7 +34,7 @@ strategic_region={
 		}
 		period={
 			between={ 0.2 30.2 }
-			temperature={ 1.000 22.000 }
+			temperature={ 1.0 22.0 }
 			no_phenomenon=1.000
 			rain_light=0.372
 			rain_heavy=0.132
@@ -47,7 +47,7 @@ strategic_region={
 		}
 		period={
 			between={ 0.3 29.3 }
-			temperature={ 0.000 20.000 }
+			temperature={ 0.0 20.0 }
 			no_phenomenon=1.000
 			rain_light=0.300
 			rain_heavy=0.100
@@ -60,7 +60,7 @@ strategic_region={
 		}
 		period={
 			between={ 0.4 30.4 }
-			temperature={ -4.000 18.000 }
+			temperature={ -4.0 18.0 }
 			no_phenomenon=1.000
 			rain_light=0.208
 			rain_heavy=0.064
@@ -73,7 +73,7 @@ strategic_region={
 		}
 		period={
 			between={ 0.5 29.5 }
-			temperature={ -16.000 12.000 }
+			temperature={ -16.0 12.0 }
 			no_phenomenon=1.000
 			rain_light=0.084
 			rain_heavy=0.012
@@ -86,7 +86,7 @@ strategic_region={
 		}
 		period={
 			between={ 0.6 30.6 }
-			temperature={ -20.000 10.000 }
+			temperature={ -20.0 10.0 }
 			no_phenomenon=1.000
 			rain_light=0.050
 			rain_heavy=0.000
@@ -99,7 +99,7 @@ strategic_region={
 		}
 		period={
 			between={ 0.7 30.7 }
-			temperature={ -16.000 12.000 }
+			temperature={ -16.0 12.0 }
 			no_phenomenon=1.000
 			rain_light=0.084
 			rain_heavy=0.012
@@ -112,7 +112,7 @@ strategic_region={
 		}
 		period={
 			between={ 0.8 29.8 }
-			temperature={ -4.000 18.000 }
+			temperature={ -4.0 18.0 }
 			no_phenomenon=1.000
 			rain_light=0.208
 			rain_heavy=0.064
@@ -125,7 +125,7 @@ strategic_region={
 		}
 		period={
 			between={ 0.9 30.9 }
-			temperature={ 0.000 20.000 }
+			temperature={ 0.0 20.0 }
 			no_phenomenon=1.000
 			rain_light=0.300
 			rain_heavy=0.100
@@ -138,7 +138,7 @@ strategic_region={
 		}
 		period={
 			between={ 0.10 29.10 }
-			temperature={ 1.000 22.000 }
+			temperature={ 1.0 22.0 }
 			no_phenomenon=1.000
 			rain_light=0.372
 			rain_heavy=0.132
@@ -151,7 +151,7 @@ strategic_region={
 		}
 		period={
 			between={ 0.11 30.11 }
-			temperature={ 4.000 28.000 }
+			temperature={ 4.0 28.0 }
 			no_phenomenon=1.000
 			rain_light=0.612
 			rain_heavy=0.252
