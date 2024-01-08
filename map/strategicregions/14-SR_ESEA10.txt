@@ -1,9 +1,11 @@
+
 strategic_region={
 	id=14
 	name="STRATEGICREGION_14"
 	provinces={
 		8993 9199 9407 9425 9441 9543 9587 9595 9729 9872 
 	}
+	naval_terrain=ocean
 	weather={
 	}
 }

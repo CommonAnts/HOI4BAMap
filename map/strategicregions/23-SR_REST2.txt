@@ -5,6 +5,7 @@ strategic_region={
 	provinces={
 		9904 9909 9910 9952 9954 
 	}
+	naval_terrain=water_shallow_sea
 	weather={
 	}
 }
