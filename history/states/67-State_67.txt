@@ -1,10 +1,22 @@
-state={
-	id=67
-	name="STATE_67"
-	provinces={
-		568 3589 5777 
+state = {
+	id = 67
+	name = "STATE_67"
+	manpower = 140379
+	state_category = small_island
+	local_supplies = 0.2
+	provinces = {
+		568 3589 5777
 	}
-	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+	resources = {
+	}
+	history = {
+		owner = HYA
+		add_core_of = HYA
+		victory_points = { 3589 2 }
+		buildings = {
+			3589 = {
+				naval_base = 1
+			}
+		}
+	}
 }

@@ -1,12 +1,25 @@
-
-state={
-	id=118
-	name="STATE_118"
-	provinces={
-		637 856 1717 2732 3156 3707 4865 4907 6240 6257 6284 6314 6333 6363 6371 9930 9940 9943 9947 
+state = {
+	id = 118
+	name = "STATE_118"
+	manpower = 896469
+	state_category = rural
+	local_supplies = 1.0
+	provinces = {
+		637 856 1717 2732 3156 3707 4865 4907 6240 6257 6284 6314 6333 6363 6371 9930 9940 9943 9947
 	}
-	manpower=1
-	buildings_max_level_factor=1.000
-	state_category=town
-	local_supplies=0.000
+	resources = {
+	}
+	history = {
+		owner = HIL
+		add_core_of = HIL
+		victory_points = { 2732 5 }
+		victory_points = { 6314 2 }
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			2732 = {
+				supply_node = 1
+			}
+		}
+	}
 }

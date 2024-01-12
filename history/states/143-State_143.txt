@@ -1,10 +1,28 @@
-state={
-	id=143
-	name="STATE_143"
-	provinces={
-		64 242 272 452 653 1050 1136 1148 1226 1606 1831 2137 2171 2294 2355 2983 3535 4075 4090 4136 4169 4189 4299 4542 4891 5075 6538 6548 6664 6678 6690 6701 6750 6763 6846 6899 6943 6970 7010 
+state = {
+	id = 143
+	name = "STATE_143"
+	manpower = 1758394
+	state_category = large_town
+	local_supplies = 2.7
+	provinces = {
+		64 242 272 452 653 1050 1136 1148 1226 1606 1831 2137 2171 2294 2355 2983 3535 4075 4090 4136 4169 4189 4299 4542 4891 5075 6538 6548 6664 6678 6690 6701 6750 6763 6846 6899 6943 6970 7010
 	}
-	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+	resources = {
+	}
+	history = {
+		owner = HYA
+		add_core_of = HYA
+		victory_points = { 1148 3 }
+		victory_points = { 2171 10 }
+		victory_points = { 4075 3 }
+		victory_points = { 6943 3 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 2
+			2171 = {
+				supply_node = 1
+			}
+		}
+	}
 }

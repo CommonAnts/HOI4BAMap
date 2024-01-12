@@ -1,10 +1,38 @@
-state={
-	id=215
-	name="STATE_215"
-	provinces={
-		836 1048 2382 3534 4730 7072 7084 7116 7125 7129 
+state = {
+	id = 215
+	name = "STATE_215"
+	manpower = 12506445
+	state_category = megalopolis
+	local_supplies = 11.5
+	provinces = {
+		836 1048 2382 3534 4730 7072 7084 7116 7125 7129
 	}
-	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+	resources = {
+	}
+	history = {
+		owner = TRY
+		add_core_of = TRY
+		victory_points = { 836 5 }
+		victory_points = { 1048 5 }
+		victory_points = { 2382 5 }
+		victory_points = { 3534 5 }
+		victory_points = { 4730 5 }
+		victory_points = { 7072 5 }
+		victory_points = { 7084 5 }
+		victory_points = { 7116 60 }
+		victory_points = { 7125 5 }
+		victory_points = { 7129 5 }
+		buildings = {
+			infrastructure = 5
+			arms_factory = 4
+			industrial_complex = 5
+			air_base = 6
+			anti_air_building = 3
+			radar_station = 3
+			7116 = {
+				supply_node = 1
+				bunker = 4
+			}
+		}
+	}
 }

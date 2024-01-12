@@ -1,10 +1,30 @@
-state={
-	id=401
-	name="STATE_401"
-	provinces={
-		704 1234 1835 2049 2105 2387 2563 3605 3696 3738 3859 5237 8658 8663 8676 8690 8691 8701 8709 8711 8712 8722 8735 8737 8749 8754 
+state = {
+	id = 401
+	name = "STATE_401"
+	manpower = 1957535
+	state_category = city
+	local_supplies = 4.7
+	provinces = {
+		704 1234 1835 2049 2105 2387 2563 3605 3696 3738 3859 5237 8658 8663 8676 8690 8691 8701 8709 8711 8712 8722 8735 8737 8749 8754
 	}
-	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+	resources = {
+	}
+	history = {
+		owner = WLH
+		add_core_of = WLH
+		victory_points = { 2387 5 }
+		victory_points = { 3605 5 }
+		victory_points = { 8658 3 }
+		victory_points = { 8691 5 }
+		victory_points = { 8711 20 }
+		buildings = {
+			infrastructure = 3
+			air_base = 3
+			dockyard = 1
+			8711 = {
+				supply_node = 1
+				naval_base = 6
+			}
+		}
+	}
 }

@@ -1,10 +1,28 @@
-state={
-	id=1
-	name="STATE_1"
-	provinces={
-		328 353 1390 1403 1482 1758 1774 1799 1976 2114 2349 2363 2661 2689 2893 3304 3767 3862 4160 4273 4307 4387 4734 5095 5097 5299 5300 5302 5304 5305 5307 5315 5320 5323 5326 5329 5332 5333 5336 5342 5343 5345 5347 5349 
+state = {
+	id = 1
+	name = "STATE_1"
+	manpower = 1386433
+	state_category = large_town
+	local_supplies = 2.5
+	provinces = {
+		328 353 1390 1403 1482 1758 1774 1799 1976 2114 2349 2363 2661 2689 2893 3304 3767 3862 4160 4273 4307 4387 4734 5095 5097 5299 5300 5302 5304 5305 5307 5315 5320 5323 5326 5329 5332 5333 5336 5342 5343 5345 5347 5349
 	}
-	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+	resources = {
+	}
+	history = {
+		owner = ODY
+		add_core_of = ODY
+		victory_points = { 4307 3 }
+		victory_points = { 5320 3 }
+		victory_points = { 5326 10 }
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			dockyard = 1
+			5326 = {
+				supply_node = 1
+				naval_base = 6
+			}
+		}
+	}
 }

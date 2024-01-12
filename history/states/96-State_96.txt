@@ -1,10 +1,35 @@
-state={
-	id=96
-	name="STATE_96"
-	provinces={
-		2783 6034 6046 6047 6059 6062 6071 
+state = {
+	id = 96
+	name = "STATE_96"
+	manpower = 6325707
+	state_category = metropolis
+	local_supplies = 7.7
+	provinces = {
+		2783 6034 6046 6047 6059 6062 6071
 	}
-	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+	resources = {
+	}
+	history = {
+		owner = MIL
+		add_core_of = MIL
+		victory_points = { 2783 5 }
+		victory_points = { 6034 5 }
+		victory_points = { 6046 5 }
+		victory_points = { 6047 5 }
+		victory_points = { 6059 5 }
+		victory_points = { 6062 40 }
+		victory_points = { 6071 5 }
+		buildings = {
+			infrastructure = 4
+			arms_factory = 3
+			industrial_complex = 5
+			air_base = 5
+			anti_air_building = 2
+			radar_station = 2
+			6062 = {
+				supply_node = 1
+				bunker = 2
+			}
+		}
+	}
 }

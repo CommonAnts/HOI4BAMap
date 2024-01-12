@@ -1,12 +1,32 @@
-
-state={
-	id=60
-	name="STATE_60"
-	provinces={
-		678 790 991 1490 1577 1850 2396 2931 3335 3646 3656 4138 4375 5189 5687 5714 5719 5778 5806 5807 8887 8888 
+state = {
+	id = 60
+	name = "STATE_60"
+	manpower = 2234525
+	state_category = large_town
+	local_supplies = 2.5
+	provinces = {
+		678 790 991 1490 1577 1850 2396 2931 3335 3646 3656 4138 4375 5189 5687 5714 5719 5778 5806 5807 8887 8888
 	}
-	manpower=1
-	buildings_max_level_factor=1.000
-	state_category=town
-	local_supplies=0.000
+	resources = {
+	}
+	history = {
+		owner = SRT
+		add_core_of = SRT
+		victory_points = { 2396 3 }
+		victory_points = { 3646 10 }
+		victory_points = { 4138 3 }
+		victory_points = { 5806 3 }
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			air_base = 2
+			dockyard = 1
+			3646 = {
+				supply_node = 1
+			}
+			4138 = {
+				naval_base = 2
+			}
+		}
+	}
 }

@@ -1,10 +1,35 @@
-state={
-	id=124
-	name="STATE_124"
-	provinces={
-		786 1685 1998 2441 3085 3186 3233 3467 3692 4295 4762 4801 4911 6298 6320 6321 6337 6342 6349 6354 6359 6369 6381 6388 6396 6424 6434 
+state = {
+	id = 124
+	name = "STATE_124"
+	manpower = 5100523
+	state_category = city
+	local_supplies = 5.4
+	provinces = {
+		786 1685 1998 2441 3085 3186 3233 3467 3692 4295 4762 4801 4911 6298 6320 6321 6337 6342 6349 6354 6359 6369 6381 6388 6396 6424 6434
 	}
-	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+	resources = {
+	}
+	history = {
+		owner = VAL
+		add_core_of = VAL
+		victory_points = { 1685 5 }
+		victory_points = { 2441 3 }
+		victory_points = { 4295 3 }
+		victory_points = { 6337 5 }
+		victory_points = { 6359 3 }
+		victory_points = { 6369 20 }
+		victory_points = { 6396 5 }
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			air_base = 3
+			dockyard = 3
+			6369 = {
+				supply_node = 1
+			}
+			6359 = {
+				naval_base = 3
+			}
+		}
+	}
 }

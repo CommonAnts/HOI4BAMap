@@ -1,12 +1,27 @@
-
-state={
-	id=185
-	name="STATE_185"
-	provinces={
-		291 586 613 1282 1506 3182 3310 4569 4678 4912 6930 6952 6984 6985 7018 7031 7048 7066 7091 8893 
+state = {
+	id = 185
+	name = "STATE_185"
+	manpower = 1423835
+	state_category = town
+	local_supplies = 2.1
+	provinces = {
+		291 586 613 1282 1506 3182 3310 4569 4678 4912 6930 6952 6984 6985 7018 7031 7048 7066 7091 8893
 	}
-	manpower=1
-	buildings_max_level_factor=1.000
-	state_category=town
-	local_supplies=0.000
+	resources = {
+	}
+	history = {
+		owner = HYA
+		add_core_of = HYA
+		victory_points = { 3182 3 }
+		victory_points = { 7018 10 }
+		victory_points = { 7031 3 }
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			7018 = {
+				supply_node = 1
+				naval_base = 4
+			}
+		}
+	}
 }

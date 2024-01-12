@@ -1,10 +1,25 @@
-state={
-	id=174
-	name="STATE_174"
-	provinces={
-		478 490 654 925 2308 2391 2892 2926 3091 3538 6844 6849 6866 6901 6908 6915 6966 6972 6995 
+state = {
+	id = 174
+	name = "STATE_174"
+	manpower = 936591
+	state_category = rural
+	local_supplies = 0.9
+	provinces = {
+		478 490 654 925 2308 2391 2892 2926 3091 3538 6844 6849 6866 6901 6908 6915 6966 6972 6995
 	}
-	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+	resources = {
+	}
+	history = {
+		owner = TRY
+		add_core_of = TRY
+		victory_points = { 2308 2 }
+		victory_points = { 6972 5 }
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			6972 = {
+				supply_node = 1
+			}
+		}
+	}
 }

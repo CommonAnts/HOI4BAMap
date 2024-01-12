@@ -1,10 +1,25 @@
-state={
-	id=80
-	name="STATE_80"
-	provinces={
-		460 1049 1805 2445 3839 3930 4629 4838 5974 6018 6044 6076 
+state = {
+	id = 80
+	name = "STATE_80"
+	manpower = 724976
+	state_category = rural
+	local_supplies = 0.9
+	provinces = {
+		460 1049 1805 2445 3839 3930 4629 4838 5974 6018 6044 6076
 	}
-	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+	resources = {
+	}
+	history = {
+		owner = KRO
+		add_core_of = KRO
+		victory_points = { 460 2 }
+		victory_points = { 6018 5 }
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			6018 = {
+				supply_node = 1
+			}
+		}
+	}
 }

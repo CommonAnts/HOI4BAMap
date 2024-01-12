@@ -1,12 +1,22 @@
-
-state={
-	id=224
-	name="STATE_224"
-	provinces={
-		4344 4689 8895 
+state = {
+	id = 224
+	name = "STATE_224"
+	manpower = 194281
+	state_category = small_island
+	local_supplies = 0.2
+	provinces = {
+		4344 4689 8895
 	}
-	manpower=1
-	buildings_max_level_factor=1.000
-	state_category=town
-	local_supplies=0.000
+	resources = {
+	}
+	history = {
+		owner = TRY
+		add_core_of = TRY
+		victory_points = { 4689 2 }
+		buildings = {
+			4689 = {
+				naval_base = 1
+			}
+		}
+	}
 }

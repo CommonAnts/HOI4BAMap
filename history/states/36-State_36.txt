@@ -1,10 +1,19 @@
-state={
-	id=36
-	name="STATE_36"
-	provinces={
-		451 556 712 823 869 939 1667 2270 2552 2693 2820 3189 3393 4438 5133 5521 5545 5566 5581 5600 
+state = {
+	id = 36
+	name = "STATE_36"
+	manpower = 200531
+	state_category = pastoral
+	local_supplies = 0.3
+	provinces = {
+		451 556 712 823 869 939 1667 2270 2552 2693 2820 3189 3393 4438 5133 5521 5545 5566 5581 5600
 	}
-	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+	resources = {
+	}
+	history = {
+		owner = HYA
+		add_core_of = HYA
+		victory_points = { 556 2 }
+		buildings = {
+		}
+	}
 }

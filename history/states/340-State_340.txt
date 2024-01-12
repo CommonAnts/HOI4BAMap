@@ -1,10 +1,19 @@
-state={
-	id=340
-	name="STATE_340"
-	provinces={
-		135 163 1249 1386 1494 1771 1806 2640 2945 3129 4167 8171 8197 8200 8226 8246 8281 8323 8324 8362 8420 
+state = {
+	id = 340
+	name = "STATE_340"
+	manpower = 16268
+	state_category = pastoral
+	local_supplies = 0.2
+	provinces = {
+		135 163 1249 1386 1494 1771 1806 2640 2945 3129 4167 8171 8197 8200 8226 8246 8281 8323 8324 8362 8420
 	}
-	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+	resources = {
+	}
+	history = {
+		owner = ABD
+		add_core_of = ABD
+		victory_points = { 3129 2 }
+		buildings = {
+		}
+	}
 }

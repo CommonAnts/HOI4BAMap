@@ -1,10 +1,28 @@
-state={
-	id=285
-	name="STATE_285"
-	provinces={
-		46 866 1054 1061 1351 1613 1651 2015 2116 2623 2692 2800 2891 3634 3785 3815 4199 4585 4729 4910 4919 5124 5164 7721 7724 7729 7747 7752 7758 7770 7777 7785 7789 7798 7804 7813 7819 7824 7835 7843 7858 
+state = {
+	id = 285
+	name = "STATE_285"
+	manpower = 202193
+	state_category = large_town
+	local_supplies = 3.1
+	provinces = {
+		46 866 1054 1061 1351 1613 1651 2015 2116 2623 2692 2800 2891 3634 3785 3815 4199 4585 4729 4910 4919 5124 5164 7721 7724 7729 7747 7752 7758 7770 7777 7785 7789 7798 7804 7813 7819 7824 7835 7843 7858
 	}
-	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+	resources = {
+	}
+	history = {
+		owner = ABD
+		add_core_of = ABD
+		victory_points = { 2800 15 }
+		victory_points = { 2891 3 }
+		victory_points = { 4910 3 }
+		victory_points = { 7789 3 }
+		victory_points = { 7798 3 }
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			2800 = {
+				supply_node = 1
+			}
+		}
+	}
 }

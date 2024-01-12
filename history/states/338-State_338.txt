@@ -1,10 +1,27 @@
-state={
-	id=338
-	name="STATE_338"
-	provinces={
-		63 558 576 993 1592 1895 2337 2440 2702 2792 2861 2875 3649 3748 3872 3949 3968 4080 4135 4520 4604 4802 5069 8106 8188 8205 8215 8259 8265 8270 8303 8310 8333 8374 8376 8409 8411 
+state = {
+	id = 338
+	name = "STATE_338"
+	manpower = 1018843
+	state_category = town
+	local_supplies = 1.8
+	provinces = {
+		63 558 576 993 1592 1895 2337 2440 2702 2792 2861 2875 3649 3748 3872 3949 3968 4080 4135 4520 4604 4802 5069 8106 8188 8205 8215 8259 8265 8270 8303 8310 8333 8374 8376 8409 8411
 	}
-	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+	resources = {
+	}
+	history = {
+		owner = RWT
+		add_core_of = RWT
+		victory_points = { 993 2 }
+		victory_points = { 2440 2 }
+		victory_points = { 4135 2 }
+		victory_points = { 8303 5 }
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			8303 = {
+				supply_node = 1
+			}
+		}
+	}
 }

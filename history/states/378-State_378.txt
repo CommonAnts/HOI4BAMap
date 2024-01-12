@@ -1,10 +1,25 @@
-state={
-	id=378
-	name="STATE_378"
-	provinces={
-		510 1367 2144 2944 3292 3923 4067 4234 4667 4747 4884 5223 8590 8592 
+state = {
+	id = 378
+	name = "STATE_378"
+	manpower = 538447
+	state_category = rural
+	local_supplies = 1.0
+	provinces = {
+		510 1367 2144 2944 3292 3923 4067 4234 4667 4747 4884 5223 8590 8592
 	}
-	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+	resources = {
+	}
+	history = {
+		owner = WLH
+		add_core_of = WLH
+		victory_points = { 2144 5 }
+		victory_points = { 8590 2 }
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			2144 = {
+				supply_node = 1
+			}
+		}
+	}
 }

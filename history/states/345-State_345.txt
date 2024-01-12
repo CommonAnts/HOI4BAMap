@@ -1,10 +1,52 @@
-state={
-	id=345
-	name="STATE_345"
-	provinces={
-		347 787 1830 1945 2101 2255 4035 4388 4437 4641 4913 5027 8138 8141 8142 8154 8164 8166 8176 8183 8195 8203 8207 8208 8212 8217 8237 
+state = {
+	id = 345
+	name = "STATE_345"
+	manpower = 6739585
+	state_category = megalopolis
+	local_supplies = 12.8
+	provinces = {
+		347 787 1830 1945 2101 2255 4035 4388 4437 4641 4913 5027 8138 8141 8142 8154 8164 8166 8176 8183 8195 8203 8207 8208 8212 8217 8237
 	}
-	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+	resources = {
+	}
+	history = {
+		owner = RWT
+		add_core_of = RWT
+		victory_points = { 2101 5 }
+		victory_points = { 2255 5 }
+		victory_points = { 4035 20 }
+		victory_points = { 4388 5 }
+		victory_points = { 4437 5 }
+		victory_points = { 4913 3 }
+		victory_points = { 8142 5 }
+		victory_points = { 8154 3 }
+		victory_points = { 8164 3 }
+		victory_points = { 8166 5 }
+		victory_points = { 8176 5 }
+		victory_points = { 8183 5 }
+		victory_points = { 8195 20 }
+		victory_points = { 8203 5 }
+		victory_points = { 8207 5 }
+		victory_points = { 8212 5 }
+		victory_points = { 8237 5 }
+		buildings = {
+			infrastructure = 5
+			arms_factory = 4
+			industrial_complex = 3
+			air_base = 6
+			dockyard = 4
+			4035 = {
+				supply_node = 1
+			}
+			8195 = {
+				supply_node = 1
+			}
+			4913 = {
+				naval_base = 3
+			}
+			8164 = {
+				naval_base = 3
+			}
+		}
+	}
 }

@@ -1,10 +1,20 @@
-state={
-	id=293
-	name="STATE_293"
-	provinces={
-		237 350 551 582 623 2840 3050 3097 3106 3252 3803 3847 3852 3866 4392 4633 5253 7757 7801 7912 
+state = {
+	id = 293
+	name = "STATE_293"
+	manpower = 297668
+	state_category = pastoral
+	local_supplies = 0.5
+	provinces = {
+		237 350 551 582 623 2840 3050 3097 3106 3252 3803 3847 3852 3866 4392 4633 5253 7757 7801 7912
 	}
-	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+	resources = {
+	}
+	history = {
+		owner = RWT
+		add_core_of = RWT
+		victory_points = { 3050 2 }
+		victory_points = { 4633 2 }
+		buildings = {
+		}
+	}
 }

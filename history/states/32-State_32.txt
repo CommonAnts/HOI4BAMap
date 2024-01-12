@@ -1,10 +1,25 @@
-state={
-	id=32
-	name="STATE_32"
-	provinces={
-		296 1175 1807 2272 2388 3358 3371 3548 3776 4607 5187 5191 5467 5505 5512 5524 5532 5541 5546 5547 5555 5559 5570 5571 5582 5596 5601 
+state = {
+	id = 32
+	name = "STATE_32"
+	manpower = 473951
+	state_category = rural
+	local_supplies = 1.0
+	provinces = {
+		296 1175 1807 2272 2388 3358 3371 3548 3776 4607 5187 5191 5467 5505 5512 5524 5532 5541 5546 5547 5555 5559 5570 5571 5582 5596 5601
 	}
-	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+	resources = {
+	}
+	history = {
+		owner = ODY
+		add_core_of = ODY
+		victory_points = { 5512 5 }
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			5512 = {
+				supply_node = 1
+				naval_base = 4
+			}
+		}
+	}
 }

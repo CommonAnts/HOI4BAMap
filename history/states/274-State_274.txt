@@ -1,10 +1,28 @@
-state={
-	id=274
-	name="STATE_274"
-	provinces={
-		553 554 952 1554 2675 3774 4262 4764 5150 7615 7648 7651 7664 7668 7669 7683 7701 7744 
+state = {
+	id = 274
+	name = "STATE_274"
+	manpower = 1799390
+	state_category = large_town
+	local_supplies = 2.4
+	provinces = {
+		553 554 952 1554 2675 3774 4262 4764 5150 7615 7648 7651 7664 7668 7669 7683 7701 7744
 	}
-	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+	resources = {
+	}
+	history = {
+		owner = CAB
+		add_core_of = CAB
+		victory_points = { 3774 10 }
+		victory_points = { 7615 3 }
+		victory_points = { 7648 3 }
+		victory_points = { 7668 3 }
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			air_base = 2
+			3774 = {
+				supply_node = 1
+			}
+		}
+	}
 }

@@ -1,12 +1,22 @@
-
-state={
-	id=428
-	name="STATE_428"
-	provinces={
-		92 1692 2088 3962 4110 4978 8858 8862 8913 8917 8920 8921 8922 8923 
+state = {
+	id = 428
+	name = "STATE_428"
+	manpower = 186026
+	state_category = small_island
+	local_supplies = 0.3
+	provinces = {
+		92 1692 2088 3962 4110 4978 8858 8862 8913 8917 8920 8921 8922 8923
 	}
-	manpower=1
-	buildings_max_level_factor=1.000
-	state_category=town
-	local_supplies=0.000
+	resources = {
+	}
+	history = {
+		owner = GEH
+		add_core_of = GEH
+		victory_points = { 92 2 }
+		buildings = {
+			92 = {
+				naval_base = 1
+			}
+		}
+	}
 }

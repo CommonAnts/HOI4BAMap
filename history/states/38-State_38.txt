@@ -1,10 +1,20 @@
-state={
-	id=38
-	name="STATE_38"
-	provinces={
-		82 122 207 302 831 919 1022 1163 1191 1445 1670 1885 2059 2097 2200 2498 2938 3193 3421 3638 3702 3810 4013 4023 4561 4636 4945 5229 5509 5540 5551 5554 5558 5565 5579 5583 5605 5618 5636 5645 5657 5679 5693 
+state = {
+	id = 38
+	name = "STATE_38"
+	manpower = 458277
+	state_category = pastoral
+	local_supplies = 0.5
+	provinces = {
+		82 122 207 302 831 919 1022 1163 1191 1445 1670 1885 2059 2097 2200 2498 2938 3193 3421 3638 3702 3810 4013 4023 4561 4636 4945 5229 5509 5540 5551 5554 5558 5565 5579 5583 5605 5618 5636 5645 5657 5679 5693
 	}
-	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+	resources = {
+	}
+	history = {
+		owner = MIL
+		add_core_of = MIL
+		victory_points = { 3810 2 }
+		victory_points = { 5605 2 }
+		buildings = {
+		}
+	}
 }

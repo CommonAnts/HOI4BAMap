@@ -1,10 +1,17 @@
-state={
-	id=8
-	name="STATE_8"
-	provinces={
-		17 650 684 805 904 1112 1149 1808 1824 1825 1843 2292 2421 2526 2958 3254 4072 4087 4872 4922 5076 5314 5317 5335 5337 5339 5348 5350 5354 5366 5395 
+state = {
+	id = 8
+	name = "STATE_8"
+	manpower = 8522
+	state_category = wasteland
+	local_supplies = 0.0
+	provinces = {
+		17 650 684 805 904 1112 1149 1808 1824 1825 1843 2292 2421 2526 2958 3254 4072 4087 4872 4922 5076 5314 5317 5335 5337 5339 5348 5350 5354 5366 5395
 	}
-	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+	resources = {
+	}
+	history = {
+		owner = WS1
+		buildings = {
+		}
+	}
 }

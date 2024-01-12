@@ -1,10 +1,29 @@
-state={
-	id=301
-	name="STATE_301"
-	provinces={
-		28 179 1660 1803 1951 2376 2814 2939 3133 3490 4485 4564 4634 7791 7817 7822 7851 7863 7869 7892 7894 
+state = {
+	id = 301
+	name = "STATE_301"
+	manpower = 2702862
+	state_category = large_town
+	local_supplies = 3.3
+	provinces = {
+		28 179 1660 1803 1951 2376 2814 2939 3133 3490 4485 4564 4634 7791 7817 7822 7851 7863 7869 7892 7894
 	}
-	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+	resources = {
+	}
+	history = {
+		owner = CAB
+		add_core_of = CAB
+		victory_points = { 28 3 }
+		victory_points = { 1803 3 }
+		victory_points = { 3490 3 }
+		victory_points = { 7851 15 }
+		victory_points = { 7863 3 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 2
+			7851 = {
+				supply_node = 1
+			}
+		}
+	}
 }

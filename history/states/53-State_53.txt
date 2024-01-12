@@ -1,10 +1,37 @@
-state={
-	id=53
-	name="STATE_53"
-	provinces={
-		91 1003 1428 1491 2514 2645 2714 3565 3597 3981 4147 4649 4955 5200 5648 5682 5683 5700 5708 5710 5715 5732 5739 5742 5756 5762 
+state = {
+	id = 53
+	name = "STATE_53"
+	manpower = 6125743
+	state_category = metropolis
+	local_supplies = 8.0
+	provinces = {
+		91 1003 1428 1491 2514 2645 2714 3565 3597 3981 4147 4649 4955 5200 5648 5682 5683 5700 5708 5710 5715 5732 5739 5742 5756 5762
 	}
-	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+	resources = {
+	}
+	history = {
+		owner = MIL
+		add_core_of = MIL
+		victory_points = { 1491 3 }
+		victory_points = { 3565 5 }
+		victory_points = { 3981 5 }
+		victory_points = { 4955 5 }
+		victory_points = { 5708 5 }
+		victory_points = { 5732 5 }
+		victory_points = { 5739 5 }
+		victory_points = { 5742 5 }
+		victory_points = { 5756 25 }
+		victory_points = { 5762 5 }
+		buildings = {
+			infrastructure = 4
+			arms_factory = 3
+			industrial_complex = 6
+			air_base = 5
+			anti_air_building = 2
+			radar_station = 2
+			5756 = {
+				supply_node = 1
+			}
+		}
+	}
 }

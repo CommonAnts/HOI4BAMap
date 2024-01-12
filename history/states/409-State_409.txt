@@ -1,10 +1,26 @@
-state={
-	id=409
-	name="STATE_409"
-	provinces={
-		290 682 997 1208 1766 1874 1957 2092 3031 3582 4374 8694 8700 8734 8742 8770 
+state = {
+	id = 409
+	name = "STATE_409"
+	manpower = 623294
+	state_category = rural
+	local_supplies = 1.1
+	provinces = {
+		290 682 997 1208 1766 1874 1957 2092 3031 3582 4374 8694 8700 8734 8742 8770
 	}
-	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+	resources = {
+	}
+	history = {
+		owner = RWT
+		add_core_of = RWT
+		victory_points = { 3031 5 }
+		victory_points = { 3582 2 }
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			3031 = {
+				supply_node = 1
+				naval_base = 2
+			}
+		}
+	}
 }

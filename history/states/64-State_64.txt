@@ -1,12 +1,36 @@
-
-state={
-	id=64
-	name="STATE_64"
-	provinces={
-		2155 3058 3180 3399 3576 4066 4453 4870 4898 5135 5695 5717 5752 5757 5773 5786 5830 5838 5848 5849 5884 5898 5900 5916 
+state = {
+	id = 64
+	name = "STATE_64"
+	manpower = 4827722
+	state_category = city
+	local_supplies = 5.6
+	provinces = {
+		2155 3058 3180 3399 3576 4066 4453 4870 4898 5135 5695 5717 5752 5757 5773 5786 5830 5838 5848 5849 5884 5898 5900 5916
 	}
-	manpower=1
-	buildings_max_level_factor=1.000
-	state_category=town
-	local_supplies=0.000
+	resources = {
+	}
+	history = {
+		owner = MIL
+		add_core_of = MIL
+		victory_points = { 3576 5 }
+		victory_points = { 4453 5 }
+		victory_points = { 5135 20 }
+		victory_points = { 5752 3 }
+		victory_points = { 5830 5 }
+		victory_points = { 5838 3 }
+		victory_points = { 5848 5 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 3
+			dockyard = 3
+			anti_air_building = 1
+			5135 = {
+				supply_node = 1
+			}
+			5838 = {
+				naval_base = 3
+			}
+		}
+	}
 }

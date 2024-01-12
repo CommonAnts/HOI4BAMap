@@ -1,10 +1,37 @@
-state={
-	id=70
-	name="STATE_70"
-	provinces={
-		2486 4368 4908 5293 5760 5774 5782 5783 5800 
+state = {
+	id = 70
+	name = "STATE_70"
+	manpower = 8585466
+	state_category = megalopolis
+	local_supplies = 10.9
+	provinces = {
+		2486 4368 4908 5293 5760 5774 5782 5783 5800
 	}
-	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+	resources = {
+	}
+	history = {
+		owner = MIL
+		add_core_of = MIL
+		victory_points = { 2486 5 }
+		victory_points = { 4368 5 }
+		victory_points = { 4908 5 }
+		victory_points = { 5293 5 }
+		victory_points = { 5760 5 }
+		victory_points = { 5774 5 }
+		victory_points = { 5782 5 }
+		victory_points = { 5783 5 }
+		victory_points = { 5800 60 }
+		buildings = {
+			infrastructure = 5
+			arms_factory = 5
+			industrial_complex = 8
+			air_base = 6
+			anti_air_building = 3
+			radar_station = 3
+			5800 = {
+				supply_node = 1
+				bunker = 4
+			}
+		}
+	}
 }

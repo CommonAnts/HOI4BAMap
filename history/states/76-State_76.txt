@@ -1,10 +1,26 @@
-state={
-	id=76
-	name="STATE_76"
-	provinces={
-		59 70 1984 2158 3034 3090 3184 3957 5856 5928 5931 5933 5946 
+state = {
+	id = 76
+	name = "STATE_76"
+	manpower = 766213
+	state_category = rural
+	local_supplies = 1.0
+	provinces = {
+		59 70 1984 2158 3034 3090 3184 3957 5856 5928 5931 5933 5946
 	}
-	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+	resources = {
+	}
+	history = {
+		owner = MIL
+		add_core_of = MIL
+		victory_points = { 5856 2 }
+		victory_points = { 5946 5 }
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			5946 = {
+				supply_node = 1
+				naval_base = 2
+			}
+		}
+	}
 }

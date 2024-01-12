@@ -1,10 +1,17 @@
-state={
-	id=263
-	name="STATE_263"
-	provinces={
-		947 1044 2957 3423 3860 7569 
+state = {
+	id = 263
+	name = "STATE_263"
+	manpower = 678
+	state_category = wasteland
+	local_supplies = 0.0
+	provinces = {
+		947 1044 2957 3423 3860 7569
 	}
-	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+	resources = {
+	}
+	history = {
+		owner = WV1
+		buildings = {
+		}
+	}
 }

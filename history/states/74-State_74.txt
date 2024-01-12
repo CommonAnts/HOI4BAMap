@@ -1,10 +1,26 @@
-state={
-	id=74
-	name="STATE_74"
-	provinces={
-		456 561 692 782 1164 1608 1816 1990 2329 2333 2559 2659 3612 3734 3945 4382 4446 4448 4957 4995 5890 5918 5921 5929 5940 5949 5952 5956 5971 5985 6020 
+state = {
+	id = 74
+	name = "STATE_74"
+	manpower = 1531359
+	state_category = large_town
+	local_supplies = 2.8
+	provinces = {
+		456 561 692 782 1164 1608 1816 1990 2329 2333 2559 2659 3612 3734 3945 4382 4446 4448 4957 4995 5890 5918 5921 5929 5940 5949 5952 5956 5971 5985 6020
 	}
-	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+	resources = {
+	}
+	history = {
+		owner = STE
+		add_core_of = STE
+		victory_points = { 4448 3 }
+		victory_points = { 5940 3 }
+		victory_points = { 5952 15 }
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			5952 = {
+				supply_node = 1
+			}
+		}
+	}
 }

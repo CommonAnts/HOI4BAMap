@@ -1,12 +1,33 @@
-
-state={
-	id=249
-	name="STATE_249"
-	provinces={
-		201 340 364 566 1283 1955 2516 3694 3836 4046 4540 4666 4892 4894 4932 4997 7419 7444 7464 7472 7505 7512 7527 7528 7533 7542 7571 7572 7625 
+state = {
+	id = 249
+	name = "STATE_249"
+	manpower = 3690308
+	state_category = city
+	local_supplies = 5.0
+	provinces = {
+		201 340 364 566 1283 1955 2516 3694 3836 4046 4540 4666 4892 4894 4932 4997 7419 7444 7464 7472 7505 7512 7527 7528 7533 7542 7571 7572 7625
 	}
-	manpower=1
-	buildings_max_level_factor=1.000
-	state_category=town
-	local_supplies=0.000
+	resources = {
+	}
+	history = {
+		owner = SHA
+		add_core_of = SHA
+		victory_points = { 2516 3 }
+		victory_points = { 4666 3 }
+		victory_points = { 7527 5 }
+		victory_points = { 7528 5 }
+		victory_points = { 7533 5 }
+		victory_points = { 7542 20 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 3
+			7542 = {
+				supply_node = 1
+			}
+			2516 = {
+				naval_base = 3
+			}
+		}
+	}
 }

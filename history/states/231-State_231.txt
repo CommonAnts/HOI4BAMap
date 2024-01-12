@@ -1,10 +1,19 @@
-state={
-	id=231
-	name="STATE_231"
-	provinces={
-		2311 3781 7313 7328 
+state = {
+	id = 231
+	name = "STATE_231"
+	manpower = 182115
+	state_category = pastoral
+	local_supplies = 0.2
+	provinces = {
+		2311 3781 7313 7328
 	}
-	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+	resources = {
+	}
+	history = {
+		owner = GEH
+		add_core_of = GEH
+		victory_points = { 3781 2 }
+		buildings = {
+		}
+	}
 }

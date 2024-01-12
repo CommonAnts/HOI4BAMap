@@ -1,0 +1,16 @@
+capital = 1
+set_oob = "BA_DEFAULT"
+set_naval_oob = "BA_DEFAULT"
+set_air_oob = "BA_DEFAULT"
+set_politics = {
+	ruling_party = neutrality
+	elections_allowed = no
+}
+set_popularities = {
+	neutrality = 100
+}
+set_stability = 0.5
+set_war_support = 0.5
+set_research_slots = 2
+set_technology = {
+}

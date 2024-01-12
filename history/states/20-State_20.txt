@@ -1,10 +1,17 @@
-state={
-	id=20
-	name="STATE_20"
-	provinces={
-		811 819 917 972 1056 1194 1271 2085 2111 2538 3041 3151 4350 5420 5431 5433 5442 5474 
+state = {
+	id = 20
+	name = "STATE_20"
+	manpower = 4991
+	state_category = wasteland
+	local_supplies = 0.0
+	provinces = {
+		811 819 917 972 1056 1194 1271 2085 2111 2538 3041 3151 4350 5420 5431 5433 5442 5474
 	}
-	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+	resources = {
+	}
+	history = {
+		owner = WS1
+		buildings = {
+		}
+	}
 }

@@ -1,10 +1,28 @@
-state={
-	id=97
-	name="STATE_97"
-	provinces={
-		267 1303 2174 2471 2739 3118 5018 6026 6085 6115 6116 6153 6154 6171 6184 6197 6215 6276 
+state = {
+	id = 97
+	name = "STATE_97"
+	manpower = 1093072
+	state_category = town
+	local_supplies = 1.6
+	provinces = {
+		267 1303 2174 2471 2739 3118 5018 6026 6085 6115 6116 6153 6154 6171 6184 6197 6215 6276
 	}
-	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+	resources = {
+	}
+	history = {
+		owner = HSP
+		add_core_of = HSP
+		victory_points = { 1303 2 }
+		victory_points = { 6153 5 }
+		victory_points = { 6154 2 }
+		victory_points = { 6215 2 }
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			6153 = {
+				supply_node = 1
+				naval_base = 2
+			}
+		}
+	}
 }

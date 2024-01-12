@@ -1,10 +1,32 @@
-state={
-	id=315
-	name="STATE_315"
-	provinces={
-		735 1059 1215 1358 1441 3049 3155 3276 3442 3630 4284 4806 7880 7911 7920 7938 7941 7943 7960 7976 7979 8006 8008 
+state = {
+	id = 315
+	name = "STATE_315"
+	manpower = 3101889
+	state_category = city
+	local_supplies = 3.8
+	provinces = {
+		735 1059 1215 1358 1441 3049 3155 3276 3442 3630 4284 4806 7880 7911 7920 7938 7941 7943 7960 7976 7979 8006 8008
 	}
-	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+	resources = {
+	}
+	history = {
+		owner = SHA
+		add_core_of = SHA
+		victory_points = { 735 3 }
+		victory_points = { 7920 3 }
+		victory_points = { 7943 20 }
+		victory_points = { 7960 5 }
+		buildings = {
+			infrastructure = 3
+			arms_factory = 3
+			industrial_complex = 1
+			air_base = 3
+			7943 = {
+				supply_node = 1
+			}
+			735 = {
+				naval_base = 3
+			}
+		}
+	}
 }

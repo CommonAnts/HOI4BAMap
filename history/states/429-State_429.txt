@@ -1,12 +1,22 @@
-
-state={
-	id=429
-	name="STATE_429"
-	provinces={
-		2091 2718 8865 8868 8870 8914 9963 
+state = {
+	id = 429
+	name = "STATE_429"
+	manpower = 101791
+	state_category = small_island
+	local_supplies = 0.2
+	provinces = {
+		2091 2718 8865 8868 8870 8914 9963
 	}
-	manpower=1
-	buildings_max_level_factor=1.000
-	state_category=town
-	local_supplies=0.000
+	resources = {
+	}
+	history = {
+		owner = WLH
+		add_core_of = WLH
+		victory_points = { 8868 2 }
+		buildings = {
+			8868 = {
+				naval_base = 1
+			}
+		}
+	}
 }

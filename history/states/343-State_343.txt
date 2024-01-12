@@ -1,10 +1,26 @@
-state={
-	id=343
-	name="STATE_343"
-	provinces={
-		1931 1943 2381 2603 4173 4430 4436 8124 8159 8202 8220 8234 
+state = {
+	id = 343
+	name = "STATE_343"
+	manpower = 733123
+	state_category = town
+	local_supplies = 1.4
+	provinces = {
+		1931 1943 2381 2603 4173 4430 4436 8124 8159 8202 8220 8234
 	}
-	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+	resources = {
+	}
+	history = {
+		owner = RWT
+		add_core_of = RWT
+		victory_points = { 1931 5 }
+		victory_points = { 8124 2 }
+		victory_points = { 8220 2 }
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			1931 = {
+				supply_node = 1
+			}
+		}
+	}
 }

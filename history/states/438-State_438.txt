@@ -1,12 +1,30 @@
-
-state={
-	id=438
-	name="STATE_438"
-	provinces={
-		71 620 1529 1745 2822 2998 3200 3523 3650 3880 3985 4258 4285 4315 4331 5063 5092 5495 5508 5511 5513 5515 5518 5522 5525 5531 5533 5535 5536 5543 5550 5562 
+state = {
+	id = 438
+	name = "STATE_438"
+	manpower = 3001289
+	state_category = city
+	local_supplies = 3.9
+	provinces = {
+		71 620 1529 1745 2822 2998 3200 3523 3650 3880 3985 4258 4285 4315 4331 5063 5092 5495 5508 5511 5513 5515 5518 5522 5525 5531 5533 5535 5536 5543 5550 5562
 	}
-	manpower=1
-	buildings_max_level_factor=1.000
-	state_category=town
-	local_supplies=0.000
+	resources = {
+	}
+	history = {
+		owner = MIL
+		add_core_of = MIL
+		victory_points = { 71 3 }
+		victory_points = { 2998 3 }
+		victory_points = { 5515 5 }
+		victory_points = { 5525 20 }
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 3
+			anti_air_building = 1
+			5525 = {
+				supply_node = 1
+			}
+		}
+	}
 }

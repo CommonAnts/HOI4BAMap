@@ -1,10 +1,24 @@
-state={
-	id=317
-	name="STATE_317"
-	provinces={
-		1346 1372 1497 1622 1954 2673 2749 2839 2846 3547 3973 4340 4476 4815 4845 7927 7949 7950 7989 7998 8012 8038 8084 8090 8112 8118 8146 
+state = {
+	id = 317
+	name = "STATE_317"
+	manpower = 90636
+	state_category = town
+	local_supplies = 1.1
+	provinces = {
+		1346 1372 1497 1622 1954 2673 2749 2839 2846 3547 3973 4340 4476 4815 4845 7927 7949 7950 7989 7998 8012 8038 8084 8090 8112 8118 8146
 	}
-	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+	resources = {
+	}
+	history = {
+		owner = ABD
+		add_core_of = ABD
+		victory_points = { 3547 10 }
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			3547 = {
+				supply_node = 1
+			}
+		}
+	}
 }

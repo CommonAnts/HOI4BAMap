@@ -1,10 +1,33 @@
-state={
-	id=152
-	name="STATE_152"
-	provinces={
-		2006 6521 6553 6557 6562 6576 6599 
+state = {
+	id = 152
+	name = "STATE_152"
+	manpower = 6527662
+	state_category = megalopolis
+	local_supplies = 8.7
+	provinces = {
+		2006 6521 6553 6557 6562 6576 6599
 	}
-	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+	resources = {
+	}
+	history = {
+		owner = VAL
+		add_core_of = VAL
+		victory_points = { 2006 5 }
+		victory_points = { 6521 5 }
+		victory_points = { 6553 5 }
+		victory_points = { 6557 5 }
+		victory_points = { 6562 5 }
+		victory_points = { 6576 50 }
+		victory_points = { 6599 5 }
+		buildings = {
+			infrastructure = 5
+			arms_factory = 5
+			industrial_complex = 4
+			air_base = 6
+			6576 = {
+				supply_node = 1
+				bunker = 3
+			}
+		}
+	}
 }

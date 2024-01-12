@@ -1,10 +1,44 @@
-state={
-	id=75
-	name="STATE_75"
-	provinces={
-		671 1315 1507 1888 2090 2260 2501 2699 3632 3719 3850 4001 4109 4625 4754 5172 5833 5850 5859 5868 5873 5881 5885 5887 5901 5904 5923 5924 5936 5942 5951 5959 
+state = {
+	id = 75
+	name = "STATE_75"
+	manpower = 9054764
+	state_category = megalopolis
+	local_supplies = 12.2
+	provinces = {
+		671 1315 1507 1888 2090 2260 2501 2699 3632 3719 3850 4001 4109 4625 4754 5172 5833 5850 5859 5868 5873 5881 5885 5887 5901 5904 5923 5924 5936 5942 5951 5959
 	}
-	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+	resources = {
+	}
+	history = {
+		owner = MIL
+		add_core_of = MIL
+		victory_points = { 671 5 }
+		victory_points = { 1507 5 }
+		victory_points = { 1888 5 }
+		victory_points = { 4109 5 }
+		victory_points = { 4754 5 }
+		victory_points = { 5172 5 }
+		victory_points = { 5833 5 }
+		victory_points = { 5850 5 }
+		victory_points = { 5859 25 }
+		victory_points = { 5868 5 }
+		victory_points = { 5873 5 }
+		victory_points = { 5881 5 }
+		victory_points = { 5885 5 }
+		victory_points = { 5887 5 }
+		victory_points = { 5901 5 }
+		victory_points = { 5924 5 }
+		victory_points = { 5959 3 }
+		buildings = {
+			infrastructure = 5
+			arms_factory = 5
+			industrial_complex = 7
+			air_base = 6
+			anti_air_building = 3
+			radar_station = 3
+			5859 = {
+				supply_node = 1
+			}
+		}
+	}
 }

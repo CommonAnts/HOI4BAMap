@@ -1,10 +1,25 @@
-state={
-	id=94
-	name="STATE_94"
-	provinces={
-		380 516 1033 1107 1241 2975 3033 4104 4406 6017 6055 6065 6080 6091 6099 6108 6168 6211 
+state = {
+	id = 94
+	name = "STATE_94"
+	manpower = 1354691
+	state_category = town
+	local_supplies = 1.8
+	provinces = {
+		380 516 1033 1107 1241 2975 3033 4104 4406 6017 6055 6065 6080 6091 6099 6108 6168 6211
 	}
-	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+	resources = {
+	}
+	history = {
+		owner = KRO
+		add_core_of = KRO
+		victory_points = { 2975 10 }
+		victory_points = { 6211 3 }
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			2975 = {
+				supply_node = 1
+			}
+		}
+	}
 }

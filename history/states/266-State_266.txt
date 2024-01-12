@@ -1,10 +1,33 @@
-state={
-	id=266
-	name="STATE_266"
-	provinces={
-		1893 2017 2112 2124 2135 2816 3074 3433 3844 4788 4942 7588 7602 7604 7629 7636 7654 7662 7675 7688 
+state = {
+	id = 266
+	name = "STATE_266"
+	manpower = 3233949
+	state_category = city
+	local_supplies = 4.6
+	provinces = {
+		1893 2017 2112 2124 2135 2816 3074 3433 3844 4788 4942 7588 7602 7604 7629 7636 7654 7662 7675 7688
 	}
-	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+	resources = {
+	}
+	history = {
+		owner = SHA
+		add_core_of = SHA
+		victory_points = { 2017 5 }
+		victory_points = { 3074 20 }
+		victory_points = { 3844 3 }
+		victory_points = { 7654 5 }
+		victory_points = { 7675 5 }
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 3
+			2017 = {
+				supply_node = 1
+			}
+			3074 = {
+				supply_node = 1
+			}
+		}
+	}
 }

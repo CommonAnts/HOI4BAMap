@@ -1,10 +1,29 @@
-state={
-	id=154
-	name="STATE_154"
-	provinces={
-		155 1570 2522 3752 4132 4843 4887 6593 6631 6632 6642 6657 
+state = {
+	id = 154
+	name = "STATE_154"
+	manpower = 3867675
+	state_category = city
+	local_supplies = 3.9
+	provinces = {
+		155 1570 2522 3752 4132 4843 4887 6593 6631 6632 6642 6657
 	}
-	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+	resources = {
+	}
+	history = {
+		owner = CEN
+		add_core_of = CEN
+		victory_points = { 1570 3 }
+		victory_points = { 4132 20 }
+		victory_points = { 4843 5 }
+		victory_points = { 6593 5 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 3
+			anti_air_building = 1
+			4132 = {
+				supply_node = 1
+			}
+		}
+	}
 }

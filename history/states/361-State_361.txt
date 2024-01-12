@@ -1,10 +1,29 @@
-state={
-	id=361
-	name="STATE_361"
-	provinces={
-		532 911 1103 1286 1880 2000 2805 3769 4442 4612 4620 4682 8255 8291 8325 8334 8350 8361 8388 
+state = {
+	id = 361
+	name = "STATE_361"
+	manpower = 2445515
+	state_category = city
+	local_supplies = 4.2
+	provinces = {
+		532 911 1103 1286 1880 2000 2805 3769 4442 4612 4620 4682 8255 8291 8325 8334 8350 8361 8388
 	}
-	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+	resources = {
+	}
+	history = {
+		owner = RWT
+		add_core_of = RWT
+		victory_points = { 1103 20 }
+		victory_points = { 2000 5 }
+		victory_points = { 4620 3 }
+		victory_points = { 8255 5 }
+		victory_points = { 8361 3 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			air_base = 3
+			1103 = {
+				supply_node = 1
+			}
+		}
+	}
 }

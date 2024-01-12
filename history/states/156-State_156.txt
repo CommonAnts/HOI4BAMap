@@ -1,10 +1,44 @@
-state={
-	id=156
-	name="STATE_156"
-	provinces={
-		1034 2454 2769 3368 4039 4346 6555 6558 6570 6571 6572 6582 6584 6585 6597 6601 6609 6610 6621 6636 6637 6653 
+state = {
+	id = 156
+	name = "STATE_156"
+	manpower = 11149602
+	state_category = megalopolis
+	local_supplies = 12.5
+	provinces = {
+		1034 2454 2769 3368 4039 4346 6555 6558 6570 6571 6572 6582 6584 6585 6597 6601 6609 6610 6621 6636 6637 6653
 	}
-	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+	resources = {
+	}
+	history = {
+		owner = CEN
+		add_core_of = CEN
+		victory_points = { 1034 5 }
+		victory_points = { 2454 5 }
+		victory_points = { 2769 5 }
+		victory_points = { 4039 5 }
+		victory_points = { 6558 5 }
+		victory_points = { 6570 5 }
+		victory_points = { 6571 5 }
+		victory_points = { 6582 3 }
+		victory_points = { 6584 5 }
+		victory_points = { 6585 5 }
+		victory_points = { 6597 5 }
+		victory_points = { 6601 5 }
+		victory_points = { 6609 30 }
+		victory_points = { 6610 5 }
+		victory_points = { 6621 5 }
+		victory_points = { 6636 5 }
+		victory_points = { 6637 5 }
+		buildings = {
+			infrastructure = 5
+			arms_factory = 4
+			industrial_complex = 6
+			air_base = 6
+			anti_air_building = 3
+			radar_station = 3
+			6609 = {
+				supply_node = 1
+			}
+		}
+	}
 }

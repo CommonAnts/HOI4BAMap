@@ -1,10 +1,25 @@
-state={
-	id=348
-	name="STATE_348"
-	provinces={
-		714 979 1500 1581 1603 1960 2622 2700 2804 2831 2880 3045 3216 3568 3870 3908 4063 4068 4190 4973 5267 8130 8139 8144 8172 8213 8222 8232 8267 8290 8360 
+state = {
+	id = 348
+	name = "STATE_348"
+	manpower = 86917
+	state_category = rural
+	local_supplies = 0.9
+	provinces = {
+		714 979 1500 1581 1603 1960 2622 2700 2804 2831 2880 3045 3216 3568 3870 3908 4063 4068 4190 4973 5267 8130 8139 8144 8172 8213 8222 8232 8267 8290 8360
 	}
-	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+	resources = {
+	}
+	history = {
+		owner = ABD
+		add_core_of = ABD
+		victory_points = { 2880 5 }
+		victory_points = { 8144 2 }
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			2880 = {
+				supply_node = 1
+			}
+		}
+	}
 }

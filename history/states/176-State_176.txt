@@ -1,10 +1,48 @@
-state={
-	id=176
-	name="STATE_176"
-	provinces={
-		101 114 125 349 593 1845 3296 3978 4254 4508 4511 6718 6734 6747 6775 6776 6780 6788 6793 6794 6797 6803 6809 6810 6813 6820 6823 6833 6834 6845 6870 6887 
+state = {
+	id = 176
+	name = "STATE_176"
+	manpower = 14207957
+	state_category = megalopolis
+	local_supplies = 15.1
+	provinces = {
+		101 114 125 349 593 1845 3296 3978 4254 4508 4511 6718 6734 6747 6775 6776 6780 6788 6793 6794 6797 6803 6809 6810 6813 6820 6823 6833 6834 6845 6870 6887
 	}
-	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+	resources = {
+	}
+	history = {
+		owner = CEN
+		add_core_of = CEN
+		victory_points = { 101 30 }
+		victory_points = { 125 5 }
+		victory_points = { 593 5 }
+		victory_points = { 3296 3 }
+		victory_points = { 4254 5 }
+		victory_points = { 6718 5 }
+		victory_points = { 6734 5 }
+		victory_points = { 6747 5 }
+		victory_points = { 6775 5 }
+		victory_points = { 6776 5 }
+		victory_points = { 6788 5 }
+		victory_points = { 6793 5 }
+		victory_points = { 6794 5 }
+		victory_points = { 6797 5 }
+		victory_points = { 6803 5 }
+		victory_points = { 6813 5 }
+		victory_points = { 6820 5 }
+		victory_points = { 6823 5 }
+		victory_points = { 6833 5 }
+		victory_points = { 6834 5 }
+		victory_points = { 6845 5 }
+		buildings = {
+			infrastructure = 5
+			arms_factory = 4
+			industrial_complex = 7
+			air_base = 6
+			anti_air_building = 3
+			radar_station = 3
+			101 = {
+				supply_node = 1
+			}
+		}
+	}
 }

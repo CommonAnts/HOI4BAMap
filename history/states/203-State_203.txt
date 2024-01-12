@@ -1,10 +1,26 @@
-state={
-	id=203
-	name="STATE_203"
-	provinces={
-		438 722 1909 3303 4669 4905 7028 7122 7165 7180 
+state = {
+	id = 203
+	name = "STATE_203"
+	manpower = 894474
+	state_category = rural
+	local_supplies = 1.2
+	provinces = {
+		438 722 1909 3303 4669 4905 7028 7122 7165 7180
 	}
-	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+	resources = {
+	}
+	history = {
+		owner = CA3
+		add_core_of = CA3
+		victory_points = { 438 2 }
+		victory_points = { 4905 5 }
+		victory_points = { 7165 2 }
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			4905 = {
+				supply_node = 1
+			}
+		}
+	}
 }

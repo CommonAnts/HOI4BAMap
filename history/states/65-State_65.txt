@@ -1,10 +1,26 @@
-state={
-	id=65
-	name="STATE_65"
-	provinces={
-		96 3359 4275 4499 5016 5114 5770 5801 5805 5813 5826 5829 5842 5852 5865 
+state = {
+	id = 65
+	name = "STATE_65"
+	manpower = 1595580
+	state_category = town
+	local_supplies = 2.1
+	provinces = {
+		96 3359 4275 4499 5016 5114 5770 5801 5805 5813 5826 5829 5842 5852 5865
 	}
-	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+	resources = {
+	}
+	history = {
+		owner = MIL
+		add_core_of = MIL
+		victory_points = { 5114 3 }
+		victory_points = { 5826 10 }
+		victory_points = { 5865 3 }
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			5826 = {
+				supply_node = 1
+			}
+		}
+	}
 }

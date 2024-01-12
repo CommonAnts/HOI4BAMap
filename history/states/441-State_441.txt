@@ -1,11 +1,32 @@
-state={
-	id=441
-	name="STATE_441"
-	provinces={
-		881 1982 2302 2505 2919 2941 3838 3863 3953 3958 4805 4841 5084 8677 8680 8696 8706 8721 8728 
+state = {
+	id = 441
+	name = "STATE_441"
+	manpower = 3135913
+	state_category = city
+	local_supplies = 4.6
+	provinces = {
+		881 1982 2302 2505 2919 2941 3838 3863 3953 3958 4805 4841 5084 8677 8680 8696 8706 8721 8728
 	}
-	manpower=1
-	buildings_max_level_factor=1.000
-	state_category=town
-	local_supplies=0.000
+	resources = {
+	}
+	history = {
+		owner = GEH
+		add_core_of = GEH
+		victory_points = { 2505 5 }
+		victory_points = { 2941 3 }
+		victory_points = { 5084 20 }
+		victory_points = { 8721 5 }
+		victory_points = { 8728 5 }
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			air_base = 3
+			dockyard = 4
+			anti_air_building = 1
+			5084 = {
+				supply_node = 1
+				naval_base = 6
+			}
+		}
+	}
 }

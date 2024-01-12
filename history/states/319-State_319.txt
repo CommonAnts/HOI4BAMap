@@ -1,10 +1,19 @@
-state={
-	id=319
-	name="STATE_319"
-	provinces={
-		1636 1870 2151 2301 3003 4856 7930 7983 8043 
+state = {
+	id = 319
+	name = "STATE_319"
+	manpower = 176364
+	state_category = pastoral
+	local_supplies = 0.2
+	provinces = {
+		1636 1870 2151 2301 3003 4856 7930 7983 8043
 	}
-	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+	resources = {
+	}
+	history = {
+		owner = SHA
+		add_core_of = SHA
+		victory_points = { 1870 2 }
+		buildings = {
+		}
+	}
 }

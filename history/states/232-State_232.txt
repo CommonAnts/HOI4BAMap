@@ -1,10 +1,35 @@
-state={
-	id=232
-	name="STATE_232"
-	provinces={
-		113 130 335 361 379 841 1004 1741 2278 2663 2765 2935 3144 3223 3231 3418 3726 3797 4083 4533 4681 4873 4875 7312 7314 7333 7346 7363 7368 7374 7382 7384 7385 7387 7388 7392 7399 7400 7405 7411 7412 7415 7421 7430 7432 7436 7457 7481 
+state = {
+	id = 232
+	name = "STATE_232"
+	manpower = 6313867
+	state_category = large_city
+	local_supplies = 6.8
+	provinces = {
+		113 130 335 361 379 841 1004 1741 2278 2663 2765 2935 3144 3223 3231 3418 3726 3797 4083 4533 4681 4873 4875 7312 7314 7333 7346 7363 7368 7374 7382 7384 7385 7387 7388 7392 7399 7400 7405 7411 7412 7415 7421 7430 7432 7436 7457 7481
 	}
-	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+	resources = {
+	}
+	history = {
+		owner = SHA
+		add_core_of = SHA
+		victory_points = { 113 3 }
+		victory_points = { 130 3 }
+		victory_points = { 379 5 }
+		victory_points = { 7388 5 }
+		victory_points = { 7392 5 }
+		victory_points = { 7400 5 }
+		victory_points = { 7405 5 }
+		victory_points = { 7411 20 }
+		victory_points = { 7421 5 }
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 4
+			air_base = 4
+			dockyard = 2
+			7411 = {
+				supply_node = 1
+			}
+		}
+	}
 }

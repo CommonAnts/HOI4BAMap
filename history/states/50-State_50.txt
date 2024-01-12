@@ -1,10 +1,32 @@
-state={
-	id=50
-	name="STATE_50"
-	provinces={
-		3814 5592 5594 5602 5606 5616 
+state = {
+	id = 50
+	name = "STATE_50"
+	manpower = 4629403
+	state_category = metropolis
+	local_supplies = 7.1
+	provinces = {
+		3814 5592 5594 5602 5606 5616
 	}
-	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+	resources = {
+	}
+	history = {
+		owner = SRT
+		add_core_of = SRT
+		victory_points = { 3814 5 }
+		victory_points = { 5592 5 }
+		victory_points = { 5594 5 }
+		victory_points = { 5602 40 }
+		victory_points = { 5606 5 }
+		victory_points = { 5616 5 }
+		buildings = {
+			infrastructure = 4
+			arms_factory = 5
+			industrial_complex = 2
+			air_base = 5
+			5602 = {
+				supply_node = 1
+				bunker = 2
+			}
+		}
+	}
 }

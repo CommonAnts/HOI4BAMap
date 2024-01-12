@@ -1,10 +1,39 @@
-state={
-	id=127
-	name="STATE_127"
-	provinces={
-		652 754 2032 2442 3066 3319 4276 5204 5241 6317 6385 6386 6403 6408 6425 6428 6435 6438 6458 6463 6468 6481 6488 6516 
+state = {
+	id = 127
+	name = "STATE_127"
+	manpower = 9312332
+	state_category = metropolis
+	local_supplies = 9.7
+	provinces = {
+		652 754 2032 2442 3066 3319 4276 5204 5241 6317 6385 6386 6403 6408 6425 6428 6435 6438 6458 6463 6468 6481 6488 6516
 	}
-	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+	resources = {
+	}
+	history = {
+		owner = CEN
+		add_core_of = CEN
+		victory_points = { 2032 3 }
+		victory_points = { 3066 30 }
+		victory_points = { 3319 5 }
+		victory_points = { 5241 5 }
+		victory_points = { 6385 5 }
+		victory_points = { 6386 5 }
+		victory_points = { 6403 5 }
+		victory_points = { 6408 5 }
+		victory_points = { 6425 5 }
+		victory_points = { 6428 5 }
+		victory_points = { 6435 5 }
+		victory_points = { 6463 5 }
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 5
+			air_base = 5
+			anti_air_building = 2
+			radar_station = 2
+			3066 = {
+				supply_node = 1
+			}
+		}
+	}
 }

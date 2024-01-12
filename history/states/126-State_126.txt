@@ -1,10 +1,32 @@
-state={
-	id=126
-	name="STATE_126"
-	provinces={
-		472 477 651 941 1001 1184 1345 1675 1894 2026 2202 2227 2529 2570 3056 3336 3577 3790 3792 3811 4007 4102 4108 4240 4352 4432 4573 4804 4937 4982 6441 6442 6448 6508 6510 6519 6574 6605 6625 6692 6714 6736 6743 6787 
+state = {
+	id = 126
+	name = "STATE_126"
+	manpower = 3891795
+	state_category = large_town
+	local_supplies = 3.7
+	provinces = {
+		472 477 651 941 1001 1184 1345 1675 1894 2026 2202 2227 2529 2570 3056 3336 3577 3790 3792 3811 4007 4102 4108 4240 4352 4432 4573 4804 4937 4982 6441 6442 6448 6508 6510 6519 6574 6605 6625 6692 6714 6736 6743 6787
 	}
-	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+	resources = {
+	}
+	history = {
+		owner = TRY
+		add_core_of = TRY
+		victory_points = { 1345 3 }
+		victory_points = { 2227 3 }
+		victory_points = { 2529 3 }
+		victory_points = { 4432 3 }
+		victory_points = { 4804 3 }
+		victory_points = { 4937 10 }
+		victory_points = { 6605 3 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 2
+			anti_air_building = 1
+			4937 = {
+				supply_node = 1
+			}
+		}
+	}
 }

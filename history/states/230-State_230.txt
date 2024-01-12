@@ -1,12 +1,32 @@
-
-state={
-	id=230
-	name="STATE_230"
-	provinces={
-		117 830 1168 1514 2196 2652 3264 3536 3885 4472 4665 4900 5292 7289 7304 7320 7327 7334 7355 7367 7371 7376 7401 
+state = {
+	id = 230
+	name = "STATE_230"
+	manpower = 1435249
+	state_category = city
+	local_supplies = 4.3
+	provinces = {
+		117 830 1168 1514 2196 2652 3264 3536 3885 4472 4665 4900 5292 7289 7304 7320 7327 7334 7355 7367 7371 7376 7401
 	}
-	manpower=1
-	buildings_max_level_factor=1.000
-	state_category=town
-	local_supplies=0.000
+	resources = {
+	}
+	history = {
+		owner = ARI
+		add_core_of = ARI
+		victory_points = { 117 3 }
+		victory_points = { 1168 3 }
+		victory_points = { 2652 15 }
+		victory_points = { 3264 3 }
+		victory_points = { 4665 3 }
+		victory_points = { 7334 3 }
+		victory_points = { 7355 3 }
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 1
+			air_base = 3
+			2652 = {
+				supply_node = 1
+			}
+		}
+	}
 }

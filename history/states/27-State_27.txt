@@ -1,10 +1,19 @@
-state={
-	id=27
-	name="STATE_27"
-	provinces={
-		360 809 821 878 950 1251 1272 1363 1744 2002 2046 2064 2188 2226 2482 3404 3640 3680 5453 5475 5494 
+state = {
+	id = 27
+	name = "STATE_27"
+	manpower = 221998
+	state_category = pastoral
+	local_supplies = 0.3
+	provinces = {
+		360 809 821 878 950 1251 1272 1363 1744 2002 2046 2064 2188 2226 2482 3404 3640 3680 5453 5475 5494
 	}
-	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+	resources = {
+	}
+	history = {
+		owner = MIL
+		add_core_of = MIL
+		victory_points = { 1744 2 }
+		buildings = {
+		}
+	}
 }

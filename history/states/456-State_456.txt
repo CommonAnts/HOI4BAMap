@@ -1,11 +1,22 @@
-state={
-	id=456
-	name="STATE_456"
-	provinces={
-		3716 8829 
+state = {
+	id = 456
+	name = "STATE_456"
+	manpower = 142849
+	state_category = small_island
+	local_supplies = 0.2
+	provinces = {
+		3716 8829
 	}
-	manpower=1
-	buildings_max_level_factor=1.000
-	state_category=town
-	local_supplies=0.000
+	resources = {
+	}
+	history = {
+		owner = GEH
+		add_core_of = GEH
+		victory_points = { 8829 2 }
+		buildings = {
+			8829 = {
+				naval_base = 1
+			}
+		}
+	}
 }

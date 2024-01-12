@@ -1,10 +1,26 @@
-state={
-	id=146
-	name="STATE_146"
-	provinces={
-		94 145 1116 1204 1410 1971 2180 2525 2575 2694 3137 3168 3383 3396 3853 3940 4222 4435 4592 4619 4781 6579 6633 6645 6689 6717 6735 6741 6784 6789 6804 6838 6859 
+state = {
+	id = 146
+	name = "STATE_146"
+	manpower = 1073143
+	state_category = town
+	local_supplies = 1.4
+	provinces = {
+		94 145 1116 1204 1410 1971 2180 2525 2575 2694 3137 3168 3383 3396 3853 3940 4222 4435 4592 4619 4781 6579 6633 6645 6689 6717 6735 6741 6784 6789 6804 6838 6859
 	}
-	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+	resources = {
+	}
+	history = {
+		owner = CA1
+		add_core_of = CA1
+		victory_points = { 3383 2 }
+		victory_points = { 6645 2 }
+		victory_points = { 6789 5 }
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			6789 = {
+				supply_node = 1
+			}
+		}
+	}
 }

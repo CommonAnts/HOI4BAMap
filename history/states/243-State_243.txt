@@ -1,10 +1,25 @@
-state={
-	id=243
-	name="STATE_243"
-	provinces={
-		332 829 1536 3693 3842 5153 5169 7511 7518 
+state = {
+	id = 243
+	name = "STATE_243"
+	manpower = 752907
+	state_category = rural
+	local_supplies = 1.0
+	provinces = {
+		332 829 1536 3693 3842 5153 5169 7511 7518
 	}
-	buildings_max_level_factor=1.000
-        manpower=1
-        state_category = town
+	resources = {
+	}
+	history = {
+		owner = GEH
+		add_core_of = GEH
+		victory_points = { 332 2 }
+		victory_points = { 3842 5 }
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			3842 = {
+				supply_node = 1
+			}
+		}
+	}
 }
