@@ -1,0 +1,1 @@
+NDefines.NGame.MAP_SCALE_PIXEL_TO_KM = 2.000
