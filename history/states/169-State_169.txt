@@ -1,7 +1,7 @@
 state = {
 	id = 169
 	name = "STATE_169"
-	manpower = 6301114
+	manpower = 5788341
 	state_category = megalopolis
 	local_supplies = 10.6
 	provinces = {
@@ -12,7 +12,7 @@ state = {
 	history = {
 		owner = CEN
 		add_core_of = CEN
-		set_variable = { student_num = 5265 }
+		set_variable = { student_num = 4243 }
 		victory_points = { 1574 5 }
 		victory_points = { 4175 3 }
 		victory_points = { 4186 5 }
@@ -29,8 +29,8 @@ state = {
 		victory_points = { 6808 3 }
 		buildings = {
 			infrastructure = 5
-			arms_factory = 2
-			industrial_complex = 9
+			arms_factory = 3
+			industrial_complex = 8
 			air_base = 6
 			anti_air_building = 3
 			radar_station = 3

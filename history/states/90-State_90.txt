@@ -1,7 +1,7 @@
 state = {
 	id = 90
 	name = "STATE_90"
-	manpower = 495592
+	manpower = 385314
 	state_category = rural
 	local_supplies = 0.9
 	provinces = {
@@ -12,7 +12,7 @@ state = {
 	history = {
 		owner = KRO
 		add_core_of = KRO
-		set_variable = { student_num = 443 }
+		set_variable = { student_num = 389 }
 		victory_points = { 1867 2 }
 		victory_points = { 6031 5 }
 		buildings = {

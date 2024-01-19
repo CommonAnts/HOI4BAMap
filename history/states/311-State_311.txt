@@ -12,14 +12,14 @@ state = {
 	history = {
 		owner = CAB
 		add_core_of = CAB
-		set_variable = { student_num = 2546 }
+		set_variable = { student_num = 3530 }
 		victory_points = { 1552 40 }
 		victory_points = { 7868 5 }
 		victory_points = { 7883 5 }
 		victory_points = { 7891 5 }
 		buildings = {
 			infrastructure = 4
-			arms_factory = 6
+			arms_factory = 7
 			industrial_complex = 2
 			air_base = 5
 			1552 = {

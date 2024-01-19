@@ -18,6 +18,7 @@ state = {
 		victory_points = { 8660 2 }
 		buildings = {
 			infrastructure = 2
+			industrial_complex = 1
 			air_base = 1
 			4579 = {
 				supply_node = 1

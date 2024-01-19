@@ -1,7 +1,7 @@
 state = {
 	id = 24
 	name = "STATE_24"
-	manpower = 1361
+	manpower = 1073
 	state_category = wasteland
 	local_supplies = 0.0
 	provinces = {
