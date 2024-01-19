@@ -1,9 +1,9 @@
 state = {
 	id = 351
 	name = "STATE_351"
-	manpower = 3332688
+	manpower = 2554034
 	state_category = large_city
-	local_supplies = 5.9
+	local_supplies = 6.6
 	provinces = {
 		1144 1633 1699 2210 2797 3111 3631 3786 4116 4126 4251 4421 4537 4674 5288 8235 8280 8283 8311 8317 8327 8340 8343 8353 8357 8364 8365 8366 8372 8380 8385 8386 8387 8399 8406 8410 8461
 	}
@@ -12,8 +12,9 @@ state = {
 	history = {
 		owner = RWT
 		add_core_of = RWT
+		set_variable = { student_num = 5250 }
 		victory_points = { 1699 3 }
-		victory_points = { 2797 3 }
+		victory_points = { 2797 10 }
 		victory_points = { 4116 3 }
 		victory_points = { 8340 5 }
 		victory_points = { 8357 5 }
@@ -22,15 +23,15 @@ state = {
 		victory_points = { 8461 3 }
 		buildings = {
 			infrastructure = 4
-			arms_factory = 2
+			arms_factory = 1
 			industrial_complex = 2
 			air_base = 4
-			dockyard = 1
+			2797 = {
+				supply_node = 1
+				naval_base = 5
+			}
 			8365 = {
 				supply_node = 1
-			}
-			2797 = {
-				naval_base = 3
 			}
 		}
 	}

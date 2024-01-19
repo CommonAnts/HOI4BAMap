@@ -1,7 +1,7 @@
 state = {
 	id = 301
 	name = "STATE_301"
-	manpower = 2702862
+	manpower = 1517158
 	state_category = large_town
 	local_supplies = 3.3
 	provinces = {
@@ -12,6 +12,7 @@ state = {
 	history = {
 		owner = CAB
 		add_core_of = CAB
+		set_variable = { student_num = 1261 }
 		victory_points = { 28 3 }
 		victory_points = { 1803 3 }
 		victory_points = { 3490 3 }

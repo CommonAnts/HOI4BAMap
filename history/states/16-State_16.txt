@@ -1,9 +1,9 @@
 state = {
 	id = 16
 	name = "STATE_16"
-	manpower = 3014081
+	manpower = 2304789
 	state_category = metropolis
-	local_supplies = 6.4
+	local_supplies = 8.1
 	provinces = {
 		3042 4139 4672 4706 4719 5168 5379 5383
 	}
@@ -12,15 +12,15 @@ state = {
 	history = {
 		owner = ODY
 		add_core_of = ODY
+		set_variable = { student_num = 9134 }
 		victory_points = { 3042 5 }
 		victory_points = { 4139 5 }
 		victory_points = { 4672 40 }
 		victory_points = { 4706 5 }
-		victory_points = { 5383 3 }
+		victory_points = { 5383 20 }
 		buildings = {
 			infrastructure = 4
-			arms_factory = 1
-			industrial_complex = 1
+			arms_factory = 2
 			air_base = 5
 			dockyard = 4
 			4672 = {
@@ -28,7 +28,8 @@ state = {
 				bunker = 2
 			}
 			5383 = {
-				naval_base = 6
+				supply_node = 1
+				naval_base = 9
 				coastal_bunker = 2
 			}
 		}

@@ -1,7 +1,7 @@
 state = {
 	id = 420
 	name = "STATE_420"
-	manpower = 489071
+	manpower = 311374
 	state_category = rural
 	local_supplies = 1.1
 	provinces = {
@@ -12,12 +12,12 @@ state = {
 	history = {
 		owner = WLH
 		add_core_of = WLH
+		set_variable = { student_num = 490 }
 		victory_points = { 2246 5 }
 		victory_points = { 3932 2 }
 		buildings = {
 			infrastructure = 1
 			air_base = 1
-			dockyard = 1
 			2246 = {
 				supply_node = 1
 				naval_base = 2

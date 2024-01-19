@@ -1,9 +1,9 @@
 state = {
 	id = 157
 	name = "STATE_157"
-	manpower = 10289460
-	state_category = metropolis
-	local_supplies = 9.5
+	manpower = 5205813
+	state_category = megalopolis
+	local_supplies = 10.7
 	provinces = {
 		4320 4328 4761 5193 6543 6565 6594 6603 6619 6658 6676 6684
 	}
@@ -12,11 +12,12 @@ state = {
 	history = {
 		owner = CEN
 		add_core_of = CEN
+		set_variable = { student_num = 6220 }
 		victory_points = { 4320 5 }
 		victory_points = { 4328 5 }
 		victory_points = { 4761 30 }
 		victory_points = { 5193 5 }
-		victory_points = { 6543 3 }
+		victory_points = { 6543 15 }
 		victory_points = { 6565 5 }
 		victory_points = { 6594 5 }
 		victory_points = { 6603 5 }
@@ -25,18 +26,19 @@ state = {
 		victory_points = { 6676 5 }
 		victory_points = { 6684 5 }
 		buildings = {
-			infrastructure = 4
-			arms_factory = 1
-			industrial_complex = 3
-			air_base = 5
-			dockyard = 3
-			anti_air_building = 2
-			radar_station = 2
+			infrastructure = 5
+			arms_factory = 3
+			industrial_complex = 2
+			air_base = 6
+			dockyard = 5
+			anti_air_building = 3
+			radar_station = 3
 			4761 = {
 				supply_node = 1
 			}
 			6543 = {
-				naval_base = 3
+				supply_node = 1
+				naval_base = 5
 			}
 		}
 	}

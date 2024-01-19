@@ -1,7 +1,7 @@
 state = {
 	id = 342
 	name = "STATE_342"
-	manpower = 2907851
+	manpower = 1766170
 	state_category = city
 	local_supplies = 4.0
 	provinces = {
@@ -12,12 +12,14 @@ state = {
 	history = {
 		owner = GEH
 		add_core_of = GEH
+		set_variable = { student_num = 4713 }
 		victory_points = { 2576 3 }
 		victory_points = { 4056 5 }
 		victory_points = { 8123 20 }
 		victory_points = { 8151 5 }
 		buildings = {
 			infrastructure = 3
+			arms_factory = 2
 			industrial_complex = 1
 			air_base = 3
 			anti_air_building = 1

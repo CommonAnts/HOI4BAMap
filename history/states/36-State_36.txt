@@ -1,7 +1,7 @@
 state = {
 	id = 36
 	name = "STATE_36"
-	manpower = 200531
+	manpower = 121736
 	state_category = pastoral
 	local_supplies = 0.3
 	provinces = {
@@ -12,6 +12,7 @@ state = {
 	history = {
 		owner = HYA
 		add_core_of = HYA
+		set_variable = { student_num = 208 }
 		victory_points = { 556 2 }
 		buildings = {
 		}

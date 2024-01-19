@@ -1,7 +1,7 @@
 state = {
 	id = 271
 	name = "STATE_271"
-	manpower = 3633042
+	manpower = 2307802
 	state_category = city
 	local_supplies = 4.5
 	provinces = {
@@ -12,6 +12,7 @@ state = {
 	history = {
 		owner = CAB
 		add_core_of = CAB
+		set_variable = { student_num = 1941 }
 		victory_points = { 4975 3 }
 		victory_points = { 7637 5 }
 		victory_points = { 7641 20 }
@@ -19,7 +20,7 @@ state = {
 		victory_points = { 7656 5 }
 		buildings = {
 			infrastructure = 3
-			arms_factory = 2
+			arms_factory = 1
 			industrial_complex = 1
 			air_base = 3
 			7641 = {

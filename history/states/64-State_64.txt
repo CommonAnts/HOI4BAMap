@@ -1,9 +1,9 @@
 state = {
 	id = 64
 	name = "STATE_64"
-	manpower = 4827722
-	state_category = city
-	local_supplies = 5.6
+	manpower = 3751680
+	state_category = large_city
+	local_supplies = 6.3
 	provinces = {
 		2155 3058 3180 3399 3576 4066 4453 4870 4898 5135 5695 5717 5752 5757 5773 5786 5830 5838 5848 5849 5884 5898 5900 5916
 	}
@@ -12,24 +12,28 @@ state = {
 	history = {
 		owner = MIL
 		add_core_of = MIL
+		set_variable = { student_num = 7203 }
 		victory_points = { 3576 5 }
 		victory_points = { 4453 5 }
 		victory_points = { 5135 20 }
 		victory_points = { 5752 3 }
 		victory_points = { 5830 5 }
-		victory_points = { 5838 3 }
+		victory_points = { 5838 10 }
 		victory_points = { 5848 5 }
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
+			arms_factory = 1
 			industrial_complex = 1
-			air_base = 3
+			air_base = 4
 			dockyard = 3
-			anti_air_building = 1
+			anti_air_building = 2
+			radar_station = 1
 			5135 = {
 				supply_node = 1
 			}
 			5838 = {
-				naval_base = 3
+				supply_node = 1
+				naval_base = 5
 			}
 		}
 	}

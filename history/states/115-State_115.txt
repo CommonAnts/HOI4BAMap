@@ -1,9 +1,9 @@
 state = {
 	id = 115
 	name = "STATE_115"
-	manpower = 5180067
-	state_category = large_city
-	local_supplies = 8.1
+	manpower = 3304311
+	state_category = metropolis
+	local_supplies = 8.8
 	provinces = {
 		211 330 432 843 948 1459 2616 2676 2683 2751 2780 2782 3261 3302 3410 3434 3450 3677 3884 4232 4433 4833 5216 6196 6199 6204 6209 6225 6226 6233 6245 6246 6249 6265 6273 6285 6306 6341 6415
 	}
@@ -12,6 +12,7 @@ state = {
 	history = {
 		owner = HYA
 		add_core_of = HYA
+		set_variable = { student_num = 9248 }
 		victory_points = { 211 5 }
 		victory_points = { 843 5 }
 		victory_points = { 2782 3 }
@@ -20,20 +21,21 @@ state = {
 		victory_points = { 6233 5 }
 		victory_points = { 6245 5 }
 		victory_points = { 6246 5 }
-		victory_points = { 6249 3 }
+		victory_points = { 6249 10 }
 		victory_points = { 6265 20 }
 		victory_points = { 6285 5 }
 		buildings = {
 			infrastructure = 4
 			arms_factory = 2
-			industrial_complex = 1
-			air_base = 4
+			industrial_complex = 3
+			air_base = 5
 			dockyard = 1
+			6249 = {
+				supply_node = 1
+				naval_base = 5
+			}
 			6265 = {
 				supply_node = 1
-			}
-			6249 = {
-				naval_base = 3
 			}
 		}
 	}

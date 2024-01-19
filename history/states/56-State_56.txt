@@ -1,9 +1,9 @@
 state = {
 	id = 56
 	name = "STATE_56"
-	manpower = 2057887
-	state_category = town
-	local_supplies = 2.2
+	manpower = 1369529
+	state_category = large_town
+	local_supplies = 2.4
 	provinces = {
 		76 454 491 674 1248 1583 1911 2010 2943 3334 3873 4661 4971 5638 5662 5667 5677 5678 5680 5685 5699 5707 5711 5724 8884 8885 8886
 	}
@@ -12,17 +12,20 @@ state = {
 	history = {
 		owner = CA4
 		add_core_of = CA4
-		victory_points = { 674 3 }
+		set_variable = { student_num = 752 }
+		victory_points = { 674 5 }
 		victory_points = { 1583 10 }
 		victory_points = { 5662 3 }
 		buildings = {
-			infrastructure = 2
-			air_base = 1
+			infrastructure = 3
+			industrial_complex = 2
+			air_base = 2
+			674 = {
+				supply_node = 1
+				naval_base = 3
+			}
 			1583 = {
 				supply_node = 1
-			}
-			674 = {
-				naval_base = 2
 			}
 		}
 	}

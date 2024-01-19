@@ -1,9 +1,9 @@
 state = {
 	id = 108
 	name = "STATE_108"
-	manpower = 6042582
+	manpower = 4523013
 	state_category = large_city
-	local_supplies = 6.7
+	local_supplies = 7.4
 	provinces = {
 		410 501 569 578 1007 1123 1137 1632 1681 1889 1953 2274 2450 2859 2869 2915 3178 3269 3766 4827 4992 5109 6147 6183 6214 6238 6247 6248 6254 6259 6267 6269 6286 6290 6308 6326 6380 6422
 	}
@@ -12,28 +12,30 @@ state = {
 	history = {
 		owner = TRY
 		add_core_of = TRY
+		set_variable = { student_num = 9955 }
 		victory_points = { 410 3 }
 		victory_points = { 2859 5 }
 		victory_points = { 3269 20 }
 		victory_points = { 3766 5 }
-		victory_points = { 6214 3 }
+		victory_points = { 6214 10 }
 		victory_points = { 6238 5 }
 		victory_points = { 6254 5 }
 		victory_points = { 6259 5 }
 		victory_points = { 6308 3 }
 		buildings = {
 			infrastructure = 4
-			arms_factory = 2
+			arms_factory = 3
 			industrial_complex = 1
 			air_base = 4
-			dockyard = 3
+			dockyard = 2
 			anti_air_building = 2
 			radar_station = 1
 			3269 = {
 				supply_node = 1
 			}
 			6214 = {
-				naval_base = 3
+				supply_node = 1
+				naval_base = 5
 			}
 		}
 	}

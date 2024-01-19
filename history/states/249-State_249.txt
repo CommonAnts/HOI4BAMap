@@ -1,9 +1,9 @@
 state = {
 	id = 249
 	name = "STATE_249"
-	manpower = 3690308
+	manpower = 2449635
 	state_category = city
-	local_supplies = 5.0
+	local_supplies = 5.7
 	provinces = {
 		201 340 364 566 1283 1955 2516 3694 3836 4046 4540 4666 4892 4894 4932 4997 7419 7444 7464 7472 7505 7512 7527 7528 7533 7542 7571 7572 7625
 	}
@@ -12,7 +12,8 @@ state = {
 	history = {
 		owner = SHA
 		add_core_of = SHA
-		victory_points = { 2516 3 }
+		set_variable = { student_num = 5728 }
+		victory_points = { 2516 10 }
 		victory_points = { 4666 3 }
 		victory_points = { 7527 5 }
 		victory_points = { 7528 5 }
@@ -20,13 +21,15 @@ state = {
 		victory_points = { 7542 20 }
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 1
+			arms_factory = 1
 			air_base = 3
+			dockyard = 1
+			2516 = {
+				supply_node = 1
+				naval_base = 5
+			}
 			7542 = {
 				supply_node = 1
-			}
-			2516 = {
-				naval_base = 3
 			}
 		}
 	}

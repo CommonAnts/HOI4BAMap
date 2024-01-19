@@ -1,7 +1,7 @@
 state = {
 	id = 335
 	name = "STATE_335"
-	manpower = 2164573
+	manpower = 1067076
 	state_category = megalopolis
 	local_supplies = 9.9
 	provinces = {
@@ -12,6 +12,7 @@ state = {
 	history = {
 		owner = ABY
 		add_core_of = ABY
+		set_variable = { student_num = 5 }
 		victory_points = { 1005 5 }
 		victory_points = { 3883 5 }
 		victory_points = { 4824 50 }
@@ -23,7 +24,7 @@ state = {
 		victory_points = { 8068 5 }
 		buildings = {
 			infrastructure = 5
-			arms_factory = 2
+			arms_factory = 1
 			industrial_complex = 4
 			air_base = 6
 			4824 = {
