@@ -8,6 +8,13 @@ state = {
 		89 129 498 609 666 711 1525 1562 1760 2187 2484 2556 2630 2850 2860 3397 3529 3574 3977 4447 8331 8341 8375 8421 8431 8499
 	}
 	resources = {
+		oil = 10
+		mineral = 10
+		ooparts = 10
+		alloy = 10
+		ceramic = 10
+		polymer = 10
+		electronic = 10
 	}
 	history = {
 		owner = WLH

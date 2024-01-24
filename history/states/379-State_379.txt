@@ -1,19 +1,26 @@
 state = {
 	id = 379
 	name = "STATE_379"
-	manpower = 1125650
+	manpower = 813722
 	state_category = large_town
 	local_supplies = 2.6
 	provinces = {
 		668 804 1077 1265 1642 1704 1968 2462 2531 2635 3018 3181 3373 3799 3931 3986 4134 4287 4503 5005 8508 8524 8545 8564 8571 8573 8594 8597 8603 8630 8643
 	}
 	resources = {
+		oil = 10
+		mineral = 10
+		ooparts = 10
+		alloy = 10
+		ceramic = 10
+		polymer = 10
+		electronic = 10
 	}
 	history = {
 		owner = RWT
 		add_core_of = RWT
 		set_variable = { province_num = 31 }
-		set_variable = { student_num = 2020 }
+		set_variable = { student_num = 2022 }
 		victory_points = { 2635 3 }
 		victory_points = { 8524 3 }
 		victory_points = { 8594 3 }

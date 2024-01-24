@@ -8,6 +8,13 @@ state = {
 		267 1303 2174 2471 2739 3118 5018 6026 6085 6115 6116 6153 6154 6171 6184 6197 6215 6276
 	}
 	resources = {
+		oil = 10
+		mineral = 10
+		ooparts = 10
+		alloy = 10
+		ceramic = 10
+		polymer = 10
+		electronic = 10
 	}
 	history = {
 		owner = HSP

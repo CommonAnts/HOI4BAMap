@@ -8,6 +8,13 @@ state = {
 		1656 1728 3687 4821 6079 6106 6112 6118 6132 6136 6156 6179
 	}
 	resources = {
+		oil = 10
+		mineral = 10
+		ooparts = 10
+		alloy = 10
+		ceramic = 10
+		polymer = 10
+		electronic = 10
 	}
 	history = {
 		owner = KRO

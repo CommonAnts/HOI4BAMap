@@ -8,6 +8,13 @@ state = {
 		773 875 896 897 951 1083 1452 1597 1678 2168 2577 2866 3420 3662 3678 5255 5371 5422 5449 5458 5481
 	}
 	resources = {
+		oil = 10
+		mineral = 10
+		ooparts = 10
+		alloy = 10
+		ceramic = 10
+		polymer = 10
+		electronic = 10
 	}
 	history = {
 		owner = WS1

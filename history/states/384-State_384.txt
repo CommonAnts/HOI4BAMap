@@ -1,13 +1,20 @@
 state = {
 	id = 384
 	name = "STATE_384"
-	manpower = 1252
+	manpower = 1191
 	state_category = wasteland
 	local_supplies = 0.0
 	provinces = {
 		860 1810 1947 2327 2530 2870 3139 4204 8505 8521 8562 8625
 	}
 	resources = {
+		oil = 10
+		mineral = 10
+		ooparts = 10
+		alloy = 10
+		ceramic = 10
+		polymer = 10
+		electronic = 10
 	}
 	history = {
 		owner = WS3

@@ -8,6 +8,13 @@ state = {
 		862 1853 2093 3130 4049 4748 5684 5736 5744 5766 5840 5845 5879
 	}
 	resources = {
+		oil = 10
+		mineral = 10
+		ooparts = 10
+		alloy = 10
+		ceramic = 10
+		polymer = 10
+		electronic = 10
 	}
 	history = {
 		owner = SRT

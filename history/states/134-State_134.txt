@@ -8,6 +8,13 @@ state = {
 		229 2244 2392 3161 4917 5214 5256 6370 6417 6489 6500 6509
 	}
 	resources = {
+		oil = 10
+		mineral = 10
+		ooparts = 10
+		alloy = 10
+		ceramic = 10
+		polymer = 10
+		electronic = 10
 	}
 	history = {
 		owner = HIL

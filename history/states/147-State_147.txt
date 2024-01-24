@@ -8,6 +8,13 @@ state = {
 		24 1547 1548 2218 2770 4030 4505 4837 5238 6520 6525 6567 6575 6628 6634 6649 6675
 	}
 	resources = {
+		oil = 10
+		mineral = 10
+		ooparts = 10
+		alloy = 10
+		ceramic = 10
+		polymer = 10
+		electronic = 10
 	}
 	history = {
 		owner = VAL

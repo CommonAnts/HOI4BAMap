@@ -1,0 +1,44 @@
+resources = {
+
+	oil = {
+		icon_frame = 1
+		cic = 0.1
+		convoys = 0.1
+	}
+
+	mineral = {
+		icon_frame = 2
+		cic = 0.1
+		convoys = 0.1
+	}
+
+	ooparts = {
+		icon_frame = 3
+		cic = 0.1
+		convoys = 0.1
+	}
+	
+	alloy = {
+		icon_frame = 4
+		cic = 0.1
+		convoys = 0.1
+	}
+	
+	ceramic = {
+		icon_frame = 5
+		cic = 0.1
+		convoys = 0.1
+	}
+	
+	polymer = {
+		icon_frame = 6
+		cic = 0.1
+		convoys = 0.1
+	}
+
+	electronic = {
+		icon_frame = 7
+		cic = 0.1
+		convoys = 0.1
+	}
+}

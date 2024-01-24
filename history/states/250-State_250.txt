@@ -8,6 +8,13 @@ state = {
 		1206 2043 3167 3742 3964 4334 4632 4901 4946 5149 7423 7437 7448 7454 7465 7468 7475 7478 7493 7509 7532 7535 7540 7550 7554 7558
 	}
 	resources = {
+		oil = 10
+		mineral = 10
+		ooparts = 10
+		alloy = 10
+		ceramic = 10
+		polymer = 10
+		electronic = 10
 	}
 	history = {
 		owner = GEH
@@ -32,7 +39,7 @@ state = {
 			arms_factory = 5
 			industrial_complex = 3
 			air_base = 5
-			anti_air_building = 2
+			anti_air_building = 4
 			radar_station = 2
 			1206 = {
 				supply_node = 1

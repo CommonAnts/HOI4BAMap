@@ -8,6 +8,13 @@ state = {
 		1088 1259 1589 3753 6252 6256 6301 6338 6368 6405
 	}
 	resources = {
+		oil = 10
+		mineral = 10
+		ooparts = 10
+		alloy = 10
+		ceramic = 10
+		polymer = 10
+		electronic = 10
 	}
 	history = {
 		owner = CEN

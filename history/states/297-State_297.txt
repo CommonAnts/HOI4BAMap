@@ -1,19 +1,26 @@
 state = {
 	id = 297
 	name = "STATE_297"
-	manpower = 99143
+	manpower = 73129
 	state_category = metropolis
 	local_supplies = 5.9
 	provinces = {
 		7771 7776 7783 7788
 	}
 	resources = {
+		oil = 10
+		mineral = 10
+		ooparts = 10
+		alloy = 10
+		ceramic = 10
+		polymer = 10
+		electronic = 10
 	}
 	history = {
 		owner = ABD
 		add_core_of = ABD
 		set_variable = { province_num = 4 }
-		set_variable = { student_num = 97 }
+		set_variable = { student_num = 74 }
 		victory_points = { 7771 5 }
 		victory_points = { 7776 5 }
 		victory_points = { 7783 40 }

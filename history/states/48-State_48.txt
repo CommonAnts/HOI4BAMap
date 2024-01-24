@@ -8,6 +8,13 @@ state = {
 		100 150 699 921 930 1147 1169 1180 1192 1202 1307 2161 2864 2890 3248 3545 3735 3914 4638 4859 5291 5642 5658 5669 5673 5709 5718 5722 5748 5750 5789 5804
 	}
 	resources = {
+		oil = 10
+		mineral = 10
+		ooparts = 10
+		alloy = 10
+		ceramic = 10
+		polymer = 10
+		electronic = 10
 	}
 	history = {
 		owner = STE

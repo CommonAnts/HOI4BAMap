@@ -8,6 +8,13 @@ state = {
 		223 270 943 1253 1416 1873 2106 2410 4098 4356 4460 4694 4769 4867 6373 6400 6455 6459 6470 6475 6549 6590 6640
 	}
 	resources = {
+		oil = 10
+		mineral = 10
+		ooparts = 10
+		alloy = 10
+		ceramic = 10
+		polymer = 10
+		electronic = 10
 	}
 	history = {
 		owner = TRY

@@ -8,6 +8,13 @@ state = {
 		102 599 1135 1195 1785 2024 2986 3030 3698 4032 4312 4366 5062 5279 5530 5539 5544 5549 5560 5589
 	}
 	resources = {
+		oil = 10
+		mineral = 10
+		ooparts = 10
+		alloy = 10
+		ceramic = 10
+		polymer = 10
+		electronic = 10
 	}
 	history = {
 		owner = MIL

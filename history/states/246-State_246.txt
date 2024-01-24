@@ -8,6 +8,13 @@ state = {
 		689 1130 1306 1344 1387 1509 1545 1813 1937 2240 2494 2989 3052 3179 4082 4182 4509 4972 7420 7425 7426 7434 7449 7458 7482 7492 7543 7555 7580
 	}
 	resources = {
+		oil = 10
+		mineral = 10
+		ooparts = 10
+		alloy = 10
+		ceramic = 10
+		polymer = 10
+		electronic = 10
 	}
 	history = {
 		owner = ARI

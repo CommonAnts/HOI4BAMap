@@ -1,19 +1,26 @@
 state = {
 	id = 301
 	name = "STATE_301"
-	manpower = 1517158
+	manpower = 1369906
 	state_category = large_town
 	local_supplies = 3.3
 	provinces = {
 		28 179 1660 1803 1951 2376 2814 2939 3133 3490 4485 4564 4634 7791 7817 7822 7851 7863 7869 7892 7894
 	}
 	resources = {
+		oil = 10
+		mineral = 10
+		ooparts = 10
+		alloy = 10
+		ceramic = 10
+		polymer = 10
+		electronic = 10
 	}
 	history = {
 		owner = CAB
 		add_core_of = CAB
 		set_variable = { province_num = 21 }
-		set_variable = { student_num = 1858 }
+		set_variable = { student_num = 1647 }
 		victory_points = { 28 3 }
 		victory_points = { 1803 3 }
 		victory_points = { 3490 3 }

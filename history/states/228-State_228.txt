@@ -8,6 +8,13 @@ state = {
 		870 1260 1782 2041 2407 2865 3459 3622 3999 4017 4902 7369 7370 7386 7393 7404 7406
 	}
 	resources = {
+		oil = 10
+		mineral = 10
+		ooparts = 10
+		alloy = 10
+		ceramic = 10
+		polymer = 10
+		electronic = 10
 	}
 	history = {
 		owner = HYA

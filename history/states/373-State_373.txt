@@ -1,13 +1,20 @@
 state = {
 	id = 373
 	name = "STATE_373"
-	manpower = 202923
+	manpower = 138598
 	state_category = pastoral
 	local_supplies = 0.5
 	provinces = {
 		213 455 690 1349 1526 1634 2077 2499 3378 4654 8419 8453 8495 8501 8509 8525 8574 8575
 	}
 	resources = {
+		oil = 10
+		mineral = 10
+		ooparts = 10
+		alloy = 10
+		ceramic = 10
+		polymer = 10
+		electronic = 10
 	}
 	history = {
 		owner = RWT

@@ -8,6 +8,13 @@ state = {
 		851 1073 1178 1838 1996 2150 2199 2229 2394 2558 3808 4687 4920 7751 7793 7802 7830 7834 7845 7872
 	}
 	resources = {
+		oil = 10
+		mineral = 10
+		ooparts = 10
+		alloy = 10
+		ceramic = 10
+		polymer = 10
+		electronic = 10
 	}
 	history = {
 		owner = SHA

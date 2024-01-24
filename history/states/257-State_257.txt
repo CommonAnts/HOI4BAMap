@@ -8,6 +8,13 @@ state = {
 		742 825 1532 1735 2166 2265 2527 2902 3301 3724 4150 4211 5275 5295 7506 7584 7593 7599 7601 7632 7642
 	}
 	resources = {
+		oil = 10
+		mineral = 10
+		ooparts = 10
+		alloy = 10
+		ceramic = 10
+		polymer = 10
+		electronic = 10
 	}
 	history = {
 		owner = GEH

@@ -8,6 +8,13 @@ state = {
 		1183 2030 2996 3195 3199 3806 4018 4646 4685 4980 5280 6791 6802 6812 6819 6831 6832 6850 6858 6861 6867 6885 6886 6898 6904 6905 6909 6912 6928 6932 6933
 	}
 	resources = {
+		oil = 10
+		mineral = 10
+		ooparts = 10
+		alloy = 10
+		ceramic = 10
+		polymer = 10
+		electronic = 10
 	}
 	history = {
 		owner = CEN
@@ -29,7 +36,7 @@ state = {
 			arms_factory = 2
 			industrial_complex = 5
 			air_base = 5
-			anti_air_building = 2
+			anti_air_building = 4
 			radar_station = 2
 			2996 = {
 				supply_node = 1

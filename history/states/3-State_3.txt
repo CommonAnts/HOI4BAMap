@@ -8,6 +8,13 @@ state = {
 		1527 1743 2031 2061 2479 2492 2617 2949 3023 3063 3103 3308 3374 3664 4060 4257 4464 4510 4967 5297 5298 5301 5303 5310 5311 5313 5319 5330 8878
 	}
 	resources = {
+		oil = 10
+		mineral = 10
+		ooparts = 10
+		alloy = 10
+		ceramic = 10
+		polymer = 10
+		electronic = 10
 	}
 	history = {
 		owner = ODY

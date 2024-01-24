@@ -8,6 +8,13 @@ state = {
 		588 635 680 1057 1256 1322 1336 1543 1857 1969 2099 2435 2461 2757 2967 3419 3963 4298 4655 7081 7112 7149 7209 7220 7256 7337 7418
 	}
 	resources = {
+		oil = 10
+		mineral = 10
+		ooparts = 10
+		alloy = 10
+		ceramic = 10
+		polymer = 10
+		electronic = 10
 	}
 	history = {
 		owner = CA1

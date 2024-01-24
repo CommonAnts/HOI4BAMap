@@ -8,6 +8,13 @@ state = {
 		290 682 997 1208 1766 1874 1957 2092 3031 3582 4374 8694 8700 8734 8742 8770
 	}
 	resources = {
+		oil = 10
+		mineral = 10
+		ooparts = 10
+		alloy = 10
+		ceramic = 10
+		polymer = 10
+		electronic = 10
 	}
 	history = {
 		owner = RWT

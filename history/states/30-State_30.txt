@@ -8,6 +8,13 @@ state = {
 		191 286 646 1197 1927 2259 2497 2715 3311 3411 3947 4367 4477 5041 5211 5213 5448 5469 5473 5477 5482 5486 5490 5492 5499 5501 5503 5517 5534
 	}
 	resources = {
+		oil = 10
+		mineral = 10
+		ooparts = 10
+		alloy = 10
+		ceramic = 10
+		polymer = 10
+		electronic = 10
 	}
 	history = {
 		owner = MIL
@@ -25,7 +32,7 @@ state = {
 			industrial_complex = 1
 			air_base = 3
 			dockyard = 4
-			anti_air_building = 1
+			anti_air_building = 2
 			5482 = {
 				supply_node = 1
 				naval_base = 5

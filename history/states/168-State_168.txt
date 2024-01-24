@@ -8,6 +8,13 @@ state = {
 		1480 2172 2238 2458 2466 2520 2583 2742 2826 2948 3394 4077 4113 4278 4385 4858 5254 6724 6840 6841 6848 6869 6880 6884 6900 6907 6935 6944 6956 6971 6990 7007 7049 9936
 	}
 	resources = {
+		oil = 10
+		mineral = 10
+		ooparts = 10
+		alloy = 10
+		ceramic = 10
+		polymer = 10
+		electronic = 10
 	}
 	history = {
 		owner = TRY
@@ -30,7 +37,7 @@ state = {
 			arms_factory = 2
 			industrial_complex = 6
 			air_base = 4
-			anti_air_building = 2
+			anti_air_building = 3
 			radar_station = 1
 			6907 = {
 				supply_node = 1
