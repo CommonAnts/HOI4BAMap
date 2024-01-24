@@ -12,6 +12,7 @@ state = {
 	history = {
 		owner = GEH
 		add_core_of = GEH
+		set_variable = { province_num = 26 }
 		set_variable = { student_num = 3063 }
 		victory_points = { 3703 3 }
 		victory_points = { 3922 3 }

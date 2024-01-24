@@ -12,6 +12,7 @@ state = {
 	history = {
 		owner = RWT
 		add_core_of = RWT
+		set_variable = { province_num = 16 }
 		set_variable = { student_num = 959 }
 		victory_points = { 8218 2 }
 		victory_points = { 8266 5 }

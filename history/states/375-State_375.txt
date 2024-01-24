@@ -1,7 +1,7 @@
 state = {
 	id = 375
 	name = "STATE_375"
-	manpower = 2740
+	manpower = 1236
 	state_category = wasteland
 	local_supplies = 0.0
 	provinces = {
@@ -11,6 +11,7 @@ state = {
 	}
 	history = {
 		owner = WS3
+		set_variable = { province_num = 23 }
 		set_variable = { student_num = 0 }
 		buildings = {
 		}

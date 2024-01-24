@@ -12,6 +12,7 @@ state = {
 	history = {
 		owner = HSP
 		add_core_of = HSP
+		set_variable = { province_num = 19 }
 		set_variable = { student_num = 2266 }
 		victory_points = { 1146 3 }
 		victory_points = { 4314 5 }
@@ -19,9 +20,10 @@ state = {
 		victory_points = { 6013 3 }
 		buildings = {
 			infrastructure = 3
-			arms_factory = 1
+			arms_factory = 2
 			industrial_complex = 1
 			air_base = 2
+			dockyard = 1
 			4314 = {
 				supply_node = 1
 				naval_base = 3

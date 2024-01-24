@@ -12,6 +12,7 @@ state = {
 	history = {
 		owner = MIL
 		add_core_of = MIL
+		set_variable = { province_num = 9 }
 		set_variable = { student_num = 24604 }
 		victory_points = { 2486 5 }
 		victory_points = { 4368 5 }
@@ -24,8 +25,8 @@ state = {
 		victory_points = { 5800 60 }
 		buildings = {
 			infrastructure = 5
-			arms_factory = 4
-			industrial_complex = 5
+			arms_factory = 6
+			industrial_complex = 8
 			air_base = 6
 			anti_air_building = 3
 			radar_station = 3

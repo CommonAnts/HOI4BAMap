@@ -12,6 +12,7 @@ state = {
 	history = {
 		owner = GEH
 		add_core_of = GEH
+		set_variable = { province_num = 16 }
 		set_variable = { student_num = 8755 }
 		victory_points = { 2413 5 }
 		victory_points = { 2607 5 }
@@ -25,7 +26,7 @@ state = {
 		victory_points = { 7530 5 }
 		buildings = {
 			infrastructure = 4
-			arms_factory = 3
+			arms_factory = 4
 			industrial_complex = 4
 			air_base = 5
 			anti_air_building = 2

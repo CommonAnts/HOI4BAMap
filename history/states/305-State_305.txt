@@ -12,6 +12,7 @@ state = {
 	history = {
 		owner = SHA
 		add_core_of = SHA
+		set_variable = { province_num = 20 }
 		set_variable = { student_num = 2597 }
 		victory_points = { 761 3 }
 		victory_points = { 764 10 }

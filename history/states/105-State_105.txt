@@ -12,6 +12,7 @@ state = {
 	history = {
 		owner = KRO
 		add_core_of = KRO
+		set_variable = { province_num = 17 }
 		set_variable = { student_num = 1321 }
 		victory_points = { 2206 3 }
 		victory_points = { 6140 15 }
@@ -19,7 +20,7 @@ state = {
 		victory_points = { 6251 3 }
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 2
+			industrial_complex = 1
 			air_base = 2
 			6140 = {
 				supply_node = 1

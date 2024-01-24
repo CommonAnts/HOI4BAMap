@@ -11,6 +11,7 @@ state = {
 	}
 	history = {
 		owner = WV1
+		set_variable = { province_num = 5 }
 		set_variable = { student_num = 0 }
 		buildings = {
 		}

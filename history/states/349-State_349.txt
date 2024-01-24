@@ -12,6 +12,7 @@ state = {
 	history = {
 		owner = RWT
 		add_core_of = RWT
+		set_variable = { province_num = 22 }
 		set_variable = { student_num = 3007 }
 		victory_points = { 4640 20 }
 		victory_points = { 8155 5 }
@@ -21,6 +22,7 @@ state = {
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
+			industrial_complex = 1
 			air_base = 3
 			4640 = {
 				supply_node = 1

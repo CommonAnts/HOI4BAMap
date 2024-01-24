@@ -12,6 +12,7 @@ state = {
 	history = {
 		owner = CEN
 		add_core_of = CEN
+		set_variable = { province_num = 14 }
 		set_variable = { student_num = 3678 }
 		victory_points = { 639 30 }
 		victory_points = { 4631 5 }
@@ -25,9 +26,9 @@ state = {
 		buildings = {
 			infrastructure = 4
 			arms_factory = 1
-			industrial_complex = 3
+			industrial_complex = 4
 			air_base = 5
-			dockyard = 2
+			dockyard = 3
 			anti_air_building = 2
 			radar_station = 2
 			639 = {

@@ -12,6 +12,7 @@ state = {
 	history = {
 		owner = SRT
 		add_core_of = SRT
+		set_variable = { province_num = 9 }
 		set_variable = { student_num = 1032 }
 		victory_points = { 781 3 }
 		victory_points = { 2823 10 }
@@ -20,8 +21,9 @@ state = {
 		victory_points = { 5670 3 }
 		buildings = {
 			infrastructure = 3
+			arms_factory = 1
 			air_base = 2
-			dockyard = 2
+			dockyard = 1
 			2823 = {
 				supply_node = 1
 				naval_base = 4

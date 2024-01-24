@@ -12,6 +12,7 @@ state = {
 	history = {
 		owner = HIL
 		add_core_of = HIL
+		set_variable = { province_num = 41 }
 		set_variable = { student_num = 1331 }
 		victory_points = { 110 3 }
 		victory_points = { 1128 3 }
@@ -21,7 +22,6 @@ state = {
 		buildings = {
 			infrastructure = 3
 			arms_factory = 2
-			industrial_complex = 1
 			air_base = 2
 			6821 = {
 				supply_node = 1

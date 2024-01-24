@@ -12,6 +12,7 @@ state = {
 	history = {
 		owner = SHA
 		add_core_of = SHA
+		set_variable = { province_num = 8 }
 		set_variable = { student_num = 15900 }
 		victory_points = { 721 5 }
 		victory_points = { 3918 5 }
@@ -23,8 +24,8 @@ state = {
 		victory_points = { 7649 50 }
 		buildings = {
 			infrastructure = 5
-			arms_factory = 4
-			industrial_complex = 8
+			arms_factory = 8
+			industrial_complex = 2
 			air_base = 6
 			7649 = {
 				supply_node = 1

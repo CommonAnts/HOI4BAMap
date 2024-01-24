@@ -12,6 +12,7 @@ state = {
 	history = {
 		owner = WLH
 		add_core_of = WLH
+		set_variable = { province_num = 7 }
 		set_variable = { student_num = 109 }
 		victory_points = { 8868 2 }
 		buildings = {

@@ -12,6 +12,7 @@ state = {
 	history = {
 		owner = CA1
 		add_core_of = CA1
+		set_variable = { province_num = 35 }
 		set_variable = { student_num = 2994 }
 		victory_points = { 3095 3 }
 		victory_points = { 4233 5 }
@@ -22,7 +23,8 @@ state = {
 		victory_points = { 6302 3 }
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 4
+			arms_factory = 1
+			industrial_complex = 1
 			air_base = 3
 			6182 = {
 				supply_node = 1

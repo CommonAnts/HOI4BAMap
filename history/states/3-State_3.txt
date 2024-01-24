@@ -12,6 +12,7 @@ state = {
 	history = {
 		owner = ODY
 		add_core_of = ODY
+		set_variable = { province_num = 29 }
 		set_variable = { student_num = 1016 }
 		victory_points = { 4257 3 }
 		victory_points = { 5310 3 }
