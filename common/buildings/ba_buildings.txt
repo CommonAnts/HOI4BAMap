@@ -1,0 +1,49 @@
+buildings = {
+	
+	basematerial_building = {
+		base_cost = 6400
+		icon_frame = 17
+		local_resources_basematerial = 4
+		max_level = 10 # This is the max unlock level
+		shares_slots = yes
+		value = 5
+		infrastructure_construction_effect = yes
+
+		state_production_speed_buildings_factor = 0.05
+		state_repair_speed_infrastructure_factor = 0.1
+		state_repair_speed_industrial_complex_factor = 0.1
+		state_repair_speed_arms_factory_factor = 0.1
+		
+		state_production_speed_basematerial_building_factor = 0.1
+		
+		show_modifier = yes
+	}
+
+	specialmaterial_building = {
+		base_cost = 6400
+		icon_frame = 18
+		local_resources_specialmaterial = 4
+		max_level = 10 # This is the max unlock level
+		shares_slots = yes
+		value = 5
+		infrastructure_construction_effect = yes
+
+		state_production_speed_specialmaterial_building_factor = 0.1
+		
+		show_modifier = yes
+	}
+
+	electronic_building = {
+		base_cost = 6400
+		icon_frame = 19
+		local_resources_electronic = 4
+		max_level = 10 # This is the max unlock level
+		shares_slots = yes
+		value = 5
+		infrastructure_construction_effect = yes
+
+		state_production_speed_electronic_building_factor = 0.1
+		
+		show_modifier = yes
+	}
+}

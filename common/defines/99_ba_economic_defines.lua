@@ -1,0 +1,3 @@
+NDefines.NBuildings.MAX_SHARED_SLOTS = 50
+
+NDefines.NBuildings.SUPPLY_ROUTE_RESOURCE_BONUS = 0.5
