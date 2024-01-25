@@ -24,7 +24,7 @@ resources = {
 		convoys = 0.1
 	}
 	
-	composite = {
+	specialmaterial = {
 		icon_frame = 5
 		cic = 0.1
 		convoys = 0.1

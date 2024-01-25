@@ -181,7 +181,7 @@ guiTypes = {
 					}
 
 					buttonType = {
-						name = "composite_icon"
+						name = "specialmaterial_icon"
 						position = { x=280 y=2 }
 						spriteType = "GFX_resources_strip"
 						frame = 5
@@ -189,7 +189,7 @@ guiTypes = {
 					}
 
 					instantTextboxType = {
-						name = "composite_value"
+						name = "specialmaterial_value"
 						position = { x = 309 y = 5 }
 						textureFile = ""
 						font = "hoi_18mbs"
@@ -1321,7 +1321,7 @@ guiTypes = {
 			}
 
 			iconType = {
-				name = "composite_icon"
+				name = "specialmaterial_icon"
 				position = { x=229 y=2 }
 				spriteType = "GFX_resources_strip"
 				frame = 5
@@ -1329,7 +1329,7 @@ guiTypes = {
 			}
 
 			buttonType = {
-				name = "composite_checkbox"
+				name = "specialmaterial_checkbox"
 				position = { x = 253 y = 1 }
 				quadTextureSprite ="GFX_generic_checkbox"
 				Orientation = "UPPER_LEFT"

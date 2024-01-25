@@ -12,7 +12,7 @@ state = {
 		mineral = 10
 		ooparts = 10
 		basematerial = 10
-		composite = 10
+		specialmaterial = 10
 		polymer = 10
 		electronic = 10
 	}
