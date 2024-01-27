@@ -9,7 +9,6 @@ state = {
 	}
 	resources = {
 		mineral = 19
-		basematerial = 4
 	}
 	history = {
 		owner = RWT

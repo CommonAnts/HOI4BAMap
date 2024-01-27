@@ -8,7 +8,7 @@ state = {
 		51 62 2452 2812 2999 4740 4943 6980 6987 7020 7038 7052 7054 7082 7083 7106 7124
 	}
 	resources = {
-		basematerial = 5
+		basematerial = 4
 	}
 	history = {
 		owner = TRY

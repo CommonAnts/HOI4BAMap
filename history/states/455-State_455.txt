@@ -9,7 +9,7 @@ state = {
 	}
 	resources = {
 		ooparts = 9
-		basematerial = 6
+		basematerial = 5
 	}
 	history = {
 		owner = KRO

@@ -8,7 +8,7 @@ state = {
 		728 1944 2626 2815 3417 3896 4267 4848 4879 5087 5151 8620 8648 8657 8665 8667 8679 8686 8702 8714 8723
 	}
 	resources = {
-		basematerial = 5
+		basematerial = 4
 	}
 	history = {
 		owner = RWT

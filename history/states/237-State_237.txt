@@ -9,7 +9,6 @@ state = {
 	}
 	resources = {
 		ooparts = 23
-		basematerial = 4
 	}
 	history = {
 		owner = ARI

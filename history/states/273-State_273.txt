@@ -9,7 +9,6 @@ state = {
 	}
 	resources = {
 		oil = 9
-		basematerial = 4
 	}
 	history = {
 		owner = SHA

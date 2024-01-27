@@ -8,7 +8,7 @@ state = {
 		1023 3765 4383 4396 6732 6733 6755 6756 6757 6772 6778
 	}
 	resources = {
-		basematerial = 6
+		basematerial = 5
 	}
 	history = {
 		owner = CEN

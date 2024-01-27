@@ -9,7 +9,7 @@ state = {
 	}
 	resources = {
 		ooparts = 10
-		basematerial = 7
+		basematerial = 6
 	}
 	history = {
 		owner = VAL
