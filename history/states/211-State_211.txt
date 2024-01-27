@@ -8,7 +8,7 @@ state = {
 		112 194 763 898 1095 1173 1310 1454 1524 2004 2253 2322 2726 2873 3445 3486 3496 3697 4111 4588 4721 4722 5098 5160 7161 7190 7193 7201 7219 7221 7232 7244 7264 7278 7279 7310 7331 7352 7366 9912
 	}
 	resources = {
-		basematerial = 6
+		basematerial = 5
 	}
 	history = {
 		owner = TRY
@@ -17,7 +17,7 @@ state = {
 		set_variable = { student_num = 9947 }
 		set_variable = { potentialresources_oil = 0 }
 		set_variable = { potentialresources_mineral = 0 }
-		set_variable = { potentialresources_ooparts = 5 }
+		set_variable = { potentialresources_ooparts = 0 }
 		victory_points = { 2322 3 }
 		victory_points = { 4721 20 }
 		victory_points = { 4722 5 }
@@ -36,7 +36,6 @@ state = {
 			air_base = 4
 			anti_air_building = 3
 			radar_station = 1
-			specialmaterial_building = 4
 			4721 = {
 				supply_node = 1
 			}

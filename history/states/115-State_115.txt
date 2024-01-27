@@ -17,7 +17,7 @@ state = {
 		set_variable = { student_num = 7476 }
 		set_variable = { potentialresources_oil = 0 }
 		set_variable = { potentialresources_mineral = 0 }
-		set_variable = { potentialresources_ooparts = 5 }
+		set_variable = { potentialresources_ooparts = 4 }
 		victory_points = { 211 5 }
 		victory_points = { 843 5 }
 		victory_points = { 2782 3 }
@@ -35,7 +35,6 @@ state = {
 			industrial_complex = 4
 			air_base = 5
 			dockyard = 3
-			electronic_building = 2
 			6249 = {
 				supply_node = 1
 				naval_base = 5

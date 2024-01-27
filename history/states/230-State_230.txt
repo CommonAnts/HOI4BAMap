@@ -14,8 +14,8 @@ state = {
 		add_core_of = ARI
 		set_variable = { province_num = 23 }
 		set_variable = { student_num = 4729 }
-		set_variable = { potentialresources_oil = 4 }
-		set_variable = { potentialresources_mineral = 4 }
+		set_variable = { potentialresources_oil = 0 }
+		set_variable = { potentialresources_mineral = 15 }
 		set_variable = { potentialresources_ooparts = 0 }
 		victory_points = { 117 3 }
 		victory_points = { 1168 3 }
@@ -29,6 +29,7 @@ state = {
 			arms_factory = 1
 			industrial_complex = 1
 			air_base = 3
+			synthetic_refinery = 1
 			basematerial_building = 1
 			specialmaterial_building = 1
 			2652 = {

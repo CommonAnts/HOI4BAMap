@@ -16,7 +16,7 @@ state = {
 		set_variable = { student_num = 122 }
 		set_variable = { potentialresources_oil = 0 }
 		set_variable = { potentialresources_mineral = 0 }
-		set_variable = { potentialresources_ooparts = 0 }
+		set_variable = { potentialresources_ooparts = 18 }
 		victory_points = { 7283 2 }
 		buildings = {
 		}

@@ -8,6 +8,7 @@ state = {
 		132 228 469 1623 1773 1837 2040 2068 2198 2847 3360 3671 3798 4200 4286 5705 5721 5725 5726 5746 5785 5794 5824 5853 5891 5938
 	}
 	resources = {
+		oil = 41
 	}
 	history = {
 		owner = MIL
@@ -15,8 +16,8 @@ state = {
 		set_variable = { province_num = 26 }
 		set_variable = { student_num = 3018 }
 		set_variable = { potentialresources_oil = 0 }
-		set_variable = { potentialresources_mineral = 19 }
-		set_variable = { potentialresources_ooparts = 8 }
+		set_variable = { potentialresources_mineral = 0 }
+		set_variable = { potentialresources_ooparts = 0 }
 		victory_points = { 469 10 }
 		victory_points = { 1837 3 }
 		victory_points = { 2040 3 }
@@ -26,6 +27,7 @@ state = {
 			infrastructure = 3
 			air_base = 2
 			anti_air_building = 1
+			synthetic_refinery = 6
 			469 = {
 				supply_node = 1
 			}

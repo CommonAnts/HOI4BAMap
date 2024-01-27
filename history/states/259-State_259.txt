@@ -8,7 +8,7 @@ state = {
 		2464 5265 7488 7502 7503 7510 7520 7524 7525 7539 7546 7556
 	}
 	resources = {
-		basematerial = 7
+		basematerial = 6
 	}
 	history = {
 		owner = GEH

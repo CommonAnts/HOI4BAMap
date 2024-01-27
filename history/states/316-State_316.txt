@@ -8,7 +8,7 @@ state = {
 		462 1153 1696 2992 3817 7888 7915 7946 7952 7978 7993
 	}
 	resources = {
-		mineral = 28
+		mineral = 18
 	}
 	history = {
 		owner = ABY
@@ -16,7 +16,7 @@ state = {
 		set_variable = { province_num = 11 }
 		set_variable = { student_num = 166 }
 		set_variable = { potentialresources_oil = 0 }
-		set_variable = { potentialresources_mineral = 0 }
+		set_variable = { potentialresources_mineral = 16 }
 		set_variable = { potentialresources_ooparts = 0 }
 		victory_points = { 1696 20 }
 		victory_points = { 7888 3 }

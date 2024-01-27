@@ -8,8 +8,6 @@ state = {
 		2155 3058 3180 3399 3576 4066 4453 4870 4898 5135 5695 5717 5752 5757 5773 5786 5830 5838 5848 5849 5884 5898 5900 5916
 	}
 	resources = {
-		mineral = 7
-		ooparts = 9
 	}
 	history = {
 		owner = MIL
@@ -34,6 +32,7 @@ state = {
 			dockyard = 5
 			anti_air_building = 3
 			radar_station = 1
+			specialmaterial_building = 5
 			5135 = {
 				supply_node = 1
 			}

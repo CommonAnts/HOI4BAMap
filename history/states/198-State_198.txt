@@ -8,7 +8,6 @@ state = {
 		261 311 1084 1359 2483 2624 3280 4514 4531 5244 6959 6978 7006 7011 7034 7068
 	}
 	resources = {
-		oil = 21
 	}
 	history = {
 		owner = HYA
@@ -27,7 +26,7 @@ state = {
 			infrastructure = 3
 			industrial_complex = 2
 			air_base = 3
-			synthetic_refinery = 1
+			basematerial_building = 6
 			4531 = {
 				supply_node = 1
 			}

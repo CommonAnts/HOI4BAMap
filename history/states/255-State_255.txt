@@ -15,9 +15,9 @@ state = {
 		add_core_of = SHA
 		set_variable = { province_num = 16 }
 		set_variable = { student_num = 4584 }
-		set_variable = { potentialresources_oil = 5 }
+		set_variable = { potentialresources_oil = 7 }
 		set_variable = { potentialresources_mineral = 0 }
-		set_variable = { potentialresources_ooparts = 4 }
+		set_variable = { potentialresources_ooparts = 0 }
 		victory_points = { 640 20 }
 		victory_points = { 1069 5 }
 		victory_points = { 7537 3 }
@@ -27,6 +27,7 @@ state = {
 			infrastructure = 3
 			industrial_complex = 3
 			air_base = 3
+			basematerial_building = 1
 			640 = {
 				supply_node = 1
 			}

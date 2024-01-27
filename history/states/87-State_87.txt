@@ -14,7 +14,7 @@ state = {
 		add_core_of = HSP
 		set_variable = { province_num = 19 }
 		set_variable = { student_num = 2450 }
-		set_variable = { potentialresources_oil = 4 }
+		set_variable = { potentialresources_oil = 5 }
 		set_variable = { potentialresources_mineral = 0 }
 		set_variable = { potentialresources_ooparts = 0 }
 		victory_points = { 1146 3 }

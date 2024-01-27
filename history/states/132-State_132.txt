@@ -8,16 +8,15 @@ state = {
 		926 1002 1008 1377 1399 1855 3494 3602 3653 3674 4236 4427 4745 6423 6450 6485 6552 6666
 	}
 	resources = {
-		oil = 30
 	}
 	history = {
 		owner = VAL
 		add_core_of = VAL
 		set_variable = { province_num = 18 }
 		set_variable = { student_num = 913 }
-		set_variable = { potentialresources_oil = 19 }
-		set_variable = { potentialresources_mineral = 5 }
-		set_variable = { potentialresources_ooparts = 0 }
+		set_variable = { potentialresources_oil = 0 }
+		set_variable = { potentialresources_mineral = 0 }
+		set_variable = { potentialresources_ooparts = 4 }
 		victory_points = { 1377 2 }
 		victory_points = { 3653 5 }
 		buildings = {

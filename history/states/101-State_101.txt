@@ -8,8 +8,6 @@ state = {
 		436 1276 1733 2256 2427 2567 3095 3890 3924 4051 4233 4282 4333 4373 4399 4853 4968 6088 6114 6123 6130 6141 6144 6164 6176 6182 6202 6216 6222 6223 6261 6262 6302 6346 6412
 	}
 	resources = {
-		oil = 14
-		mineral = 55
 		basematerial = 5
 	}
 	history = {
@@ -17,9 +15,9 @@ state = {
 		add_core_of = CA1
 		set_variable = { province_num = 35 }
 		set_variable = { student_num = 3195 }
-		set_variable = { potentialresources_oil = 44 }
-		set_variable = { potentialresources_mineral = 4 }
-		set_variable = { potentialresources_ooparts = 0 }
+		set_variable = { potentialresources_oil = 11 }
+		set_variable = { potentialresources_mineral = 0 }
+		set_variable = { potentialresources_ooparts = 5 }
 		victory_points = { 3095 3 }
 		victory_points = { 4233 5 }
 		victory_points = { 6164 5 }
@@ -32,6 +30,7 @@ state = {
 			arms_factory = 1
 			industrial_complex = 5
 			air_base = 3
+			basematerial_building = 4
 			6182 = {
 				supply_node = 1
 			}

@@ -14,8 +14,8 @@ state = {
 		add_core_of = CA4
 		set_variable = { province_num = 19 }
 		set_variable = { student_num = 1379 }
-		set_variable = { potentialresources_oil = 0 }
-		set_variable = { potentialresources_mineral = 0 }
+		set_variable = { potentialresources_oil = 6 }
+		set_variable = { potentialresources_mineral = 8 }
 		set_variable = { potentialresources_ooparts = 0 }
 		victory_points = { 3294 3 }
 		victory_points = { 5456 5 }
@@ -25,6 +25,7 @@ state = {
 			infrastructure = 3
 			industrial_complex = 2
 			air_base = 2
+			synthetic_refinery = 4
 			5456 = {
 				supply_node = 1
 				naval_base = 3

@@ -8,7 +8,7 @@ state = {
 		4358 5803 5815 5827 5843 5855
 	}
 	resources = {
-		ooparts = 20
+		ooparts = 18
 		basematerial = 9
 	}
 	history = {

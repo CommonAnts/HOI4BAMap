@@ -14,9 +14,9 @@ state = {
 		add_core_of = ABD
 		set_variable = { province_num = 25 }
 		set_variable = { student_num = 29 }
-		set_variable = { potentialresources_oil = 5 }
-		set_variable = { potentialresources_mineral = 6 }
-		set_variable = { potentialresources_ooparts = 5 }
+		set_variable = { potentialresources_oil = 0 }
+		set_variable = { potentialresources_mineral = 7 }
+		set_variable = { potentialresources_ooparts = 0 }
 		victory_points = { 3593 10 }
 		victory_points = { 4277 3 }
 		victory_points = { 8511 3 }

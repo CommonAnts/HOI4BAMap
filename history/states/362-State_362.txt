@@ -8,7 +8,7 @@ state = {
 		316 444 458 618 732 1635 1980 2204 2236 2326 2408 2475 2536 2933 3005 3109 3339 3379 4006 4266 4337 4602 4610 4657 4855 5167 5235 8249 8251 8289 8300 8315 8316 8321 8326 8336 8339 8344 8345 8352 8356 8389 8416 8417 8424
 	}
 	resources = {
-		oil = 9
+		mineral = 11
 		basematerial = 4
 	}
 	history = {
@@ -16,7 +16,7 @@ state = {
 		add_core_of = RWT
 		set_variable = { province_num = 45 }
 		set_variable = { student_num = 4546 }
-		set_variable = { potentialresources_oil = 5 }
+		set_variable = { potentialresources_oil = 0 }
 		set_variable = { potentialresources_mineral = 0 }
 		set_variable = { potentialresources_ooparts = 0 }
 		victory_points = { 444 5 }
@@ -31,7 +31,7 @@ state = {
 			industrial_complex = 3
 			air_base = 4
 			dockyard = 1
-			specialmaterial_building = 6
+			electronic_building = 2
 			8316 = {
 				supply_node = 1
 				naval_base = 5

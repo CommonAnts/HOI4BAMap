@@ -8,6 +8,7 @@ state = {
 		30 1846 3289 4042 7210 7298 7338 7343
 	}
 	resources = {
+		oil = 11
 	}
 	history = {
 		owner = HYA

@@ -8,15 +8,15 @@ state = {
 		728 1944 2626 2815 3417 3896 4267 4848 4879 5087 5151 8620 8648 8657 8665 8667 8679 8686 8702 8714 8723
 	}
 	resources = {
-		basematerial = 5
+		basematerial = 4
 	}
 	history = {
 		owner = RWT
 		add_core_of = RWT
 		set_variable = { province_num = 21 }
 		set_variable = { student_num = 5609 }
-		set_variable = { potentialresources_oil = 5 }
-		set_variable = { potentialresources_mineral = 0 }
+		set_variable = { potentialresources_oil = 0 }
+		set_variable = { potentialresources_mineral = 5 }
 		set_variable = { potentialresources_ooparts = 0 }
 		victory_points = { 2626 5 }
 		victory_points = { 3896 5 }
@@ -30,7 +30,7 @@ state = {
 			industrial_complex = 4
 			air_base = 4
 			dockyard = 1
-			synthetic_refinery = 3
+			specialmaterial_building = 6
 			8657 = {
 				supply_node = 1
 				naval_base = 5

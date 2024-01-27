@@ -14,9 +14,9 @@ state = {
 		add_core_of = HIL
 		set_variable = { province_num = 12 }
 		set_variable = { student_num = 618 }
-		set_variable = { potentialresources_oil = 19 }
-		set_variable = { potentialresources_mineral = 5 }
-		set_variable = { potentialresources_ooparts = 0 }
+		set_variable = { potentialresources_oil = 8 }
+		set_variable = { potentialresources_mineral = 0 }
+		set_variable = { potentialresources_ooparts = 5 }
 		victory_points = { 3161 2 }
 		victory_points = { 6489 5 }
 		buildings = {

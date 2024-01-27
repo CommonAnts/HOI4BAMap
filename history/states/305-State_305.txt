@@ -8,7 +8,6 @@ state = {
 		761 764 793 1027 1619 1718 2067 2857 3320 3900 5082 5225 7862 7865 7866 7890 7897 7904 7908 7919
 	}
 	resources = {
-		mineral = 9
 	}
 	history = {
 		owner = SHA
@@ -27,8 +26,6 @@ state = {
 			infrastructure = 3
 			arms_factory = 1
 			air_base = 2
-			synthetic_refinery = 1
-			basematerial_building = 2
 			764 = {
 				supply_node = 1
 			}

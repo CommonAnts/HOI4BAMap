@@ -8,6 +8,7 @@ state = {
 		26 86 645 1318 1369 2346 2576 3080 3116 3288 3429 3606 4056 4290 4360 4832 4925 5091 8097 8099 8105 8123 8147 8151 8174 8268 8335
 	}
 	resources = {
+		oil = 54
 	}
 	history = {
 		owner = GEH
@@ -26,7 +27,6 @@ state = {
 			arms_factory = 1
 			air_base = 3
 			anti_air_building = 2
-			basematerial_building = 6
 			8123 = {
 				supply_node = 1
 			}

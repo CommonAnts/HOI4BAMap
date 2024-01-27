@@ -8,15 +8,14 @@ state = {
 		1656 1728 3687 4821 6079 6106 6112 6118 6132 6136 6156 6179
 	}
 	resources = {
-		oil = 19
 	}
 	history = {
 		owner = KRO
 		add_core_of = KRO
 		set_variable = { province_num = 12 }
 		set_variable = { student_num = 2339 }
-		set_variable = { potentialresources_oil = 0 }
-		set_variable = { potentialresources_mineral = 8 }
+		set_variable = { potentialresources_oil = 5 }
+		set_variable = { potentialresources_mineral = 0 }
 		set_variable = { potentialresources_ooparts = 0 }
 		victory_points = { 6106 5 }
 		victory_points = { 6118 20 }
@@ -27,7 +26,7 @@ state = {
 			air_base = 3
 			dockyard = 2
 			synthetic_refinery = 1
-			basematerial_building = 1
+			specialmaterial_building = 1
 			6118 = {
 				supply_node = 1
 			}

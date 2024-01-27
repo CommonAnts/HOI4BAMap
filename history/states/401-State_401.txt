@@ -8,16 +8,15 @@ state = {
 		704 1234 1835 2049 2105 2387 2563 3605 3696 3738 3859 5237 8658 8663 8676 8690 8691 8701 8709 8711 8712 8722 8735 8737 8749 8754
 	}
 	resources = {
-		oil = 34
-		mineral = 10
+		oil = 28
 	}
 	history = {
 		owner = WLH
 		add_core_of = WLH
 		set_variable = { province_num = 26 }
 		set_variable = { student_num = 1942 }
-		set_variable = { potentialresources_oil = 12 }
-		set_variable = { potentialresources_mineral = 4 }
+		set_variable = { potentialresources_oil = 0 }
+		set_variable = { potentialresources_mineral = 0 }
 		set_variable = { potentialresources_ooparts = 0 }
 		victory_points = { 2387 5 }
 		victory_points = { 3605 5 }
@@ -29,7 +28,7 @@ state = {
 			industrial_complex = 2
 			air_base = 3
 			dockyard = 2
-			specialmaterial_building = 2
+			specialmaterial_building = 1
 			8711 = {
 				supply_node = 1
 				naval_base = 6

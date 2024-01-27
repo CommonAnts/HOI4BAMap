@@ -8,15 +8,14 @@ state = {
 		18 136 644 693 785 1379 1466 2057 2133 2169 2201 2352 2491 2608 2688 2733 3061 3183 3217 3259 3500 3933 4229 4688 5141 8457 8466 8468 8477 8491 8494 8503 8514 8555
 	}
 	resources = {
-		oil = 35
 	}
 	history = {
 		owner = GEH
 		add_core_of = GEH
 		set_variable = { province_num = 34 }
 		set_variable = { student_num = 4841 }
-		set_variable = { potentialresources_oil = 5 }
-		set_variable = { potentialresources_mineral = 4 }
+		set_variable = { potentialresources_oil = 0 }
+		set_variable = { potentialresources_mineral = 12 }
 		set_variable = { potentialresources_ooparts = 0 }
 		victory_points = { 644 3 }
 		victory_points = { 2201 3 }
@@ -29,6 +28,7 @@ state = {
 			industrial_complex = 1
 			air_base = 2
 			anti_air_building = 1
+			basematerial_building = 1
 			2688 = {
 				supply_node = 1
 			}

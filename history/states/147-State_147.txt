@@ -8,14 +8,14 @@ state = {
 		24 1547 1548 2218 2770 4030 4505 4837 5238 6520 6525 6567 6575 6628 6634 6649 6675
 	}
 	resources = {
-		basematerial = 5
+		basematerial = 4
 	}
 	history = {
 		owner = VAL
 		add_core_of = VAL
 		set_variable = { province_num = 17 }
 		set_variable = { student_num = 4915 }
-		set_variable = { potentialresources_oil = 4 }
+		set_variable = { potentialresources_oil = 0 }
 		set_variable = { potentialresources_mineral = 0 }
 		set_variable = { potentialresources_ooparts = 0 }
 		victory_points = { 24 5 }
@@ -31,8 +31,7 @@ state = {
 			arms_factory = 2
 			industrial_complex = 3
 			air_base = 4
-			basematerial_building = 2
-			specialmaterial_building = 2
+			synthetic_refinery = 3
 			5238 = {
 				supply_node = 1
 			}

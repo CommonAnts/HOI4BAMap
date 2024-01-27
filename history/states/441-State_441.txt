@@ -8,7 +8,7 @@ state = {
 		881 1982 2302 2505 2919 2941 3838 3863 3953 3958 4805 4841 5084 8677 8680 8696 8706 8721 8728
 	}
 	resources = {
-		oil = 21
+		oil = 38
 	}
 	history = {
 		owner = GEH
@@ -29,7 +29,6 @@ state = {
 			air_base = 3
 			dockyard = 3
 			anti_air_building = 2
-			synthetic_refinery = 4
 			5084 = {
 				supply_node = 1
 				naval_base = 6

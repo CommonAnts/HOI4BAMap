@@ -8,7 +8,7 @@ state = {
 		82 122 207 302 831 919 1022 1163 1191 1445 1670 1885 2059 2097 2200 2498 2938 3193 3421 3638 3702 3810 4013 4023 4561 4636 4945 5229 5509 5540 5551 5554 5558 5565 5579 5583 5605 5618 5636 5645 5657 5679 5693
 	}
 	resources = {
-		ooparts = 12
+		ooparts = 17
 	}
 	history = {
 		owner = MIL
@@ -16,8 +16,8 @@ state = {
 		set_variable = { province_num = 43 }
 		set_variable = { student_num = 500 }
 		set_variable = { potentialresources_oil = 0 }
-		set_variable = { potentialresources_mineral = 5 }
-		set_variable = { potentialresources_ooparts = 28 }
+		set_variable = { potentialresources_mineral = 0 }
+		set_variable = { potentialresources_ooparts = 27 }
 		victory_points = { 3810 2 }
 		victory_points = { 5605 2 }
 		buildings = {

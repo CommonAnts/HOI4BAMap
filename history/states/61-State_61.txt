@@ -14,9 +14,9 @@ state = {
 		add_core_of = SRT
 		set_variable = { province_num = 13 }
 		set_variable = { student_num = 94 }
-		set_variable = { potentialresources_oil = 4 }
-		set_variable = { potentialresources_mineral = 21 }
-		set_variable = { potentialresources_ooparts = 6 }
+		set_variable = { potentialresources_oil = 0 }
+		set_variable = { potentialresources_mineral = 6 }
+		set_variable = { potentialresources_ooparts = 0 }
 		victory_points = { 2093 2 }
 		buildings = {
 			2093 = {

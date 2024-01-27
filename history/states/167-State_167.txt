@@ -8,7 +8,7 @@ state = {
 		1023 3765 4383 4396 6732 6733 6755 6756 6757 6772 6778
 	}
 	resources = {
-		basematerial = 5
+		basematerial = 6
 	}
 	history = {
 		owner = CEN
@@ -30,8 +30,7 @@ state = {
 			air_base = 4
 			anti_air_building = 3
 			radar_station = 1
-			synthetic_refinery = 3
-			specialmaterial_building = 6
+			basematerial_building = 6
 			6756 = {
 				supply_node = 1
 			}

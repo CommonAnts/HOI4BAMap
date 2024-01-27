@@ -8,15 +8,16 @@ state = {
 		327 402 1230 2177 2488 2987 3325 3349 4029 4852 4864 7932 7955 7972 7977 7985 7995 8007 8009 8013 8018 8028 8049 8102
 	}
 	resources = {
+		mineral = 85
 	}
 	history = {
 		owner = ABD
 		add_core_of = ABD
 		set_variable = { province_num = 24 }
 		set_variable = { student_num = 83 }
-		set_variable = { potentialresources_oil = 11 }
+		set_variable = { potentialresources_oil = 0 }
 		set_variable = { potentialresources_mineral = 0 }
-		set_variable = { potentialresources_ooparts = 0 }
+		set_variable = { potentialresources_ooparts = 5 }
 		victory_points = { 1230 3 }
 		victory_points = { 2488 5 }
 		victory_points = { 7985 5 }
@@ -28,8 +29,6 @@ state = {
 			infrastructure = 4
 			industrial_complex = 1
 			air_base = 4
-			synthetic_refinery = 1
-			basematerial_building = 1
 			8009 = {
 				supply_node = 1
 			}

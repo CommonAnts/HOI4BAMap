@@ -14,9 +14,9 @@ state = {
 		add_core_of = RWT
 		set_variable = { province_num = 19 }
 		set_variable = { student_num = 3211 }
-		set_variable = { potentialresources_oil = 5 }
-		set_variable = { potentialresources_mineral = 5 }
-		set_variable = { potentialresources_ooparts = 7 }
+		set_variable = { potentialresources_oil = 0 }
+		set_variable = { potentialresources_mineral = 0 }
+		set_variable = { potentialresources_ooparts = 0 }
 		victory_points = { 1103 20 }
 		victory_points = { 2000 5 }
 		victory_points = { 4620 3 }
@@ -27,7 +27,6 @@ state = {
 			arms_factory = 1
 			industrial_complex = 2
 			air_base = 3
-			specialmaterial_building = 1
 			1103 = {
 				supply_node = 1
 			}

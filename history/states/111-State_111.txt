@@ -8,15 +8,16 @@ state = {
 		67 274 543 587 707 775 884 893 914 955 1093 1648 2848 2855 2874 2930 3104 3594 4283 4750 4954 5043 5115 5248 6191 6213 6241 6299 6310 6315 6335 6364 6372 6384 6393 6420 6426 6623 8891 9905 9920
 	}
 	resources = {
-		oil = 7
+		oil = 14
+		mineral = 22
 	}
 	history = {
 		owner = STE
 		add_core_of = STE
 		set_variable = { province_num = 41 }
 		set_variable = { student_num = 1493 }
-		set_variable = { potentialresources_oil = 4 }
-		set_variable = { potentialresources_mineral = 11 }
+		set_variable = { potentialresources_oil = 12 }
+		set_variable = { potentialresources_mineral = 32 }
 		set_variable = { potentialresources_ooparts = 0 }
 		victory_points = { 775 10 }
 		victory_points = { 6191 3 }

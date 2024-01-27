@@ -8,13 +8,15 @@ state = {
 		53 189 679 794 1126 1477 1754 1910 1915 1959 2262 2277 2358 2571 2755 2970 3011 3318 3580 3618 3732 4180 4489 4598 4775 4987 5208 5245 5925 5964 5965 5991 5995 6023 6029 6036 6056 6057 6161
 	}
 	resources = {
+		oil = 20
+		mineral = 11
 	}
 	history = {
 		owner = STE
 		add_core_of = STE
 		set_variable = { province_num = 39 }
 		set_variable = { student_num = 1651 }
-		set_variable = { potentialresources_oil = 5 }
+		set_variable = { potentialresources_oil = 15 }
 		set_variable = { potentialresources_mineral = 6 }
 		set_variable = { potentialresources_ooparts = 0 }
 		victory_points = { 3318 20 }
@@ -26,6 +28,7 @@ state = {
 			industrial_complex = 1
 			air_base = 3
 			synthetic_refinery = 1
+			basematerial_building = 1
 			specialmaterial_building = 1
 			3318 = {
 				supply_node = 1

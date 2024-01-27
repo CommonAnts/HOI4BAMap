@@ -8,6 +8,7 @@ state = {
 		180 199 424 1041 1193 1384 1408 1797 2416 2912 3357 3668 3861 4188 4936 4985 5051 5428 5429 5432 5437 5440 5445 5447 5452 5454 5457 5463 5466 5471 5487
 	}
 	resources = {
+		basematerial = 4
 	}
 	history = {
 		owner = MIL
@@ -31,7 +32,7 @@ state = {
 			dockyard = 4
 			anti_air_building = 3
 			radar_station = 1
-			electronic_building = 6
+			specialmaterial_building = 1
 			5432 = {
 				supply_node = 1
 				naval_base = 5

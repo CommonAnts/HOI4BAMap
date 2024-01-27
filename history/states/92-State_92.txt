@@ -8,16 +8,16 @@ state = {
 		396 691 1770 2406 2508 2643 2811 3441 3657 3730 4215 4390 4990 5993 6015 6052 6078 6092 6103 6117 6139
 	}
 	resources = {
-		mineral = 18
+		oil = 19
 	}
 	history = {
 		owner = HSP
 		add_core_of = HSP
 		set_variable = { province_num = 21 }
 		set_variable = { student_num = 1820 }
-		set_variable = { potentialresources_oil = 4 }
+		set_variable = { potentialresources_oil = 0 }
 		set_variable = { potentialresources_mineral = 0 }
-		set_variable = { potentialresources_ooparts = 9 }
+		set_variable = { potentialresources_ooparts = 7 }
 		victory_points = { 396 10 }
 		victory_points = { 3441 3 }
 		victory_points = { 6015 3 }
