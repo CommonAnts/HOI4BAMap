@@ -13,9 +13,9 @@ state = {
 		owner = WS2
 		set_variable = { province_num = 36 }
 		set_variable = { student_num = 6 }
-		set_variable = { potentialresources_oil = 0 }
+		set_variable = { potentialresources_oil = 4 }
 		set_variable = { potentialresources_mineral = 0 }
-		set_variable = { potentialresources_ooparts = 7 }
+		set_variable = { potentialresources_ooparts = 21 }
 		buildings = {
 		}
 	}

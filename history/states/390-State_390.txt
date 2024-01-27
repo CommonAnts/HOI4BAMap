@@ -8,6 +8,7 @@ state = {
 		1661 2330 2684 3592 3684 4717 8538 8583 8605 8619
 	}
 	resources = {
+		ooparts = 18
 	}
 	history = {
 		owner = RWT
@@ -16,7 +17,7 @@ state = {
 		set_variable = { student_num = 1194 }
 		set_variable = { potentialresources_oil = 0 }
 		set_variable = { potentialresources_mineral = 0 }
-		set_variable = { potentialresources_ooparts = 0 }
+		set_variable = { potentialresources_ooparts = 21 }
 		victory_points = { 1661 3 }
 		victory_points = { 8605 10 }
 		buildings = {

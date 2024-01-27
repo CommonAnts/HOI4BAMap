@@ -35,7 +35,8 @@ state = {
 			air_base = 5
 			anti_air_building = 4
 			radar_station = 2
-			synthetic_refinery = 6
+			synthetic_refinery = 1
+			electronic_building = 6
 			2996 = {
 				supply_node = 1
 			}

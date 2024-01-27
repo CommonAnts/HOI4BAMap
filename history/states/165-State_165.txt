@@ -8,7 +8,8 @@ state = {
 		234 700 1140 1437 1700 2011 2165 2443 2985 3067 3407 3435 3514 3711 4192 4371 4621 4677 4807 5008 5271 6686 6752 6817 6839 6857 6865 6868 6879 6888 6906 6911 6919 6924 6940 6950 6960 6965 6989 7026
 	}
 	resources = {
-		basematerial = 6
+		mineral = 37
+		basematerial = 5
 	}
 	history = {
 		owner = HYA
@@ -31,6 +32,8 @@ state = {
 			arms_factory = 1
 			industrial_complex = 5
 			air_base = 4
+			basematerial_building = 1
+			specialmaterial_building = 1
 			5271 = {
 				supply_node = 1
 			}

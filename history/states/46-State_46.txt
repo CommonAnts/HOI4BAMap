@@ -8,6 +8,7 @@ state = {
 		781 1042 2823 4507 5615 5625 5640 5666 5670
 	}
 	resources = {
+		mineral = 12
 	}
 	history = {
 		owner = SRT
@@ -15,8 +16,8 @@ state = {
 		set_variable = { province_num = 9 }
 		set_variable = { student_num = 1042 }
 		set_variable = { potentialresources_oil = 0 }
-		set_variable = { potentialresources_mineral = 6 }
-		set_variable = { potentialresources_ooparts = 8 }
+		set_variable = { potentialresources_mineral = 24 }
+		set_variable = { potentialresources_ooparts = 0 }
 		victory_points = { 781 3 }
 		victory_points = { 2823 10 }
 		victory_points = { 5615 3 }
@@ -27,7 +28,6 @@ state = {
 			industrial_complex = 1
 			air_base = 2
 			dockyard = 1
-			basematerial_building = 1
 			2823 = {
 				supply_node = 1
 				naval_base = 4

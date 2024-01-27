@@ -8,13 +8,14 @@ state = {
 		528 580 630 1067 1867 6031 6032 6045
 	}
 	resources = {
+		oil = 21
 	}
 	history = {
 		owner = KRO
 		add_core_of = KRO
 		set_variable = { province_num = 8 }
 		set_variable = { student_num = 492 }
-		set_variable = { potentialresources_oil = 0 }
+		set_variable = { potentialresources_oil = 17 }
 		set_variable = { potentialresources_mineral = 0 }
 		set_variable = { potentialresources_ooparts = 0 }
 		victory_points = { 1867 2 }

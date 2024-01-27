@@ -8,7 +8,7 @@ state = {
 		1585 2252 2372 3205 3281 3984 4316 4409 4653 5716 5743 5754 5769 5775 5780 5784 5788 5810 5819 5820 5823 5834 5851 5860 5870 5874 5894
 	}
 	resources = {
-		basematerial = 8
+		basematerial = 7
 	}
 	history = {
 		owner = MIL
@@ -36,6 +36,7 @@ state = {
 			air_base = 5
 			anti_air_building = 4
 			radar_station = 2
+			electronic_building = 6
 			5819 = {
 				supply_node = 1
 			}

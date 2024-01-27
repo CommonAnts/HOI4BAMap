@@ -28,6 +28,7 @@ state = {
 			industrial_complex = 1
 			air_base = 3
 			anti_air_building = 2
+			basematerial_building = 6
 			4733 = {
 				supply_node = 1
 			}

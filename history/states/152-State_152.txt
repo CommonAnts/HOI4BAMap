@@ -8,6 +8,7 @@ state = {
 		2006 6521 6553 6557 6562 6576 6599
 	}
 	resources = {
+		ooparts = 10
 		basematerial = 7
 	}
 	history = {
@@ -17,7 +18,7 @@ state = {
 		set_variable = { student_num = 10764 }
 		set_variable = { potentialresources_oil = 0 }
 		set_variable = { potentialresources_mineral = 0 }
-		set_variable = { potentialresources_ooparts = 0 }
+		set_variable = { potentialresources_ooparts = 13 }
 		victory_points = { 2006 5 }
 		victory_points = { 6521 5 }
 		victory_points = { 6553 5 }

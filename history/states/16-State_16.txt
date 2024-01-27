@@ -8,6 +8,7 @@ state = {
 		3042 4139 4672 4706 4719 5168 5379 5383
 	}
 	resources = {
+		ooparts = 12
 		basematerial = 4
 	}
 	history = {
@@ -17,7 +18,7 @@ state = {
 		set_variable = { student_num = 8738 }
 		set_variable = { potentialresources_oil = 0 }
 		set_variable = { potentialresources_mineral = 0 }
-		set_variable = { potentialresources_ooparts = 0 }
+		set_variable = { potentialresources_ooparts = 12 }
 		victory_points = { 3042 5 }
 		victory_points = { 4139 5 }
 		victory_points = { 4672 40 }
@@ -29,7 +30,6 @@ state = {
 			industrial_complex = 3
 			air_base = 5
 			dockyard = 6
-			electronic_building = 1
 			4672 = {
 				supply_node = 1
 				bunker = 2

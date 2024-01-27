@@ -8,15 +8,16 @@ state = {
 		33 137 187 275 579 839 894 1024 1339 1842 1844 1883 1886 1948 2034 2263 2297 2844 3141 3329 3395 3537 4294 5821 5828 5839 5893 5899 5934 5935 5937 5957 6051
 	}
 	resources = {
+		oil = 31
 	}
 	history = {
 		owner = HYA
 		add_core_of = HYA
 		set_variable = { province_num = 33 }
 		set_variable = { student_num = 1556 }
-		set_variable = { potentialresources_oil = 10 }
-		set_variable = { potentialresources_mineral = 6 }
-		set_variable = { potentialresources_ooparts = 6 }
+		set_variable = { potentialresources_oil = 6 }
+		set_variable = { potentialresources_mineral = 0 }
+		set_variable = { potentialresources_ooparts = 0 }
 		victory_points = { 894 2 }
 		victory_points = { 1842 2 }
 		victory_points = { 3141 5 }

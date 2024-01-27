@@ -8,6 +8,7 @@ state = {
 		254 1949 2211 2345 4454 4673 8682 8685 8713 8726 8732 8743 8762
 	}
 	resources = {
+		oil = 8
 		mineral = 12
 	}
 	history = {
@@ -15,8 +16,8 @@ state = {
 		add_core_of = GEH
 		set_variable = { province_num = 13 }
 		set_variable = { student_num = 3252 }
-		set_variable = { potentialresources_oil = 4 }
-		set_variable = { potentialresources_mineral = 9 }
+		set_variable = { potentialresources_oil = 0 }
+		set_variable = { potentialresources_mineral = 0 }
 		set_variable = { potentialresources_ooparts = 0 }
 		victory_points = { 2211 3 }
 		victory_points = { 4454 3 }
@@ -28,7 +29,6 @@ state = {
 			air_base = 2
 			dockyard = 1
 			anti_air_building = 1
-			specialmaterial_building = 5
 			8732 = {
 				supply_node = 1
 			}

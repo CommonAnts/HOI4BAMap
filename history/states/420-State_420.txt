@@ -14,9 +14,9 @@ state = {
 		add_core_of = WLH
 		set_variable = { province_num = 28 }
 		set_variable = { student_num = 505 }
-		set_variable = { potentialresources_oil = 15 }
-		set_variable = { potentialresources_mineral = 45 }
-		set_variable = { potentialresources_ooparts = 0 }
+		set_variable = { potentialresources_oil = 20 }
+		set_variable = { potentialresources_mineral = 5 }
+		set_variable = { potentialresources_ooparts = 5 }
 		victory_points = { 2246 5 }
 		victory_points = { 3932 2 }
 		buildings = {

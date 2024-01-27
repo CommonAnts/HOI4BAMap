@@ -8,16 +8,16 @@ state = {
 		9 541 966 1292 1512 1617 1872 2050 2266 2620 2707 2740 2773 2795 2809 2960 3614 3920 4579 5038 5066 8439 8447 8498 8549 8570 8608 8627 8638 8645 8660
 	}
 	resources = {
-		mineral = 23
+		ooparts = 8
 	}
 	history = {
 		owner = WLH
 		add_core_of = WLH
 		set_variable = { province_num = 31 }
 		set_variable = { student_num = 802 }
-		set_variable = { potentialresources_oil = 9 }
+		set_variable = { potentialresources_oil = 5 }
 		set_variable = { potentialresources_mineral = 0 }
-		set_variable = { potentialresources_ooparts = 0 }
+		set_variable = { potentialresources_ooparts = 5 }
 		victory_points = { 2960 2 }
 		victory_points = { 4579 5 }
 		victory_points = { 8660 2 }

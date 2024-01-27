@@ -8,16 +8,15 @@ state = {
 		689 1130 1306 1344 1387 1509 1545 1813 1937 2240 2494 2989 3052 3179 4082 4182 4509 4972 7420 7425 7426 7434 7449 7458 7482 7492 7543 7555 7580
 	}
 	resources = {
-		oil = 16
-		mineral = 22
+		oil = 58
 	}
 	history = {
 		owner = ARI
 		add_core_of = ARI
 		set_variable = { province_num = 29 }
 		set_variable = { student_num = 2275 }
-		set_variable = { potentialresources_oil = 19 }
-		set_variable = { potentialresources_mineral = 21 }
+		set_variable = { potentialresources_oil = 23 }
+		set_variable = { potentialresources_mineral = 0 }
 		set_variable = { potentialresources_ooparts = 0 }
 		victory_points = { 1130 10 }
 		victory_points = { 1937 3 }

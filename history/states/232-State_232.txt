@@ -8,16 +8,16 @@ state = {
 		113 130 335 361 379 841 1004 1741 2278 2663 2765 2935 3144 3223 3231 3418 3726 3797 4083 4533 4681 4873 4875 7312 7314 7333 7346 7363 7368 7374 7382 7384 7385 7387 7388 7392 7399 7400 7405 7411 7412 7415 7421 7430 7432 7436 7457 7481
 	}
 	resources = {
-		oil = 27
+		oil = 8
 	}
 	history = {
 		owner = SHA
 		add_core_of = SHA
 		set_variable = { province_num = 48 }
 		set_variable = { student_num = 6743 }
-		set_variable = { potentialresources_oil = 12 }
-		set_variable = { potentialresources_mineral = 9 }
-		set_variable = { potentialresources_ooparts = 0 }
+		set_variable = { potentialresources_oil = 0 }
+		set_variable = { potentialresources_mineral = 0 }
+		set_variable = { potentialresources_ooparts = 6 }
 		victory_points = { 113 3 }
 		victory_points = { 130 3 }
 		victory_points = { 379 5 }
@@ -33,6 +33,7 @@ state = {
 			industrial_complex = 1
 			air_base = 4
 			dockyard = 1
+			electronic_building = 2
 			7411 = {
 				supply_node = 1
 			}

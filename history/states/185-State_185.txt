@@ -15,8 +15,8 @@ state = {
 		set_variable = { province_num = 20 }
 		set_variable = { student_num = 2153 }
 		set_variable = { potentialresources_oil = 0 }
-		set_variable = { potentialresources_mineral = 0 }
-		set_variable = { potentialresources_ooparts = 0 }
+		set_variable = { potentialresources_mineral = 4 }
+		set_variable = { potentialresources_ooparts = 6 }
 		victory_points = { 3182 3 }
 		victory_points = { 7018 10 }
 		victory_points = { 7031 3 }

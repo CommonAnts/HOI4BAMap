@@ -8,13 +8,14 @@ state = {
 		1 57 420 494 859 1079 1684 2193 2594 2946 3076 3126 3718 4895 7896 7929 7973
 	}
 	resources = {
+		mineral = 17
 	}
 	history = {
 		owner = GEH
 		add_core_of = GEH
 		set_variable = { province_num = 17 }
 		set_variable = { student_num = 366 }
-		set_variable = { potentialresources_oil = 7 }
+		set_variable = { potentialresources_oil = 0 }
 		set_variable = { potentialresources_mineral = 0 }
 		set_variable = { potentialresources_ooparts = 0 }
 		victory_points = { 7896 2 }

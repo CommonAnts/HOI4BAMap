@@ -14,9 +14,9 @@ state = {
 		add_core_of = GEH
 		set_variable = { province_num = 15 }
 		set_variable = { student_num = 306 }
-		set_variable = { potentialresources_oil = 10 }
-		set_variable = { potentialresources_mineral = 6 }
-		set_variable = { potentialresources_ooparts = 12 }
+		set_variable = { potentialresources_oil = 0 }
+		set_variable = { potentialresources_mineral = 0 }
+		set_variable = { potentialresources_ooparts = 0 }
 		victory_points = { 4704 2 }
 		buildings = {
 		}

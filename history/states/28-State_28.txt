@@ -8,14 +8,15 @@ state = {
 		1383 1952 2428 2473 2523 3294 4725 5094 5228 5456 5459 5462 5465 5470 5480 5489 5502 5506 5510
 	}
 	resources = {
+		oil = 9
 	}
 	history = {
 		owner = CA4
 		add_core_of = CA4
 		set_variable = { province_num = 19 }
 		set_variable = { student_num = 1379 }
-		set_variable = { potentialresources_oil = 6 }
-		set_variable = { potentialresources_mineral = 8 }
+		set_variable = { potentialresources_oil = 0 }
+		set_variable = { potentialresources_mineral = 0 }
 		set_variable = { potentialresources_ooparts = 0 }
 		victory_points = { 3294 3 }
 		victory_points = { 5456 5 }
@@ -25,7 +26,6 @@ state = {
 			infrastructure = 3
 			industrial_complex = 2
 			air_base = 2
-			synthetic_refinery = 4
 			5456 = {
 				supply_node = 1
 				naval_base = 3

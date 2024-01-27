@@ -8,14 +8,14 @@ state = {
 		380 516 1033 1107 1241 2975 3033 4104 4406 6017 6055 6065 6080 6091 6099 6108 6168 6211
 	}
 	resources = {
-		oil = 25
+		ooparts = 35
 	}
 	history = {
 		owner = KRO
 		add_core_of = KRO
 		set_variable = { province_num = 18 }
 		set_variable = { student_num = 707 }
-		set_variable = { potentialresources_oil = 0 }
+		set_variable = { potentialresources_oil = 5 }
 		set_variable = { potentialresources_mineral = 0 }
 		set_variable = { potentialresources_ooparts = 0 }
 		victory_points = { 2975 10 }
@@ -23,6 +23,7 @@ state = {
 		buildings = {
 			infrastructure = 2
 			air_base = 1
+			synthetic_refinery = 1
 			2975 = {
 				supply_node = 1
 			}

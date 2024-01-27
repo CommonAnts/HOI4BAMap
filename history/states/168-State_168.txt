@@ -15,7 +15,7 @@ state = {
 		add_core_of = TRY
 		set_variable = { province_num = 34 }
 		set_variable = { student_num = 8452 }
-		set_variable = { potentialresources_oil = 0 }
+		set_variable = { potentialresources_oil = 4 }
 		set_variable = { potentialresources_mineral = 0 }
 		set_variable = { potentialresources_ooparts = 0 }
 		victory_points = { 2238 5 }
@@ -36,7 +36,7 @@ state = {
 			air_base = 4
 			anti_air_building = 3
 			radar_station = 1
-			basematerial_building = 6
+			synthetic_refinery = 1
 			6907 = {
 				supply_node = 1
 			}

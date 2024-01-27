@@ -8,6 +8,7 @@ state = {
 		438 722 1909 3303 4669 4905 7028 7122 7165 7180
 	}
 	resources = {
+		oil = 12
 	}
 	history = {
 		owner = CA3

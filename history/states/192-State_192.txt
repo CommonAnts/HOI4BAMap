@@ -8,14 +8,14 @@ state = {
 		68 459 506 571 800 2023 2366 2548 4423 4617 4735 4814 5134 6936 6957 7032 7098 7099 7134 7142 7143 7160 7172 7182 7200 7212 7226 7251 7254 7263 7273 7274 7288 7330
 	}
 	resources = {
-		ooparts = 44
+		oil = 12
 	}
 	history = {
 		owner = TRY
 		add_core_of = TRY
 		set_variable = { province_num = 34 }
 		set_variable = { student_num = 4985 }
-		set_variable = { potentialresources_oil = 0 }
+		set_variable = { potentialresources_oil = 25 }
 		set_variable = { potentialresources_mineral = 0 }
 		set_variable = { potentialresources_ooparts = 0 }
 		victory_points = { 506 3 }
@@ -30,6 +30,7 @@ state = {
 			air_base = 3
 			dockyard = 2
 			anti_air_building = 2
+			synthetic_refinery = 6
 			7226 = {
 				supply_node = 1
 				naval_base = 6

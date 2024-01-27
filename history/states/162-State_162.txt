@@ -8,7 +8,7 @@ state = {
 		6596 6630 6655
 	}
 	resources = {
-		basematerial = 5
+		basematerial = 6
 	}
 	history = {
 		owner = CA3

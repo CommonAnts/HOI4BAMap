@@ -14,7 +14,7 @@ state = {
 		add_core_of = HYA
 		set_variable = { province_num = 16 }
 		set_variable = { student_num = 5056 }
-		set_variable = { potentialresources_oil = 0 }
+		set_variable = { potentialresources_oil = 4 }
 		set_variable = { potentialresources_mineral = 0 }
 		set_variable = { potentialresources_ooparts = 0 }
 		victory_points = { 2624 5 }
@@ -26,7 +26,7 @@ state = {
 			infrastructure = 3
 			industrial_complex = 2
 			air_base = 3
-			basematerial_building = 6
+			specialmaterial_building = 4
 			4531 = {
 				supply_node = 1
 			}

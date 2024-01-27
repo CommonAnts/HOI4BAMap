@@ -14,8 +14,8 @@ state = {
 		add_core_of = CA1
 		set_variable = { province_num = 12 }
 		set_variable = { student_num = 610 }
-		set_variable = { potentialresources_oil = 23 }
-		set_variable = { potentialresources_mineral = 0 }
+		set_variable = { potentialresources_oil = 0 }
+		set_variable = { potentialresources_mineral = 5 }
 		set_variable = { potentialresources_ooparts = 0 }
 		victory_points = { 3232 2 }
 		victory_points = { 4701 2 }

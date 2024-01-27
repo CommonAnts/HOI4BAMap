@@ -30,7 +30,7 @@ state = {
 			industrial_complex = 2
 			air_base = 4
 			dockyard = 1
-			synthetic_refinery = 6
+			basematerial_building = 6
 			7145 = {
 				supply_node = 1
 			}

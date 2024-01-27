@@ -8,14 +8,15 @@ state = {
 		677 2582 2706 3990 4179 4336 4365 4395 5079 5096 5233 7786 7809 7831 7836 7847 7848 7852 7861
 	}
 	resources = {
+		oil = 12
 	}
 	history = {
 		owner = SHA
 		add_core_of = SHA
 		set_variable = { province_num = 19 }
 		set_variable = { student_num = 2837 }
-		set_variable = { potentialresources_oil = 8 }
-		set_variable = { potentialresources_mineral = 6 }
+		set_variable = { potentialresources_oil = 4 }
+		set_variable = { potentialresources_mineral = 8 }
 		set_variable = { potentialresources_ooparts = 0 }
 		victory_points = { 4365 10 }
 		victory_points = { 5079 3 }
@@ -24,7 +25,7 @@ state = {
 		buildings = {
 			infrastructure = 3
 			air_base = 2
-			synthetic_refinery = 5
+			basematerial_building = 3
 			4365 = {
 				supply_node = 1
 			}

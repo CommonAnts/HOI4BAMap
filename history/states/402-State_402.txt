@@ -8,15 +8,16 @@ state = {
 		61 294 357 560 796 899 1065 1229 1713 1932 2597 2762 3043 3065 3791 3848 3894 4325 4330 4699 8666 8695 8704 8724 8744 8759 8771 8778 8788
 	}
 	resources = {
+		oil = 9
 	}
 	history = {
 		owner = RWT
 		add_core_of = RWT
 		set_variable = { province_num = 29 }
 		set_variable = { student_num = 272 }
-		set_variable = { potentialresources_oil = 0 }
-		set_variable = { potentialresources_mineral = 9 }
-		set_variable = { potentialresources_ooparts = 0 }
+		set_variable = { potentialresources_oil = 18 }
+		set_variable = { potentialresources_mineral = 0 }
+		set_variable = { potentialresources_ooparts = 5 }
 		victory_points = { 294 2 }
 		buildings = {
 		}

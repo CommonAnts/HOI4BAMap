@@ -8,16 +8,15 @@ state = {
 		1527 1743 2031 2061 2479 2492 2617 2949 3023 3063 3103 3308 3374 3664 4060 4257 4464 4510 4967 5297 5298 5301 5303 5310 5311 5313 5319 5330 8878
 	}
 	resources = {
-		mineral = 76
 	}
 	history = {
 		owner = ODY
 		add_core_of = ODY
 		set_variable = { province_num = 29 }
 		set_variable = { student_num = 1066 }
-		set_variable = { potentialresources_oil = 17 }
-		set_variable = { potentialresources_mineral = 13 }
-		set_variable = { potentialresources_ooparts = 0 }
+		set_variable = { potentialresources_oil = 4 }
+		set_variable = { potentialresources_mineral = 0 }
+		set_variable = { potentialresources_ooparts = 4 }
 		victory_points = { 4257 3 }
 		victory_points = { 5310 3 }
 		victory_points = { 5311 10 }
@@ -25,7 +24,7 @@ state = {
 			infrastructure = 3
 			arms_factory = 1
 			air_base = 2
-			specialmaterial_building = 1
+			synthetic_refinery = 1
 			5311 = {
 				supply_node = 1
 				naval_base = 6

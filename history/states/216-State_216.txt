@@ -34,6 +34,7 @@ state = {
 			dockyard = 2
 			anti_air_building = 3
 			radar_station = 1
+			synthetic_refinery = 5
 			4252 = {
 				supply_node = 1
 			}

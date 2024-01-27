@@ -8,16 +8,16 @@ state = {
 		417 497 603 798 976 1404 2044 2390 2433 2678 2722 3725 4084 4255 4755 5056 7853 7876 7885 7907 7914 7922 7939 7942 7969 8003
 	}
 	resources = {
-		ooparts = 20
+		ooparts = 11
 	}
 	history = {
 		owner = ABD
 		add_core_of = ABD
 		set_variable = { province_num = 26 }
 		set_variable = { student_num = 23 }
-		set_variable = { potentialresources_oil = 0 }
+		set_variable = { potentialresources_oil = 33 }
 		set_variable = { potentialresources_mineral = 0 }
-		set_variable = { potentialresources_ooparts = 23 }
+		set_variable = { potentialresources_ooparts = 13 }
 		victory_points = { 7907 3 }
 		victory_points = { 7942 10 }
 		buildings = {

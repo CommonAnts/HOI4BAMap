@@ -14,8 +14,8 @@ state = {
 		add_core_of = RWT
 		set_variable = { province_num = 20 }
 		set_variable = { student_num = 290 }
-		set_variable = { potentialresources_oil = 7 }
-		set_variable = { potentialresources_mineral = 11 }
+		set_variable = { potentialresources_oil = 6 }
+		set_variable = { potentialresources_mineral = 0 }
 		set_variable = { potentialresources_ooparts = 0 }
 		victory_points = { 3050 2 }
 		victory_points = { 4633 2 }

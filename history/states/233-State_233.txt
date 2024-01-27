@@ -8,7 +8,7 @@ state = {
 		959 7323
 	}
 	resources = {
-		basematerial = 5
+		basematerial = 4
 	}
 	history = {
 		owner = TRY
@@ -27,7 +27,7 @@ state = {
 			air_base = 4
 			anti_air_building = 3
 			radar_station = 1
-			specialmaterial_building = 4
+			specialmaterial_building = 6
 			959 = {
 				supply_node = 1
 				bunker = 2

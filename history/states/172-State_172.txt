@@ -8,6 +8,7 @@ state = {
 		1582 1906 4170 4468
 	}
 	resources = {
+		mineral = 21
 	}
 	history = {
 		owner = CEN
@@ -15,7 +16,7 @@ state = {
 		set_variable = { province_num = 4 }
 		set_variable = { student_num = 302 }
 		set_variable = { potentialresources_oil = 0 }
-		set_variable = { potentialresources_mineral = 0 }
+		set_variable = { potentialresources_mineral = 26 }
 		set_variable = { potentialresources_ooparts = 0 }
 		victory_points = { 1906 5 }
 		buildings = {

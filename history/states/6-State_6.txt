@@ -8,15 +8,14 @@ state = {
 		98 962 1444 1690 2233 2836 4386 4830 5035 5171 5306 5312 5316 5318 5321 5324 5325 5338 5341
 	}
 	resources = {
-		oil = 13
 	}
 	history = {
 		owner = ODY
 		add_core_of = ODY
 		set_variable = { province_num = 19 }
 		set_variable = { student_num = 639 }
-		set_variable = { potentialresources_oil = 29 }
-		set_variable = { potentialresources_mineral = 4 }
+		set_variable = { potentialresources_oil = 0 }
+		set_variable = { potentialresources_mineral = 8 }
 		set_variable = { potentialresources_ooparts = 0 }
 		victory_points = { 5316 10 }
 		buildings = {

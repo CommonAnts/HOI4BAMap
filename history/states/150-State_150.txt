@@ -8,16 +8,16 @@ state = {
 		110 381 405 868 933 1110 1128 1463 1468 1709 1738 2086 2906 2993 3196 3347 3380 3381 3531 3609 3652 3864 3935 4492 6622 6669 6677 6762 6785 6792 6815 6821 6829 6842 6851 6856 6871 6878 6882 6894 6926
 	}
 	resources = {
-		mineral = 10
+		oil = 26
 	}
 	history = {
 		owner = HIL
 		add_core_of = HIL
 		set_variable = { province_num = 41 }
 		set_variable = { student_num = 1477 }
-		set_variable = { potentialresources_oil = 8 }
-		set_variable = { potentialresources_mineral = 8 }
-		set_variable = { potentialresources_ooparts = 0 }
+		set_variable = { potentialresources_oil = 0 }
+		set_variable = { potentialresources_mineral = 12 }
+		set_variable = { potentialresources_ooparts = 11 }
 		victory_points = { 110 3 }
 		victory_points = { 1128 3 }
 		victory_points = { 6622 3 }
@@ -28,7 +28,6 @@ state = {
 			arms_factory = 1
 			industrial_complex = 2
 			air_base = 2
-			basematerial_building = 1
 			6821 = {
 				supply_node = 1
 			}

@@ -8,15 +8,16 @@ state = {
 		220 492 760 1075 1522 1553 2504 2589 2669 2680 2785 2828 3006 3162 3228 3323 3326 3683 3828 4021 4297 4680 4862 4951 5040 8133 8157 8158 8163 8173 8201 8211 8216 8231 8240 8241 8244 8250 8261 8262 8269 8276 8277 8298 8338 8412
 	}
 	resources = {
+		mineral = 8
 	}
 	history = {
 		owner = RWT
 		add_core_of = RWT
 		set_variable = { province_num = 46 }
 		set_variable = { student_num = 3043 }
-		set_variable = { potentialresources_oil = 12 }
-		set_variable = { potentialresources_mineral = 0 }
-		set_variable = { potentialresources_ooparts = 10 }
+		set_variable = { potentialresources_oil = 4 }
+		set_variable = { potentialresources_mineral = 4 }
+		set_variable = { potentialresources_ooparts = 0 }
 		victory_points = { 2680 3 }
 		victory_points = { 3828 3 }
 		victory_points = { 5040 3 }
@@ -29,7 +30,7 @@ state = {
 			infrastructure = 3
 			industrial_complex = 1
 			air_base = 3
-			synthetic_refinery = 1
+			synthetic_refinery = 6
 			8231 = {
 				supply_node = 1
 			}
