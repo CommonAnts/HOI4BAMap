@@ -1,26 +1,22 @@
 state = {
 	id = 16
 	name = "STATE_16"
-	manpower = 1948073
+	manpower = 2728898
 	state_category = metropolis
 	local_supplies = 8.1
 	provinces = {
 		3042 4139 4672 4706 4719 5168 5379 5383
 	}
 	resources = {
-		oil = 10
-		mineral = 10
-		ooparts = 10
-		basematerial = 10
-		specialmaterial = 10
-		polymer = 10
-		electronic = 10
 	}
 	history = {
 		owner = ODY
 		add_core_of = ODY
 		set_variable = { province_num = 8 }
-		set_variable = { student_num = 7890 }
+		set_variable = { student_num = 8738 }
+		set_variable = { potentialresources_oil = 0 }
+		set_variable = { potentialresources_mineral = 0 }
+		set_variable = { potentialresources_ooparts = 0 }
 		victory_points = { 3042 5 }
 		victory_points = { 4139 5 }
 		victory_points = { 4672 40 }
@@ -29,7 +25,7 @@ state = {
 		buildings = {
 			infrastructure = 4
 			arms_factory = 1
-			industrial_complex = 2
+			industrial_complex = 3
 			air_base = 5
 			dockyard = 6
 			4672 = {

@@ -1,26 +1,23 @@
 state = {
 	id = 271
 	name = "STATE_271"
-	manpower = 2299627
+	manpower = 2154409
 	state_category = city
 	local_supplies = 4.5
 	provinces = {
 		816 1411 1724 3278 3472 4975 7612 7617 7622 7637 7638 7641 7653 7656 7665 7674 7678
 	}
 	resources = {
-		oil = 10
-		mineral = 10
-		ooparts = 10
-		basematerial = 10
-		specialmaterial = 10
-		polymer = 10
-		electronic = 10
+		mineral = 26
 	}
 	history = {
 		owner = CAB
 		add_core_of = CAB
 		set_variable = { province_num = 17 }
-		set_variable = { student_num = 2019 }
+		set_variable = { student_num = 2100 }
+		set_variable = { potentialresources_oil = 0 }
+		set_variable = { potentialresources_mineral = 25 }
+		set_variable = { potentialresources_ooparts = 0 }
 		victory_points = { 4975 3 }
 		victory_points = { 7637 5 }
 		victory_points = { 7641 20 }
@@ -29,7 +26,9 @@ state = {
 		buildings = {
 			infrastructure = 3
 			arms_factory = 2
+			industrial_complex = 1
 			air_base = 3
+			basematerial_building = 1
 			7641 = {
 				supply_node = 1
 			}

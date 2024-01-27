@@ -1,26 +1,23 @@
 state = {
 	id = 139
 	name = "STATE_139"
-	manpower = 856603
+	manpower = 726292
 	state_category = town
 	local_supplies = 1.4
 	provinces = {
 		422 874 1751 3188 3218 4736 4882 6560 6577 6588 6592 6635 6641 6699
 	}
 	resources = {
-		oil = 10
-		mineral = 10
-		ooparts = 10
-		basematerial = 10
-		specialmaterial = 10
-		polymer = 10
-		electronic = 10
+		oil = 12
 	}
 	history = {
 		owner = CA3
 		add_core_of = CA3
 		set_variable = { province_num = 14 }
-		set_variable = { student_num = 610 }
+		set_variable = { student_num = 745 }
+		set_variable = { potentialresources_oil = 6 }
+		set_variable = { potentialresources_mineral = 0 }
+		set_variable = { potentialresources_ooparts = 0 }
 		victory_points = { 422 2 }
 		victory_points = { 6560 5 }
 		victory_points = { 6699 2 }

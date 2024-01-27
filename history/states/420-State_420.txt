@@ -1,26 +1,23 @@
 state = {
 	id = 420
 	name = "STATE_420"
-	manpower = 289041
+	manpower = 365995
 	state_category = rural
 	local_supplies = 1.1
 	provinces = {
 		715 853 1082 2246 2379 2703 2759 3616 3858 3932 4347 4471 4767 4857 5020 8814 8820 8826 8832 8847 8849 8852 8854 8863 8869 8873 8874 8925
 	}
 	resources = {
-		oil = 10
-		mineral = 10
-		ooparts = 10
-		basematerial = 10
-		specialmaterial = 10
-		polymer = 10
-		electronic = 10
+		mineral = 50
 	}
 	history = {
 		owner = WLH
 		add_core_of = WLH
 		set_variable = { province_num = 28 }
-		set_variable = { student_num = 543 }
+		set_variable = { student_num = 505 }
+		set_variable = { potentialresources_oil = 4 }
+		set_variable = { potentialresources_mineral = 49 }
+		set_variable = { potentialresources_ooparts = 0 }
 		victory_points = { 2246 5 }
 		victory_points = { 3932 2 }
 		buildings = {

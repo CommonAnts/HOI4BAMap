@@ -1,26 +1,22 @@
 state = {
 	id = 339
 	name = "STATE_339"
-	manpower = 1865740
+	manpower = 2027558
 	state_category = city
 	local_supplies = 5.7
 	provinces = {
 		352 2132 2247 3465 3642 4400 8083 8101 8115 8125 8134 8140 8160 8175 8189
 	}
 	resources = {
-		oil = 10
-		mineral = 10
-		ooparts = 10
-		basematerial = 10
-		specialmaterial = 10
-		polymer = 10
-		electronic = 10
 	}
 	history = {
 		owner = RWT
 		add_core_of = RWT
 		set_variable = { province_num = 15 }
-		set_variable = { student_num = 4747 }
+		set_variable = { student_num = 4657 }
+		set_variable = { potentialresources_oil = 0 }
+		set_variable = { potentialresources_mineral = 0 }
+		set_variable = { potentialresources_ooparts = 0 }
 		victory_points = { 3465 5 }
 		victory_points = { 3642 5 }
 		victory_points = { 8134 3 }
@@ -30,8 +26,9 @@ state = {
 		victory_points = { 8189 20 }
 		buildings = {
 			infrastructure = 3
-			arms_factory = 1
+			industrial_complex = 1
 			air_base = 3
+			synthetic_refinery = 1
 			3465 = {
 				supply_node = 1
 			}

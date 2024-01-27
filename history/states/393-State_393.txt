@@ -1,33 +1,29 @@
 state = {
 	id = 393
 	name = "STATE_393"
-	manpower = 1375586
+	manpower = 1812926
 	state_category = metropolis
 	local_supplies = 5.3
 	provinces = {
 		8563 8572 8588
 	}
 	resources = {
-		oil = 10
-		mineral = 10
-		ooparts = 10
-		basematerial = 10
-		specialmaterial = 10
-		polymer = 10
-		electronic = 10
 	}
 	history = {
 		owner = WLH
 		add_core_of = WLH
 		set_variable = { province_num = 3 }
-		set_variable = { student_num = 5336 }
+		set_variable = { student_num = 5110 }
+		set_variable = { potentialresources_oil = 0 }
+		set_variable = { potentialresources_mineral = 0 }
+		set_variable = { potentialresources_ooparts = 0 }
 		victory_points = { 8563 5 }
 		victory_points = { 8572 40 }
 		victory_points = { 8588 5 }
 		buildings = {
 			infrastructure = 4
 			arms_factory = 2
-			industrial_complex = 4
+			industrial_complex = 6
 			air_base = 5
 			8572 = {
 				supply_node = 1

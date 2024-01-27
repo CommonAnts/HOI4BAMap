@@ -153,21 +153,6 @@ buildings = {
 		infrastructure_construction_effect = yes
 	}
 
-	synthetic_refinery = {
-		show_on_map = 1
-		base_cost = 6400
-		icon_frame = 10
-		local_resources_polymer = 4
-		refinery = yes
-		max_level = 10 # This is the max unlock level
-		shares_slots = yes
-		value = 5
-		infrastructure_construction_effect = yes
-		
-		show_modifier = yes
-		fuel_gain_from_states = 2.0 #per hour
-	}
-
 	fuel_silo = {
 		show_on_map = 1
 		base_cost = 5000
@@ -218,5 +203,20 @@ buildings = {
 		shares_slots = yes
 		value = 10
 		infrastructure_construction_effect = yes
+	}
+
+	synthetic_refinery = {
+		show_on_map = 1
+		base_cost = 6400
+		icon_frame = 10
+		local_resources_polymer = 4
+		refinery = yes
+		max_level = 10 # This is the max unlock level
+		shares_slots = yes
+		value = 5
+		infrastructure_construction_effect = yes
+		
+		show_modifier = yes
+		fuel_gain_from_states = 2.0 #per hour
 	}
 }

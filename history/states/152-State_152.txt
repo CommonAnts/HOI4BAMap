@@ -1,26 +1,22 @@
 state = {
 	id = 152
 	name = "STATE_152"
-	manpower = 4287097
+	manpower = 4090829
 	state_category = megalopolis
 	local_supplies = 8.7
 	provinces = {
 		2006 6521 6553 6557 6562 6576 6599
 	}
 	resources = {
-		oil = 10
-		mineral = 10
-		ooparts = 10
-		basematerial = 10
-		specialmaterial = 10
-		polymer = 10
-		electronic = 10
 	}
 	history = {
 		owner = VAL
 		add_core_of = VAL
 		set_variable = { province_num = 7 }
-		set_variable = { student_num = 11924 }
+		set_variable = { student_num = 10764 }
+		set_variable = { potentialresources_oil = 0 }
+		set_variable = { potentialresources_mineral = 0 }
+		set_variable = { potentialresources_ooparts = 0 }
 		victory_points = { 2006 5 }
 		victory_points = { 6521 5 }
 		victory_points = { 6553 5 }
@@ -30,8 +26,8 @@ state = {
 		victory_points = { 6599 5 }
 		buildings = {
 			infrastructure = 5
-			arms_factory = 6
-			industrial_complex = 7
+			arms_factory = 4
+			industrial_complex = 5
 			air_base = 6
 			6576 = {
 				supply_node = 1

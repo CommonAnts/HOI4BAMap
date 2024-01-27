@@ -1,26 +1,22 @@
 state = {
 	id = 428
 	name = "STATE_428"
-	manpower = 124393
+	manpower = 108473
 	state_category = small_island
 	local_supplies = 0.3
 	provinces = {
 		92 1692 2088 3962 4110 4978 8858 8862 8913 8917 8920 8921 8922 8923
 	}
 	resources = {
-		oil = 10
-		mineral = 10
-		ooparts = 10
-		basematerial = 10
-		specialmaterial = 10
-		polymer = 10
-		electronic = 10
 	}
 	history = {
 		owner = GEH
 		add_core_of = GEH
 		set_variable = { province_num = 14 }
-		set_variable = { student_num = 287 }
+		set_variable = { student_num = 358 }
+		set_variable = { potentialresources_oil = 0 }
+		set_variable = { potentialresources_mineral = 0 }
+		set_variable = { potentialresources_ooparts = 5 }
 		victory_points = { 92 2 }
 		buildings = {
 			92 = {

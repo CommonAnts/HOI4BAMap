@@ -1,26 +1,22 @@
 state = {
 	id = 429
 	name = "STATE_429"
-	manpower = 75474
+	manpower = 57718
 	state_category = small_island
 	local_supplies = 0.2
 	provinces = {
 		2091 2718 8865 8868 8870 8914 9963
 	}
 	resources = {
-		oil = 10
-		mineral = 10
-		ooparts = 10
-		basematerial = 10
-		specialmaterial = 10
-		polymer = 10
-		electronic = 10
 	}
 	history = {
 		owner = WLH
 		add_core_of = WLH
 		set_variable = { province_num = 7 }
-		set_variable = { student_num = 109 }
+		set_variable = { student_num = 129 }
+		set_variable = { potentialresources_oil = 0 }
+		set_variable = { potentialresources_mineral = 0 }
+		set_variable = { potentialresources_ooparts = 0 }
 		victory_points = { 8868 2 }
 		buildings = {
 			8868 = {

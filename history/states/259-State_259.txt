@@ -1,26 +1,22 @@
 state = {
 	id = 259
 	name = "STATE_259"
-	manpower = 6351541
+	manpower = 5432032
 	state_category = megalopolis
 	local_supplies = 12.7
 	provinces = {
 		2464 5265 7488 7502 7503 7510 7520 7524 7525 7539 7546 7556
 	}
 	resources = {
-		oil = 10
-		mineral = 10
-		ooparts = 10
-		basematerial = 10
-		specialmaterial = 10
-		polymer = 10
-		electronic = 10
 	}
 	history = {
 		owner = GEH
 		add_core_of = GEH
 		set_variable = { province_num = 12 }
-		set_variable = { student_num = 31252 }
+		set_variable = { student_num = 28246 }
+		set_variable = { potentialresources_oil = 0 }
+		set_variable = { potentialresources_mineral = 0 }
+		set_variable = { potentialresources_ooparts = 0 }
 		victory_points = { 2464 5 }
 		victory_points = { 5265 60 }
 		victory_points = { 7488 5 }
@@ -36,7 +32,7 @@ state = {
 		buildings = {
 			infrastructure = 5
 			arms_factory = 6
-			industrial_complex = 7
+			industrial_complex = 2
 			air_base = 6
 			anti_air_building = 5
 			radar_station = 3

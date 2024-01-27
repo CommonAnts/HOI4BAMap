@@ -1,25 +1,21 @@
 state = {
 	id = 26
 	name = "STATE_26"
-	manpower = 1906
+	manpower = 2112
 	state_category = wasteland
 	local_supplies = 0.0
 	provinces = {
 		282 832 1009 1131 1238 1421 1598 1875 1905 2082 2214 2304 2360 2685 2712 2793 2959 4038 4041 4073 4768 5181 5455 5483 5516 5523 5538 5573 5580
 	}
 	resources = {
-		oil = 10
-		mineral = 10
-		ooparts = 10
-		basematerial = 10
-		specialmaterial = 10
-		polymer = 10
-		electronic = 10
 	}
 	history = {
 		owner = WS1
 		set_variable = { province_num = 29 }
 		set_variable = { student_num = 0 }
+		set_variable = { potentialresources_oil = 0 }
+		set_variable = { potentialresources_mineral = 0 }
+		set_variable = { potentialresources_ooparts = 10 }
 		buildings = {
 		}
 	}

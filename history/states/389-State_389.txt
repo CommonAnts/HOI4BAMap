@@ -1,26 +1,22 @@
 state = {
 	id = 389
 	name = "STATE_389"
-	manpower = 82155
+	manpower = 94477
 	state_category = pastoral
 	local_supplies = 0.2
 	provinces = {
 		169 325 399 570 2339 2425 3185 3365 3372 3572 3809 3954 4293 5136 5174 8633 8671 8672
 	}
 	resources = {
-		oil = 10
-		mineral = 10
-		ooparts = 10
-		basematerial = 10
-		specialmaterial = 10
-		polymer = 10
-		electronic = 10
 	}
 	history = {
 		owner = RWT
 		add_core_of = RWT
 		set_variable = { province_num = 18 }
-		set_variable = { student_num = 165 }
+		set_variable = { student_num = 214 }
+		set_variable = { potentialresources_oil = 12 }
+		set_variable = { potentialresources_mineral = 12 }
+		set_variable = { potentialresources_ooparts = 0 }
 		victory_points = { 3954 2 }
 		buildings = {
 		}

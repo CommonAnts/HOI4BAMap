@@ -1,33 +1,29 @@
 state = {
 	id = 302
 	name = "STATE_302"
-	manpower = 1459222
+	manpower = 1160999
 	state_category = large_town
 	local_supplies = 2.4
 	provinces = {
 		628 727 1142 1373 1375 1420 1918 2241 2290 2837 2984 3064 3150 4089 4093 4643 4835 4844 5028 7829 7833 7837 7849 7859 7860 7886
 	}
 	resources = {
-		oil = 10
-		mineral = 10
-		ooparts = 10
-		basematerial = 10
-		specialmaterial = 10
-		polymer = 10
-		electronic = 10
+		mineral = 76
 	}
 	history = {
 		owner = GEH
 		add_core_of = GEH
 		set_variable = { province_num = 26 }
-		set_variable = { student_num = 2803 }
+		set_variable = { student_num = 2514 }
+		set_variable = { potentialresources_oil = 0 }
+		set_variable = { potentialresources_mineral = 0 }
+		set_variable = { potentialresources_ooparts = 0 }
 		victory_points = { 727 3 }
 		victory_points = { 3150 3 }
 		victory_points = { 5028 3 }
 		victory_points = { 7849 10 }
 		buildings = {
 			infrastructure = 3
-			arms_factory = 1
 			industrial_complex = 1
 			air_base = 2
 			anti_air_building = 1

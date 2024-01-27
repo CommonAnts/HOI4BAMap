@@ -1,26 +1,23 @@
 state = {
 	id = 127
 	name = "STATE_127"
-	manpower = 6949979
+	manpower = 4687121
 	state_category = metropolis
 	local_supplies = 9.7
 	provinces = {
 		652 754 2032 2442 3066 3319 4276 5204 5241 6317 6385 6386 6403 6408 6425 6428 6435 6438 6458 6463 6468 6481 6488 6516
 	}
 	resources = {
-		oil = 10
-		mineral = 10
-		ooparts = 10
-		basematerial = 10
-		specialmaterial = 10
-		polymer = 10
-		electronic = 10
+		ooparts = 8
 	}
 	history = {
 		owner = CEN
 		add_core_of = CEN
 		set_variable = { province_num = 24 }
-		set_variable = { student_num = 5666 }
+		set_variable = { student_num = 4702 }
+		set_variable = { potentialresources_oil = 0 }
+		set_variable = { potentialresources_mineral = 0 }
+		set_variable = { potentialresources_ooparts = 17 }
 		victory_points = { 2032 3 }
 		victory_points = { 3066 30 }
 		victory_points = { 3319 5 }
@@ -35,11 +32,12 @@ state = {
 		victory_points = { 6463 5 }
 		buildings = {
 			infrastructure = 4
-			arms_factory = 1
+			arms_factory = 2
 			industrial_complex = 6
 			air_base = 5
 			anti_air_building = 4
 			radar_station = 2
+			basematerial_building = 6
 			3066 = {
 				supply_node = 1
 			}

@@ -1,26 +1,22 @@
 state = {
 	id = 61
 	name = "STATE_61"
-	manpower = 150268
+	manpower = 127036
 	state_category = small_island
 	local_supplies = 0.3
 	provinces = {
 		862 1853 2093 3130 4049 4748 5684 5736 5744 5766 5840 5845 5879
 	}
 	resources = {
-		oil = 10
-		mineral = 10
-		ooparts = 10
-		basematerial = 10
-		specialmaterial = 10
-		polymer = 10
-		electronic = 10
 	}
 	history = {
 		owner = SRT
 		add_core_of = SRT
 		set_variable = { province_num = 13 }
-		set_variable = { student_num = 106 }
+		set_variable = { student_num = 94 }
+		set_variable = { potentialresources_oil = 4 }
+		set_variable = { potentialresources_mineral = 21 }
+		set_variable = { potentialresources_ooparts = 6 }
 		victory_points = { 2093 2 }
 		buildings = {
 			2093 = {

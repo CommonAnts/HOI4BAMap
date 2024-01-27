@@ -1,26 +1,22 @@
 state = {
 	id = 50
 	name = "STATE_50"
-	manpower = 3675355
+	manpower = 3946627
 	state_category = metropolis
 	local_supplies = 7.1
 	provinces = {
 		3814 5592 5594 5602 5606 5616
 	}
 	resources = {
-		oil = 10
-		mineral = 10
-		ooparts = 10
-		basematerial = 10
-		specialmaterial = 10
-		polymer = 10
-		electronic = 10
 	}
 	history = {
 		owner = SRT
 		add_core_of = SRT
 		set_variable = { province_num = 6 }
-		set_variable = { student_num = 6228 }
+		set_variable = { student_num = 4882 }
+		set_variable = { potentialresources_oil = 0 }
+		set_variable = { potentialresources_mineral = 0 }
+		set_variable = { potentialresources_ooparts = 0 }
 		victory_points = { 3814 5 }
 		victory_points = { 5592 5 }
 		victory_points = { 5594 5 }
@@ -29,9 +25,10 @@ state = {
 		victory_points = { 5616 5 }
 		buildings = {
 			infrastructure = 4
-			arms_factory = 6
-			industrial_complex = 2
+			arms_factory = 5
+			industrial_complex = 3
 			air_base = 5
+			specialmaterial_building = 1
 			5602 = {
 				supply_node = 1
 				bunker = 2

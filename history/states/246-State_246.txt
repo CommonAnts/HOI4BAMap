@@ -1,26 +1,23 @@
 state = {
 	id = 246
 	name = "STATE_246"
-	manpower = 461196
+	manpower = 348021
 	state_category = large_town
 	local_supplies = 2.8
 	provinces = {
 		689 1130 1306 1344 1387 1509 1545 1813 1937 2240 2494 2989 3052 3179 4082 4182 4509 4972 7420 7425 7426 7434 7449 7458 7482 7492 7543 7555 7580
 	}
 	resources = {
-		oil = 10
-		mineral = 10
-		ooparts = 10
-		basematerial = 10
-		specialmaterial = 10
-		polymer = 10
-		electronic = 10
+		oil = 19
 	}
 	history = {
 		owner = ARI
 		add_core_of = ARI
 		set_variable = { province_num = 29 }
-		set_variable = { student_num = 2851 }
+		set_variable = { student_num = 2275 }
+		set_variable = { potentialresources_oil = 17 }
+		set_variable = { potentialresources_mineral = 0 }
+		set_variable = { potentialresources_ooparts = 0 }
 		victory_points = { 1130 10 }
 		victory_points = { 1937 3 }
 		victory_points = { 3052 3 }
@@ -28,7 +25,9 @@ state = {
 		victory_points = { 7482 3 }
 		buildings = {
 			infrastructure = 3
+			arms_factory = 1
 			air_base = 2
+			specialmaterial_building = 1
 			1130 = {
 				supply_node = 1
 			}
