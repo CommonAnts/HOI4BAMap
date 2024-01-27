@@ -30,8 +30,7 @@ state = {
 			infrastructure = 3
 			industrial_complex = 1
 			air_base = 3
-			basematerial_building = 2
-			specialmaterial_building = 6
+			specialmaterial_building = 4
 			8231 = {
 				supply_node = 1
 			}

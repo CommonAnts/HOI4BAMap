@@ -8,6 +8,7 @@ state = {
 		24 1547 1548 2218 2770 4030 4505 4837 5238 6520 6525 6567 6575 6628 6634 6649 6675
 	}
 	resources = {
+		basematerial = 5
 	}
 	history = {
 		owner = VAL
@@ -30,6 +31,7 @@ state = {
 			arms_factory = 2
 			industrial_complex = 3
 			air_base = 4
+			basematerial_building = 2
 			specialmaterial_building = 2
 			5238 = {
 				supply_node = 1

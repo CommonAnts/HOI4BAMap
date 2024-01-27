@@ -8,6 +8,7 @@ state = {
 		3042 4139 4672 4706 4719 5168 5379 5383
 	}
 	resources = {
+		basematerial = 5
 	}
 	history = {
 		owner = ODY

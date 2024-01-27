@@ -8,6 +8,7 @@ state = {
 		1677 2503 2791 2858 3877 3915 4048 4714 6976 6992 7013 7014 7016 7033 7041 7047 7051 7063
 	}
 	resources = {
+		basematerial = 4
 	}
 	history = {
 		owner = CA2
@@ -26,7 +27,8 @@ state = {
 			infrastructure = 3
 			industrial_complex = 3
 			air_base = 3
-			basematerial_building = 3
+			synthetic_refinery = 2
+			basematerial_building = 2
 			7033 = {
 				supply_node = 1
 			}

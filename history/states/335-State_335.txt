@@ -8,6 +8,7 @@ state = {
 		1005 3883 4824 8004 8015 8024 8034 8048 8068
 	}
 	resources = {
+		basematerial = 5
 	}
 	history = {
 		owner = ABY

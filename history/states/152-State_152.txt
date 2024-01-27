@@ -8,6 +8,7 @@ state = {
 		2006 6521 6553 6557 6562 6576 6599
 	}
 	resources = {
+		basematerial = 7
 	}
 	history = {
 		owner = VAL

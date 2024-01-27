@@ -8,6 +8,7 @@ state = {
 		4320 4328 4761 5193 6543 6565 6594 6603 6619 6658 6676 6684
 	}
 	resources = {
+		basematerial = 6
 	}
 	history = {
 		owner = CEN
@@ -37,7 +38,6 @@ state = {
 			dockyard = 6
 			anti_air_building = 5
 			radar_station = 3
-			electronic_building = 5
 			4761 = {
 				supply_node = 1
 			}

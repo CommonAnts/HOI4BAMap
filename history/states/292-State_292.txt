@@ -8,17 +8,16 @@ state = {
 		851 1073 1178 1838 1996 2150 2199 2229 2394 2558 3808 4687 4920 7751 7793 7802 7830 7834 7845 7872
 	}
 	resources = {
-		oil = 30
-		ooparts = 37
+		ooparts = 51
 	}
 	history = {
 		owner = SHA
 		add_core_of = SHA
 		set_variable = { province_num = 20 }
 		set_variable = { student_num = 2658 }
-		set_variable = { potentialresources_oil = 19 }
+		set_variable = { potentialresources_oil = 0 }
 		set_variable = { potentialresources_mineral = 0 }
-		set_variable = { potentialresources_ooparts = 0 }
+		set_variable = { potentialresources_ooparts = 16 }
 		victory_points = { 1073 3 }
 		victory_points = { 2394 3 }
 		victory_points = { 4687 3 }

@@ -8,7 +8,8 @@ state = {
 		25 38 50 78 176 245 323 605 770 902 1089 1302 1676 1768 1890 1892 2021 2107 2118 2136 2148 2619 2629 2754 2760 2895 3165 3266 3324 3350 3427 3489 3731 3919 4028 4572 4639 5003 5033 5044 5282 5663 5689 5702 5712 5727 5740 5747 5765 5795 5796 5802 5814 5835 5854 5861 5862 5863 5875 5876 5882 5886 5892 5895 5896 5907 5908 5912 5917 5932 5939
 	}
 	resources = {
-		ooparts = 14
+		ooparts = 15
+		basematerial = 4
 	}
 	history = {
 		owner = MIL
@@ -17,7 +18,7 @@ state = {
 		set_variable = { student_num = 5059 }
 		set_variable = { potentialresources_oil = 12 }
 		set_variable = { potentialresources_mineral = 15 }
-		set_variable = { potentialresources_ooparts = 25 }
+		set_variable = { potentialresources_ooparts = 14 }
 		victory_points = { 2118 3 }
 		victory_points = { 2895 3 }
 		victory_points = { 5814 3 }
@@ -34,8 +35,7 @@ state = {
 			industrial_complex = 3
 			air_base = 3
 			anti_air_building = 2
-			basematerial_building = 1
-			specialmaterial_building = 6
+			basematerial_building = 6
 			5854 = {
 				supply_node = 1
 			}

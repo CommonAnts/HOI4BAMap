@@ -24,6 +24,7 @@ state = {
 			arms_factory = 1
 			industrial_complex = 2
 			air_base = 2
+			basematerial_building = 1
 			4770 = {
 				supply_node = 1
 			}

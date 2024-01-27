@@ -9,7 +9,7 @@ state = {
 	}
 	resources = {
 		oil = 6
-		mineral = 67
+		mineral = 46
 	}
 	history = {
 		owner = GEH
@@ -17,7 +17,7 @@ state = {
 		set_variable = { province_num = 24 }
 		set_variable = { student_num = 1894 }
 		set_variable = { potentialresources_oil = 10 }
-		set_variable = { potentialresources_mineral = 12 }
+		set_variable = { potentialresources_mineral = 0 }
 		set_variable = { potentialresources_ooparts = 5 }
 		victory_points = { 2318 2 }
 		victory_points = { 3010 5 }

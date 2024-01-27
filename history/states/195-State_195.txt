@@ -8,6 +8,7 @@ state = {
 		2579 3560 4230 5100 6938 6963 6979
 	}
 	resources = {
+		basematerial = 7
 	}
 	history = {
 		owner = HYA

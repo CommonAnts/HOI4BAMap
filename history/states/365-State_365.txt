@@ -25,7 +25,6 @@ state = {
 		buildings = {
 			infrastructure = 3
 			air_base = 2
-			specialmaterial_building = 6
 			3527 = {
 				supply_node = 1
 			}

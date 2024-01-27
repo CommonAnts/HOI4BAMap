@@ -8,6 +8,7 @@ state = {
 		6596 6630 6655
 	}
 	resources = {
+		basematerial = 6
 	}
 	history = {
 		owner = CA3
@@ -25,7 +26,6 @@ state = {
 			arms_factory = 2
 			industrial_complex = 6
 			air_base = 5
-			specialmaterial_building = 2
 			6630 = {
 				supply_node = 1
 				bunker = 2

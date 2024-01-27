@@ -8,6 +8,7 @@ state = {
 		1631 1904 2654 2810 2824 2921 4348 6607 6643 6652 6680
 	}
 	resources = {
+		basematerial = 5
 	}
 	history = {
 		owner = CEN

@@ -8,6 +8,7 @@ state = {
 		235 434 1029 1270 2383 2415 2460 3275 3621 3800 3818 4047 4193 4214 4301 4836 5969 5978 6016 6021 6041 6042 6043 6050 6061 6082 6097 6098 8889
 	}
 	resources = {
+		basematerial = 4
 	}
 	history = {
 		owner = CA4
@@ -31,7 +32,6 @@ state = {
 			industrial_complex = 3
 			air_base = 4
 			dockyard = 1
-			basematerial_building = 6
 			6042 = {
 				supply_node = 1
 				naval_base = 5

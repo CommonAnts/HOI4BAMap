@@ -8,6 +8,7 @@ state = {
 		1552 7868 7883 7891
 	}
 	resources = {
+		basematerial = 4
 	}
 	history = {
 		owner = CAB

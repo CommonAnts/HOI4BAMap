@@ -8,6 +8,7 @@ state = {
 		810 4850 8182 8193 8233
 	}
 	resources = {
+		basematerial = 4
 	}
 	history = {
 		owner = RWT

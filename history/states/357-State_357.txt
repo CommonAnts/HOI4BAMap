@@ -8,14 +8,13 @@ state = {
 		138 147 437 927 936 1100 1132 1418 1456 1530 1607 1646 1706 2328 2347 2476 2534 3327 3804 3904 3976 4319 4494 4869 4991 5012 5039 5247 5290 8294 8342 8426 8432 8448 8462 8471 8480 8518
 	}
 	resources = {
-		oil = 29
 	}
 	history = {
 		owner = RWT
 		add_core_of = RWT
 		set_variable = { province_num = 38 }
 		set_variable = { student_num = 1973 }
-		set_variable = { potentialresources_oil = 30 }
+		set_variable = { potentialresources_oil = 0 }
 		set_variable = { potentialresources_mineral = 5 }
 		set_variable = { potentialresources_ooparts = 0 }
 		victory_points = { 437 3 }
@@ -25,6 +24,7 @@ state = {
 		buildings = {
 			infrastructure = 3
 			air_base = 2
+			basematerial_building = 6
 			8448 = {
 				supply_node = 1
 			}

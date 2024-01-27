@@ -8,6 +8,7 @@ state = {
 		1515 1588 2633 2734 8483 8493
 	}
 	resources = {
+		basematerial = 6
 	}
 	history = {
 		owner = GEH

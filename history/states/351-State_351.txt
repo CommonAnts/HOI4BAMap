@@ -8,6 +8,7 @@ state = {
 		1144 1633 1699 2210 2797 3111 3631 3786 4116 4126 4251 4421 4537 4674 5288 8235 8280 8283 8311 8317 8327 8340 8343 8353 8357 8364 8365 8366 8372 8380 8385 8386 8387 8399 8406 8410 8461
 	}
 	resources = {
+		basematerial = 4
 	}
 	history = {
 		owner = RWT
@@ -31,7 +32,6 @@ state = {
 			industrial_complex = 3
 			air_base = 4
 			dockyard = 1
-			electronic_building = 1
 			2797 = {
 				supply_node = 1
 				naval_base = 5

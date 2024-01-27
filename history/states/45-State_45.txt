@@ -29,6 +29,8 @@ state = {
 			industrial_complex = 2
 			air_base = 4
 			dockyard = 1
+			specialmaterial_building = 3
+			electronic_building = 1
 			4952 = {
 				supply_node = 1
 			}

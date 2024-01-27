@@ -29,7 +29,6 @@ state = {
 			infrastructure = 4
 			arms_factory = 1
 			air_base = 4
-			basematerial_building = 3
 			7711 = {
 				supply_node = 1
 			}

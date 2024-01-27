@@ -8,6 +8,7 @@ state = {
 		721 3918 4759 4970 7621 7635 7645 7649
 	}
 	resources = {
+		basematerial = 13
 	}
 	history = {
 		owner = SHA

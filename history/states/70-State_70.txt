@@ -8,6 +8,7 @@ state = {
 		2486 4368 4908 5293 5760 5774 5782 5783 5800
 	}
 	resources = {
+		basematerial = 10
 	}
 	history = {
 		owner = MIL

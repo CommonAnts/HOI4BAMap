@@ -9,6 +9,7 @@ state = {
 	}
 	resources = {
 		oil = 9
+		basematerial = 4
 	}
 	history = {
 		owner = RWT
@@ -30,7 +31,7 @@ state = {
 			industrial_complex = 3
 			air_base = 4
 			dockyard = 1
-			basematerial_building = 6
+			specialmaterial_building = 6
 			8316 = {
 				supply_node = 1
 				naval_base = 5

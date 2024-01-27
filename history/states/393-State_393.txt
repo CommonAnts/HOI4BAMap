@@ -8,6 +8,7 @@ state = {
 		8563 8572 8588
 	}
 	resources = {
+		basematerial = 6
 	}
 	history = {
 		owner = WLH
@@ -25,6 +26,7 @@ state = {
 			arms_factory = 2
 			industrial_complex = 6
 			air_base = 5
+			electronic_building = 2
 			8572 = {
 				supply_node = 1
 				bunker = 2

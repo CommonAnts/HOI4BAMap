@@ -8,6 +8,7 @@ state = {
 		973 2231 2403 2934 3153 3344 3643 4019 4248 4718 8010 8027 8029 8041 8071 8085 8086 8092 8095 8103 8104 8108 8119 8122
 	}
 	resources = {
+		basematerial = 5
 	}
 	history = {
 		owner = GEH
@@ -32,6 +33,7 @@ state = {
 			air_base = 4
 			anti_air_building = 3
 			radar_station = 1
+			electronic_building = 3
 			8092 = {
 				supply_node = 1
 			}

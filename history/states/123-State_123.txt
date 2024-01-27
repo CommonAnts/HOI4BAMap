@@ -8,6 +8,7 @@ state = {
 		152 171 416 598 1017 1325 1539 1958 2295 2431 2478 3025 3157 3297 3415 3504 3539 4101 4369 4428 4596 4605 4658 6239 6280 6312 6334 6353 6366 6375 6401 6404 6410 6430 6439 6460 6476 6507 6518
 	}
 	resources = {
+		basematerial = 5
 	}
 	history = {
 		owner = TRY
@@ -32,7 +33,7 @@ state = {
 			air_base = 4
 			anti_air_building = 3
 			radar_station = 1
-			specialmaterial_building = 6
+			synthetic_refinery = 6
 			6353 = {
 				supply_node = 1
 			}

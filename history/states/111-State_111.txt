@@ -26,7 +26,6 @@ state = {
 			infrastructure = 3
 			industrial_complex = 2
 			air_base = 2
-			synthetic_refinery = 2
 			775 = {
 				supply_node = 1
 			}

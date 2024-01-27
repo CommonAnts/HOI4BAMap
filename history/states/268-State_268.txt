@@ -29,6 +29,7 @@ state = {
 			arms_factory = 1
 			air_base = 3
 			dockyard = 1
+			specialmaterial_building = 1
 			4825 = {
 				supply_node = 1
 				naval_base = 6

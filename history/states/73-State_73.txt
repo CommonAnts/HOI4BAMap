@@ -8,7 +8,8 @@ state = {
 		4358 5803 5815 5827 5843 5855
 	}
 	resources = {
-		ooparts = 19
+		ooparts = 20
+		basematerial = 9
 	}
 	history = {
 		owner = MIL
@@ -17,7 +18,7 @@ state = {
 		set_variable = { student_num = 7055 }
 		set_variable = { potentialresources_oil = 0 }
 		set_variable = { potentialresources_mineral = 0 }
-		set_variable = { potentialresources_ooparts = 25 }
+		set_variable = { potentialresources_ooparts = 18 }
 		victory_points = { 4358 5 }
 		victory_points = { 5803 5 }
 		victory_points = { 5815 5 }
@@ -31,7 +32,6 @@ state = {
 			air_base = 5
 			anti_air_building = 4
 			radar_station = 2
-			electronic_building = 6
 			5843 = {
 				supply_node = 1
 				bunker = 2

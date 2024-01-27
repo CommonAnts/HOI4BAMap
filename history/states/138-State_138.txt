@@ -8,6 +8,7 @@ state = {
 		306 2535 2612 6429 6440 6446 6452 6469 6472 6473 6493 6494 6512 6528
 	}
 	resources = {
+		basematerial = 7
 	}
 	history = {
 		owner = CA1

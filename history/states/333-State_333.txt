@@ -8,7 +8,6 @@ state = {
 		2013 3009 4780 8023 8039 8047 8077 8091
 	}
 	resources = {
-		ooparts = 11
 	}
 	history = {
 		owner = ABY
@@ -17,7 +16,7 @@ state = {
 		set_variable = { student_num = 160 }
 		set_variable = { potentialresources_oil = 0 }
 		set_variable = { potentialresources_mineral = 0 }
-		set_variable = { potentialresources_ooparts = 15 }
+		set_variable = { potentialresources_ooparts = 0 }
 		victory_points = { 4780 5 }
 		victory_points = { 8023 20 }
 		victory_points = { 8047 5 }

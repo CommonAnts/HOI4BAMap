@@ -8,6 +8,7 @@ state = {
 		3755 5961 5967 5968 5975
 	}
 	resources = {
+		basematerial = 4
 	}
 	history = {
 		owner = STE
@@ -27,8 +28,8 @@ state = {
 			arms_factory = 2
 			industrial_complex = 3
 			air_base = 5
-			specialmaterial_building = 1
-			electronic_building = 2
+			basematerial_building = 2
+			electronic_building = 3
 			3755 = {
 				supply_node = 1
 				bunker = 2

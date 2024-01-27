@@ -8,6 +8,7 @@ state = {
 		6134 6150 6159
 	}
 	resources = {
+		basematerial = 6
 	}
 	history = {
 		owner = KRO
@@ -25,7 +26,7 @@ state = {
 			arms_factory = 1
 			industrial_complex = 6
 			air_base = 5
-			synthetic_refinery = 1
+			specialmaterial_building = 2
 			6150 = {
 				supply_node = 1
 				bunker = 2
