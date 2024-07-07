@@ -1,0 +1,27 @@
+is_valid_tag = {
+	NOT = {
+		tag = W00
+	}
+}
+
+is_valid_state = {
+	owner = {
+		is_valid_tag = yes
+	}
+}
+
+is_human_tag = {
+	NOT = {
+		tag = W00
+		tag = WS1
+		tag = WS2
+		tag = WS3
+		tag = WV1
+	}
+}
+
+is_human_state = {
+	owner = {
+		is_human_tag = yes
+	}
+}

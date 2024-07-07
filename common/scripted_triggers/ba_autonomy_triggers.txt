@@ -1,0 +1,58 @@
+is_school_tag = {
+	OR = {
+		tag = ABY # 默认对应AB1
+		tag = ARI # 默认对应AR1
+		tag = CEN # 默认对应CA1
+		tag = GEH # 默认对应GE1
+		tag = HIL # 默认对应HI1
+		tag = HSP # 默认对应HS1
+		tag = HYA # 默认对应HY1
+		tag = KRO # 默认对应KR1
+		tag = MIL # 默认对应MI1
+		tag = ODY # 默认对应OD1
+		tag = RWT # 默认对应RW1
+		tag = SCH # 默认对应CA1
+		tag = SHA # 默认对应SH1
+		tag = SRT # 默认对应SR1
+		tag = STE # 默认对应ST1
+		tag = TRY # 默认对应TR1
+		tag = VAL # 默认对应VA1
+		tag = WLH # 默认对应WL1
+	}
+}
+
+is_autonomy_tag = {
+	OR = {
+		tag = ABD
+		tag = CA1
+		tag = CA2
+		tag = CA3
+		tag = CA4
+		tag = CAB
+		tag = AB1
+		tag = AR1
+		tag = GE1
+		tag = HI1
+		tag = HS1
+		tag = HY1
+		tag = KR1
+		tag = MI1
+		tag = OD1
+		tag = RW1
+		tag = SH1
+		tag = SR1
+		tag = ST1
+		tag = TR1
+		tag = VA1
+		tag = WL1
+	}
+}
+
+is_outmap_tag = {
+	OR = {
+		tag = CAE # 凯撒公司
+		tag = CAH # 凯撒下属部门（不使用）
+		tag = CAO # 凯撒下属部门（不使用）
+		tag = CAP # 凯撒下属部门（不使用）
+	}
+}
