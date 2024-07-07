@@ -17,11 +17,28 @@ is_human_tag = {
 		tag = WS2
 		tag = WS3
 		tag = WV1
+		tag = ABD
 	}
 }
 
 is_human_state = {
 	owner = {
 		is_human_tag = yes
+	}
+}
+
+is_wasteland_tag = {
+	OR = {
+		tag = WS1
+		tag = WS2
+		tag = WS3
+		tag = WV1
+		tag = ABD
+	}
+}
+
+is_wasteland_state = {
+	owner = {
+		is_wasteland_tag = yes
 	}
 }

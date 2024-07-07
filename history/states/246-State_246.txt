@@ -13,6 +13,7 @@ state = {
 	history = {
 		owner = ARI
 		add_core_of = ARI
+		add_core_of = AR1
 		set_variable = { province_num = 29 }
 		set_variable = { student_num = 2275 }
 		set_variable = { potentialresources_oil = 23 }

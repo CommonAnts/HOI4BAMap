@@ -13,6 +13,8 @@ state = {
 	history = {
 		owner = SCH
 		add_core_of = SCH
+		add_core_of = CEN
+		add_core_of = CA1
 		set_variable = { province_num = 3 }
 		set_variable = { student_num = 2158 }
 		set_variable = { potentialresources_oil = 0 }

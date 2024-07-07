@@ -23,7 +23,6 @@ is_school_tag = {
 
 is_autonomy_tag = {
 	OR = {
-		tag = ABD
 		tag = CA1
 		tag = CA2
 		tag = CA3

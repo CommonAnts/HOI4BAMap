@@ -11,8 +11,9 @@ state = {
 		mineral = 24
 	}
 	history = {
-		owner = WLH
+		owner = WL1
 		add_core_of = WLH
+		add_core_of = WL1
 		set_variable = { province_num = 26 }
 		set_variable = { student_num = 552 }
 		set_variable = { potentialresources_oil = 6 }

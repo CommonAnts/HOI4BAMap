@@ -14,6 +14,7 @@ state = {
 	history = {
 		owner = VAL
 		add_core_of = VAL
+		add_core_of = VA1
 		set_variable = { province_num = 7 }
 		set_variable = { student_num = 10764 }
 		set_variable = { potentialresources_oil = 0 }

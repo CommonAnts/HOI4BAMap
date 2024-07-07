@@ -1,0 +1,7 @@
+debugbaeff1 = {
+	owner = {
+		var:default_autonomy_tag = {
+			transfer_state = ROOT
+		}
+	}
+}

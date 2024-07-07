@@ -12,8 +12,9 @@ state = {
 		basematerial = 5
 	}
 	history = {
-		owner = TRY
+		owner = TR1
 		add_core_of = TRY
+		add_core_of = TR1
 		set_variable = { province_num = 40 }
 		set_variable = { student_num = 9947 }
 		set_variable = { potentialresources_oil = 12 }

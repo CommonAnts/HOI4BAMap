@@ -10,8 +10,9 @@ state = {
 	resources = {
 	}
 	history = {
-		owner = ABY
+		owner = AB1
 		add_core_of = ABY
+		add_core_of = AB1
 		set_variable = { province_num = 4 }
 		set_variable = { student_num = 101 }
 		set_variable = { potentialresources_oil = 0 }
