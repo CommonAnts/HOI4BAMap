@@ -1,0 +1,95 @@
+state_autonomy_lv_0 = {
+	# 完全无政府地区
+	icon = GFX_unplanned_offensive
+
+	compliance_growth = -0.75
+	resistance_decay = -0.75
+	resistance_growth = 0.75
+
+	attrition_for_controller = 0.15
+	disable_strategic_redeployment = 1
+	disable_strategic_redeployment_for_controller = 1
+	local_intel_to_enemies = 0.75
+	local_supplies = -0.5
+	army_speed_factor = -0.5
+	local_org_regain = -0.5
+
+	local_factories = -1.0
+	local_manpower = -1.0
+	local_resources = -1.0
+}
+state_autonomy_lv_1 = {
+	# 收服地区
+	icon = GFX_unplanned_offensive
+
+	compliance_growth = -0.5
+	resistance_decay = -0.5
+	resistance_growth = 0.5
+
+	attrition_for_controller = 0.1
+	local_intel_to_enemies = 0.5
+	local_supplies = -0.3
+	army_speed_factor = -0.3
+	local_org_regain = -0.3
+
+	local_factories = -0.8
+	local_manpower = -0.8
+	local_resources = -0.8
+}
+state_autonomy_lv_2 = {
+	# 自治地区
+	icon = GFX_unplanned_offensive
+
+	compliance_growth = -0.3
+	resistance_decay = -0.3
+	resistance_growth = 0.3
+
+	attrition_for_controller = 0.06
+	local_intel_to_enemies = 0.3
+	local_supplies = -0.2
+	army_speed_factor = -0.2
+	local_org_regain = -0.2
+
+	local_factories = -0.6
+	local_manpower = -0.6
+	local_resources = -0.6
+}
+state_autonomy_lv_3 = {
+	# 半自治地区
+	icon = GFX_unplanned_offensive
+
+	compliance_growth = -0.1
+	resistance_decay = -0.1
+	resistance_growth = 0.1
+
+	attrition_for_controller = 0.03
+	local_intel_to_enemies = 0.2
+	local_supplies = -0.1
+	army_speed_factor = -0.1
+	local_org_regain = -0.1
+
+	local_factories = -0.4
+	local_manpower = -0.4
+	local_resources = -0.4
+}
+state_autonomy_lv_4 = {
+	# 学校管理地区
+	icon = GFX_unplanned_offensive
+
+	local_factories = -0.2
+	local_manpower = -0.2
+	local_resources = -0.2
+}
+state_autonomy_lv_5 = {
+	# 完全直辖地区
+	icon = GFX_unplanned_offensive
+
+	compliance_growth = 0.3
+	resistance_decay = 0.3
+	resistance_growth = -0.3
+
+	local_intel_to_enemies = -0.3
+	local_supplies = 0.2
+	army_speed_factor = 0.2
+	local_org_regain = 0.2
+}

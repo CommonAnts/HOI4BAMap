@@ -1,7 +1,160 @@
-debugbaeff1 = {
-	owner = {
-		var:default_autonomy_tag = {
-			transfer_state = ROOT
+ba_startup_init = {
+	# W00 Scope because of on_startup
+	every_state = {
+		limit = { is_valid_state = yes }
+		ba_startup_state_init = yes
+	}
+	every_country = {
+		limit = {
+			is_valid_tag = yes
+		}
+		ba_valid_country_general_calculation = yes
+	}
+	every_country = {
+		if = {
+			limit = { is_school_tag = yes }
+			ba_startup_school_tag_init = yes
+		}
+		if = {
+			limit = { is_autonomy_tag = yes }
+			ba_startup_autonomy_tag_init = yes
+		}
+	}
+	every_country = {
+		limit = {
+			OR = {
+				is_school_tag = yes
+				is_autonomy_tag = yes
+			}
+		}
+		country_autonomy_value_calculation = yes
+		enable_economic_system = yes
+	}
+		# every_possible_country？ which includes non-exist once but also vanilla ones if no replace_path
+}
+
+calculate_state_size = {
+	set_variable = { state_size_v = 6 }
+	add_to_variable = { state_size_v = var:province_num }
+	set_temp_variable = { tmp = var:student_num }
+	multiply_temp_variable = { tmp = 0.03 }
+	add_to_variable = { state_size_v = var:tmp }
+	set_temp_variable = { tmp = state_population_k }
+	multiply_temp_variable = { tmp = 0.06 }
+	add_to_variable = { state_size_v = var:tmp }
+
+	set_variable = { state_industry_size_v = 0 }
+	set_temp_variable = { tmp = arms_factory_level }
+	add_to_temp_variable = { tmp = industrial_complex_level }
+	add_to_temp_variable = { tmp = building_level@dockyard }
+	multiply_temp_variable = { tmp = 12 }
+	add_to_variable = { state_industry_size_v = var:tmp }
+	set_temp_variable = { tmp = resource@oil }
+	add_to_temp_variable = { tmp = resource@mineral }
+	add_to_temp_variable = { tmp = resource@ooparts }
+	add_to_temp_variable = { tmp = resource@basematerial }
+	add_to_temp_variable = { tmp = resource@specialmaterial }
+	add_to_temp_variable = { tmp = resource@polymer }
+	add_to_temp_variable = { tmp = resource@electronic }
+	add_to_variable = { state_industry_size_v = var:tmp }
+}
+
+ba_startup_state_init = {
+	calculate_state_size = yes
+
+}
+
+ba_startup_school_tag_init = {
+	every_owned_state = {
+		add_dynamic_modifier = { modifier = state_autonomy_lv_1 }
+	}
+	capital_scope = {
+		if = {
+			limit = { is_owned_by = PREV }
+			state_autonomy_lv_up = yes
+			state_autonomy_lv_up = yes
+			state_autonomy_lv_up = yes
+			state_autonomy_lv_up = yes
+		}
+		every_neighbor_state = {
+			limit = { is_owned_by = PREV.PREV }
+			state_autonomy_lv_up = yes
+		}
+	}
+	every_owned_state = {
+		limit = {
+			OR = {
+				has_state_category = megalopolis
+				has_state_category = metropolis
+			}
+		}
+		state_autonomy_lv_up = yes
+		state_autonomy_lv_up = yes
+		state_autonomy_lv_up = yes
+		every_neighbor_state = {
+			limit = { is_owned_by = PREV.PREV }
+			state_autonomy_lv_up = yes
+		}
+	}
+	every_owned_state = {
+		limit = {
+			OR = {
+				has_state_category = large_city
+			}
+		}
+		state_autonomy_lv_up = yes
+		state_autonomy_lv_up = yes
+	}
+	every_owned_state = {
+		limit = {
+			OR = {
+				has_state_category = city
+				has_state_category = large_town
+			}
+		}
+		state_autonomy_lv_up = yes
+	}
+}
+
+ba_startup_autonomy_tag_init = {
+	every_owned_state = {
+		add_dynamic_modifier = { modifier = state_autonomy_lv_0 }
+	}
+	capital_scope = {
+		if = {
+			limit = { is_owned_by = PREV }
+			state_autonomy_lv_up = yes
+		}
+		every_neighbor_state = {
+			limit = { is_owned_by = PREV.PREV }
+			state_autonomy_lv_up = yes
+		}
+	}
+	every_owned_state = {
+		limit = {
+			OR = {
+				has_state_category = megalopolis
+				has_state_category = metropolis
+				has_state_category = large_city
+				has_state_category = city
+				has_state_category = large_town
+			}
+		}
+		state_autonomy_lv_up = yes
+	}
+}
+
+ba_valid_country_general_calculation = {
+	set_variable = { country_student_num = 0 }
+	every_owned_state = {
+		add_to_variable = {
+			PREV:country_student_num = student_num
+		}
+	}
+	set_variable = { country_size_v = 0 }
+	every_owned_state = {
+		add_to_variable = {
+			PREV:country_size_v = state_size_v
 		}
 	}
 }

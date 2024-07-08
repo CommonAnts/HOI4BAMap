@@ -1,0 +1,203 @@
+state_autonomy_lv_up = {
+	if = {
+		limit = { owner = { is_school_tag = yes } }
+		if = {
+			limit = { has_dynamic_modifier = { modifier = state_autonomy_lv_4 } }
+			remove_dynamic_modifier = { modifier = state_autonomy_lv_4 }
+			add_dynamic_modifier = { modifier = state_autonomy_lv_5 }
+		}
+		else_if = {
+			limit = { has_dynamic_modifier = { modifier = state_autonomy_lv_3 } }
+			remove_dynamic_modifier = { modifier = state_autonomy_lv_3 }
+			add_dynamic_modifier = { modifier = state_autonomy_lv_4 }
+		}
+		else_if = {
+			limit = { has_dynamic_modifier = { modifier = state_autonomy_lv_2 } }
+			remove_dynamic_modifier = { modifier = state_autonomy_lv_2 }
+			add_dynamic_modifier = { modifier = state_autonomy_lv_3 }
+		}
+		else_if = {
+			limit = { has_dynamic_modifier = { modifier = state_autonomy_lv_1 } }
+			remove_dynamic_modifier = { modifier = state_autonomy_lv_1 }
+			add_dynamic_modifier = { modifier = state_autonomy_lv_2 }
+		}
+		else_if = {
+			limit = { has_dynamic_modifier = { modifier = state_autonomy_lv_0 } }
+			remove_dynamic_modifier = { modifier = state_autonomy_lv_0 }
+			add_dynamic_modifier = { modifier = state_autonomy_lv_1 }
+		}
+	}
+	else = {
+		if = {
+			limit = { has_dynamic_modifier = { modifier = state_autonomy_lv_0 } }
+			remove_dynamic_modifier = { modifier = state_autonomy_lv_0 }
+			add_dynamic_modifier = { modifier = state_autonomy_lv_1 }
+		}
+	}
+}
+
+state_autonomy_lv_down = {
+	if = {
+		limit = { has_dynamic_modifier = { modifier = state_autonomy_lv_0 } }
+		if = {
+			limit = {
+				owner = {
+					is_school_tag = yes
+					has_variable = default_autonomy_tag
+				}
+			}
+			transfer_state_to = owner:default_autonomy_tag
+		}
+	}
+	else_if = {
+		limit = { has_dynamic_modifier = { modifier = state_autonomy_lv_1 } }
+		remove_dynamic_modifier = { modifier = state_autonomy_lv_1 }
+		add_dynamic_modifier = { modifier = state_autonomy_lv_0 }
+	}
+	else_if = {
+		limit = { has_dynamic_modifier = { modifier = state_autonomy_lv_2 } }
+		remove_dynamic_modifier = { modifier = state_autonomy_lv_2 }
+		add_dynamic_modifier = { modifier = state_autonomy_lv_1 }
+	}
+	else_if = {
+		limit = { has_dynamic_modifier = { modifier = state_autonomy_lv_3 } }
+		remove_dynamic_modifier = { modifier = state_autonomy_lv_3 }
+		add_dynamic_modifier = { modifier = state_autonomy_lv_2 }
+	}
+	else_if = {
+		limit = { has_dynamic_modifier = { modifier = state_autonomy_lv_4 } }
+		remove_dynamic_modifier = { modifier = state_autonomy_lv_4 }
+		add_dynamic_modifier = { modifier = state_autonomy_lv_3 }
+	}
+	else_if = {
+		limit = { has_dynamic_modifier = { modifier = state_autonomy_lv_5 } }
+		remove_dynamic_modifier = { modifier = state_autonomy_lv_5 }
+		add_dynamic_modifier = { modifier = state_autonomy_lv_4 }
+	}
+}
+
+country_autonomy_value_calculation = {
+	# 无副作用
+	every_owned_state = {
+		calculate_state_size = yes
+		set_variable = {
+			state_admincost_v = state_size_v
+		}
+		add_to_variable = {
+			state_admincost_v = state_industry_size_v
+		}
+
+		if = {
+			limit = { NOT = { is_core_of = owner } }
+			set_temp_variable = { tmp = resistance } # 0 - 100, not 0 - 1.0
+			set_temp_variable = { tmp1 = compliance }
+			multiply_temp_variable = { tmp = 2 }
+			multiply_temp_variable = { tmp1 = -0.5 }
+			add_to_temp_variable = { tmp = tmp1 }
+			clamp_temp_variable = {
+				var = tmp
+				min = -50
+				max = 200
+			}
+			multiply_temp_variable = { tmp = 0.01 }
+			add_to_temp_variable = { tmp = 1.5 }
+
+			multiply_variable = { state_admincost_v = tmp }
+		}
+
+		set_temp_variable = { tmp = 1.0 }
+		if = { limit = { is_capital = yes } add_to_temp_variable = { tmp = -0.4 } }
+		else_if = { limit = { is_in_home_area = yes } add_to_temp_variable = { tmp = -0.2 } }
+		set_temp_variable = { tmp1 = infrastructure_level }
+		multiply_temp_variable = { tmp1 = -0.1 }
+		add_to_temp_variable = { tmp = tmp1 }
+		multiply_variable = { state_admincost_v = tmp }
+
+		if = {
+			limit = {
+				has_dynamic_modifier = { modifier = state_autonomy_lv_0 }
+			}
+			multiply_variable = { state_admincost_v = 0 }
+		}
+		else_if = {
+			limit = {
+				has_dynamic_modifier = { modifier = state_autonomy_lv_1 }
+			}
+			multiply_variable = { state_admincost_v = 0.3 }
+		}
+		else_if = {
+			limit = {
+				has_dynamic_modifier = { modifier = state_autonomy_lv_2 }
+			}
+			multiply_variable = { state_admincost_v = 0.6 }
+		}
+		else_if = {
+			limit = {
+				has_dynamic_modifier = { modifier = state_autonomy_lv_3 }
+			}
+			multiply_variable = { state_admincost_v = 1.0 }
+		}
+		else_if = {
+			limit = {
+				has_dynamic_modifier = { modifier = state_autonomy_lv_4 }
+			}
+			multiply_variable = { state_admincost_v = 1.6 }
+		}
+		else_if = {
+			limit = {
+				has_dynamic_modifier = { modifier = state_autonomy_lv_5 }
+			}
+			multiply_variable = { state_admincost_v = 2.5 }
+		}
+	}
+
+	set_variable = { country_autonomy_v = 0 }
+	set_temp_variable = { tmpsum = 0 }
+	every_owned_state = {
+		if = {
+			limit = {
+				has_dynamic_modifier = { modifier = state_autonomy_lv_0 }
+			}
+			set_temp_variable = { tmp = 0.0 }
+		}
+		else_if = {
+			limit = {
+				has_dynamic_modifier = { modifier = state_autonomy_lv_1 }
+			}
+			set_temp_variable = { tmp = 0.2 }
+		}
+		else_if = {
+			limit = {
+				has_dynamic_modifier = { modifier = state_autonomy_lv_2 }
+			}
+			set_temp_variable = { tmp = 0.4 }
+		}
+		else_if = {
+			limit = {
+				has_dynamic_modifier = { modifier = state_autonomy_lv_3 }
+			}
+			set_temp_variable = { tmp = 0.6 }
+		}
+		else_if = {
+			limit = {
+				has_dynamic_modifier = { modifier = state_autonomy_lv_4 }
+			}
+			set_temp_variable = { tmp = 0.8 }
+		}
+		else_if = {
+			limit = {
+				has_dynamic_modifier = { modifier = state_autonomy_lv_5 }
+			}
+			set_temp_variable = { tmp = 1.0 }
+		}
+		multiply_temp_variable = { tmp = state_size_v }
+		add_to_temp_variable = { PREV:tmpsum = tmp } 
+	}
+	divide_temp_variable = { tmpsum = country_size_v }
+	set_variable = { country_autonomy_v = tmpsum }
+}
+country_weekly_autonomy_calculation = {
+	country_autonomy_value_calculation = yes
+
+
+}

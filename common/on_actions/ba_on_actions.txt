@@ -1,0 +1,32 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			W00 = { ba_startup_init = yes }
+		}
+	}
+	on_weekly = {
+		effect = {
+			if = {
+				limit = {
+					is_valid_tag = yes
+				}
+				ba_valid_country_general_calculation = yes
+			}
+			if = {
+				limit = {
+					OR = {
+						is_school_tag = yes
+						is_autonomy_tag = yes
+					}
+				}
+				country_weekly_autonomy_calculation = yes
+				if = {
+					limit = {
+						has_country_flag = economic_enabled_f
+					}
+					country_weekly_economy_calculation = yes
+				}
+			}
+		}
+	}
+}

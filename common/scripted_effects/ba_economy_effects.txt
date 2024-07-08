@@ -1,0 +1,229 @@
+enable_economic_system = {
+	set_country_flag = economic_enabled_f
+	country_economy_value_calculation = yes
+}
+
+disable_economic_system = {
+	clr_country_flag = economic_enabled_f
+}
+
+bankruptcy = {
+	
+}
+
+country_economy_value_calculation = {
+	# 无副作用
+
+	# DEFINE
+
+	set_variable = { income_v = 0 }
+	set_variable = { income_admin_v = 0 }
+	set_variable = { income_pop_v = 0 }
+	set_variable = { income_consume_v = 0 }
+	set_variable = { income_industry_v = 0 }
+	set_variable = { income_resource_v = 0 }
+	set_variable = { resource_demand_baseline_v = 0 }
+	set_variable = { resource_demand_ratio_v = 0 }
+	set_variable = { income_student_v = 0 }
+	set_variable = { income_diplo_v = 0 }
+	set_variable = { income_extra_v = 0 }
+	
+	set_variable = { surplus_v = 0 }
+	if = {
+		limit = { NOT = { has_variable = credit_reserve_v } }
+		set_variable = { credit_reserve_v = 0 }
+	}
+	if = {
+		limit = { NOT = { has_variable = debt_v } }
+		set_variable = { debt_v = 0 }
+	}
+	set_variable = { debt_interest_v = 0 }
+	set_variable = { debt_limit_v = 0 }
+	
+	set_variable = { outlay_v = 0 }
+	set_variable = { outlay_interest_v = 0 }
+	set_variable = { outlay_reserve_investment_v = 0 }
+	if = {
+		limit = { NOT = { has_variable = outlay_reserve_investment_rate_v } }
+		set_variable = { outlay_reserve_investment_rate_v = 0.05 }
+	}
+	set_variable = { outlay_pop_v = 0 }
+	if = {
+		limit = { NOT = { has_variable = outlay_pop_rate_v } }
+		set_variable = { outlay_pop_rate_v = 1 }
+	}
+	set_variable = { outlay_tech_v = 0 }
+	if = {
+		limit = { NOT = { has_variable = outlay_tech_rate_v } }
+		set_variable = { outlay_tech_rate_v = 1 }
+	}
+	set_variable = { outlay_student_v = 0 }
+	if = {
+		limit = { NOT = { has_variable = outlay_student_rate_v } }
+		set_variable = { outlay_student_rate_v = 1 }
+	}
+	set_variable = { outlay_military_v = 0 }
+	if = {
+		limit = { NOT = { has_variable = outlay_military_rate_v } }
+		set_variable = { outlay_military_rate_v = 1 }
+	}
+	set_variable = { outlay_admin_v = 0 }
+	set_variable = { outlay_diplo_v = 0 }
+	set_variable = { outlay_extra_v = 0 }
+
+	# INCOME
+
+	set_variable = { income_pop_v = max_manpower_k }
+	multiply_variable = { income_pop_v = 0.001 }
+
+	set_variable = { income_consume_v = num_of_civilian_factories }
+	set_variable = { income_industry_v = num_of_civilian_factories_available_for_projects }
+	subtract_from_variable = { income_consume_v = income_industry_v }
+	multiply_variable = { income_consume_v = 4 }
+	multiply_variable = { income_industry_v = 2 }
+
+	set_variable = { resource_demand_baseline_v = num_of_civilian_factories }
+	multiply_variable = { resource_demand_baseline_v = 4 }
+	set_temp_variable = { tmp = max_manpower_k }
+	multiply_temp_variable = { tmp = 0.002 }
+	add_to_variable = { resource_demand_baseline_v = tmp }
+	set_temp_variable = { tmp = country_student_num }
+	multiply_temp_variable = { tmp = 0.001 }
+	add_to_variable = { resource_demand_baseline_v = tmp }
+	
+	set_variable = { resource_surplus_v = 0 }
+	add_to_variable = { resource_surplus_v = resource@oil }
+	add_to_variable = { resource_surplus_v = resource@mineral }
+	add_to_variable = { resource_surplus_v = resource@ooparts }
+	add_to_variable = { resource_surplus_v = resource@basematerial }
+	add_to_variable = { resource_surplus_v = resource@specialmaterial }
+	add_to_variable = { resource_surplus_v = resource@polymer }
+	add_to_variable = { resource_surplus_v = resource@electronic }
+
+	set_variable = { resource_demand_ratio_v = resource_surplus_v }
+	divide_variable = { resource_demand_ratio_v = resource_demand_baseline_v }
+
+	set_variable = { income_resource_v = resource_surplus_v }
+	set_temp_variable = { tmp = resource_demand_ratio_v }
+	add_to_temp_variable = { tmp = 0.2 }
+	set_temp_variable = { tmp2 = 0.6 }
+	divide_temp_variable = { tmp2 = tmp }
+	set_temp_variable = { tmp3 = resource_demand_ratio_v }
+	add_to_temp_variable = { tmp3 = 5 }
+	set_temp_variable = { tmp4 = 3 }
+	divide_temp_variable = { tmp4 = tmp3 }
+	add_to_temp_variable = { tmp2 = tmp4 }
+	multiply_variable = { income_resource_v = tmp2 }
+	multiply_variable = { income_resource_v = 0.18 }
+	
+	set_variable = { income_student_v = country_student_num }
+	multiply_variable = { income_student_v = 0.001 }
+	multiply_variable = { income_student_v = country_autonomy_v }
+
+	set_variable = { income_admin_v = income_pop_v }
+	add_to_variable = { income_admin_v = income_consume_v }
+	add_to_variable = { income_admin_v = income_industry_v }
+	add_to_variable = { income_admin_v = income_resource_v }
+	multiply_variable = { income_admin_v = country_autonomy_v }
+
+	# income_diplo_v todo
+
+	# income_extra_v todo
+
+	set_variable = { income_v = income_admin_v }
+	add_to_variable = { income_v = income_student_v }
+	add_to_variable = { income_v = income_diplo_v }
+	add_to_variable = { income_v = income_extra_v }
+
+	# RESERVE&DEBT
+
+	set_variable = { debt_interest_v = 0.005 }
+	set_temp_variable = { tmp = threat }
+	multiply_temp_variable = { tmp = 0.025 }
+	add_to_variable = { debt_interest_v = tmp }
+	clamp_variable = {
+		var = debt_interest_v
+		min = 0.001
+		max = 0.05
+	}
+	# country interest modifier todo
+
+	set_variable = { debt_limit_v = income_v }
+	divide_variable = { debt_limit_v = debt_interest_v }
+
+	# OUTLAY
+
+	set_variable = { outlay_interest_v = debt_v }
+	multiply_variable = { outlay_interest_v = debt_interest_v }
+
+	set_variable = { outlay_reserve_investment_v = credit_reserve_v }
+	multiply_variable = { outlay_reserve_investment_v = outlay_reserve_investment_rate_v }
+
+	set_variable = { outlay_pop_v = max_manpower_k }
+	multiply_variable = { outlay_pop_v = 0.001 }
+	multiply_variable = { outlay_pop_v = country_autonomy_v }
+	multiply_variable = { outlay_pop_v = outlay_pop_rate_v }
+
+	set_variable = { outlay_tech_v = 2 }
+	set_temp_variable = { tmp = country_size_v }
+	multiply_temp_variable = { tmp = 0.002 }
+	multiply_temp_variable = { tmp = country_autonomy_v }
+	add_to_variable = { outlay_tech_v = tmp }
+	multiply_variable = { outlay_tech_v = amount_research_slots }
+	multiply_variable = { outlay_tech_v = outlay_tech_rate_v }
+	
+	set_variable = { outlay_student_v = country_student_num }
+	multiply_variable = { outlay_student_v = 0.001 }
+	multiply_variable = { outlay_student_v = country_autonomy_v }
+	multiply_variable = { outlay_student_v = outlay_student_rate_v }
+
+	set_variable = { outlay_army_v = num_battalions }
+	multiply_variable = { outlay_army_v = 0.1 }
+	set_variable = { outlay_studentarmy_v = num_battalions }
+	multiply_variable = { outlay_studentarmy_v = 0.02 }
+	set_variable = { outlay_navy_v = num_ships }
+	multiply_variable = { outlay_navy_v = 0.4 }
+	set_variable = { outlay_air_v = num_deployed_planes }
+	multiply_variable = { outlay_air_v = 0.02 }
+	
+	set_variable = { outlay_military_v = outlay_army_v }
+	add_to_variable = { outlay_military_v = outlay_studentarmy_v }
+	add_to_variable = { outlay_military_v = outlay_navy_v }
+	add_to_variable = { outlay_military_v = outlay_air_v }
+	multiply_variable = { outlay_military_v = outlay_military_rate_v }
+
+	set_variable = { country_admincost_v = 0 }
+	every_owned_state = {
+		add_to_variable = {
+			PREV:country_admincost_v = state_admincost_v
+		}
+	}
+	set_temp_variable = { tmp = stability }
+	multiply_temp_variable = { tmp = -1 }
+	add_to_temp_variable = { tmp = 1.5 }
+	multiply_variable = { country_admincost_v = tmp }
+
+	set_variable = { outlay_admin_v = country_admincost_v }
+	multiply_variable = { outlay_admin_v = 0.01 }
+	
+	# outlay_diplo_v todo
+
+	# outlay_extra_v todo
+
+	set_variable = { outlay_v = outlay_interest_v }
+	add_to_variable = { outlay_v = outlay_reserve_investment_v }
+	add_to_variable = { outlay_v = outlay_pop_v }
+	add_to_variable = { outlay_v = outlay_tech_v }
+	add_to_variable = { outlay_v = outlay_student_v }
+	add_to_variable = { outlay_v = outlay_military_v }
+	add_to_variable = { outlay_v = outlay_admin_v }
+	add_to_variable = { outlay_v = outlay_diplo_v }
+	add_to_variable = { outlay_v = outlay_extra_v }
+
+	set_variable = { surplus_v = income_v }
+	subtract_from_variable = { surplus_v = outlay_v }
+}
+
+country_weekly_economy_calculation = {
+	country_economy_value_calculation = yes
+}
