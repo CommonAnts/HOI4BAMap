@@ -1,0 +1,17 @@
+ba_bank = {
+  ba_test_bank = {
+    priority = 100
+    allowed = {
+      always = yes
+    }
+
+    visible = {
+      is_ai = no
+    }
+    cost = 0
+    modifier = {
+    }
+    complete_effect = {
+    }
+  }
+}
