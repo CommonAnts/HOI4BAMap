@@ -1,0 +1,455 @@
+@DECISION_TEXT_X = 50
+@WINDOW_TITLE_X = 30
+@WINDOW_TEXT_X = 35
+
+guiTypes = {
+	containerWindowType = {
+		name = "ba_bank_decision_gui_window"
+		position = { x = 0 y = 0 }
+		size = { width = 500 height= 200 }
+
+		background = {
+			name = "logo"
+			spriteType = "GFX_tiled_plain_bg"
+		}
+
+		instantTextBoxType = {
+			name ="ba_economic_credit_reserve"
+			position = { x= @DECISION_TEXT_X y = 30 }
+			font = "hoi_24header"
+			text = "ba_bank_credit_reserve"
+			format = left
+			maxHeight = 24
+		}
+
+		instantTextBoxType = {
+			name ="ba_economic_surplus"
+			position = { x= @DECISION_TEXT_X y = 60 }
+			font = "hoi_24header"
+			text = "ba_bank_surplus"
+			format = left
+			maxHeight = 24
+		}
+
+		instantTextBoxType = {
+			name ="ba_economic_debt"
+			position = { x= @DECISION_TEXT_X y = 90 }
+			font = "hoi_24header"
+			text = "ba_bank_debt"
+			format = left
+			maxHeight = 24
+		}
+
+		instantTextBoxType = {
+			name ="ba_economic_income"
+			position = { x= @DECISION_TEXT_X y = 120 }
+			font = "hoi_24header"
+			text = "ba_bank_income"
+			format = left
+			maxHeight = 24
+		}
+
+		instantTextBoxType = {
+			name ="ba_economic_outlay"
+			position = { x= @DECISION_TEXT_X y = 150 }
+			font = "hoi_24header"
+			text = "ba_bank_outlay"
+			format = left
+			maxHeight = 24
+		}
+
+		buttonType = {
+			name = "ba_econmic_window_button"
+			position = { x = 400 y = 30 }
+			quadTextureSprite = "GFX_resources_strip"
+			pdx_tooltip = ba_econmic_window_button_desc
+			buttonFont = "hoi_24header"
+			clicksound = click_default
+			oversound = ui_menu_over
+		}
+	}
+}
+
+guiTypes = {
+	containerWindowType = {
+		name = "ba_econmic_window"
+		position = { x = 537 y = 80 }
+		size = { width = 500 height = 1200 }
+		moveable = yes
+		# orientation = CENTER
+		# origo = center
+		hide_sound = menu_close_window
+		show_sound = menu_open_window
+		verticalScrollbar = "right_vertical_slider"
+
+
+		background = {
+			name = "background"
+			spriteType = "GFX_tiled_plain_bg"
+		}
+		iconType = {
+			name ="production_header_bg"
+			spriteType = "GFX_header_bg"
+			position = { x= 5 y = 07 }
+			Orientation = "UPPER_LEFT"
+		}
+		instantTextboxType = {
+			name = "ba_econmic_window_title"
+			position = { x = 45 y = 8 }
+			textureFile = ""
+			font = "hoi_36header"
+			borderSize = {x = 0 y = 0}
+			text = "ba_econmic_window_title"
+			maxWidth = 440
+			maxHeight = 20
+			format = left	
+		}
+
+		buttonType = {
+			name = "close_button"
+			position = { x = -40 y = 8 }
+			quadTextureSprite = "GFX_closebutton"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			pdx_tooltip = "CLOSE"
+		}
+
+		instantTextBoxType = {
+			name ="ba_economic_window_reserve_title"
+			position = { x= 30 y = 60 }
+			font = "hoi_30header"
+			text = "ba_economic_window_reserve_title"
+			format = left
+			maxHeight = 24
+		}
+
+		instantTextBoxType = {
+			name ="ba_economic_window_surplus"
+			position = { x= @WINDOW_TEXT_X y = 100 }
+			font = "hoi_24header"
+			text = "ba_economic_window_surplus"
+			format = left
+			maxHeight = 24
+		}
+
+		instantTextBoxType = {
+			name ="ba_economic_window_reserve"
+			position = { x= @WINDOW_TEXT_X y = 130 }
+			font = "hoi_24header"
+			text = "ba_economic_window_reserve"
+			format = left
+			maxHeight = 24
+		}
+
+		instantTextBoxType = {
+			name ="ba_economic_window_debt"
+			position = { x= @WINDOW_TEXT_X y = 160 }
+			font = "hoi_24header"
+			text = "ba_economic_window_debt"
+			format = left
+			maxHeight = 24
+		}
+
+		instantTextBoxType = {
+			name ="ba_economic_window_debt_interest"
+			position = { x= @WINDOW_TEXT_X y = 190 }
+			font = "hoi_24header"
+			text = "ba_economic_window_debt_interest"
+			format = left
+			maxHeight = 24
+		}
+
+		instantTextBoxType = {
+			name ="ba_economic_window_debt_limit"
+			position = { x= @WINDOW_TEXT_X y = 220 }
+			font = "hoi_24header"
+			text = "ba_economic_window_debt_limit"
+			format = left
+			maxHeight = 24
+		}
+
+		instantTextBoxType = {
+			name ="ba_economic_window_income_title"
+			position = { x= 30 y = 260 }
+			font = "hoi_30header"
+			text = "ba_economic_window_income_title"
+			format = left
+			maxHeight = 24
+		}
+
+		instantTextBoxType = {
+			name ="ba_economic_window_income"
+			position = { x= @WINDOW_TEXT_X y = 300 }
+			font = "hoi_24header"
+			text = "ba_economic_window_income"
+			format = left
+			maxHeight = 24
+		}
+
+		instantTextBoxType = {
+			name ="ba_economic_window_income_admin"
+			position = { x= @WINDOW_TEXT_X y = 330 }
+			font = "hoi_24header"
+			text = "ba_economic_window_income_admin"
+			format = left
+			maxHeight = 24
+		}
+
+		instantTextBoxType = {
+			name ="ba_economic_window_income_pop"
+			position = { x= @WINDOW_TEXT_X y = 360 }
+			font = "hoi_24header"
+			text = "ba_economic_window_income_pop"
+			format = left
+			maxHeight = 24
+		}
+
+		instantTextBoxType = {
+			name ="ba_economic_window_income_consume"
+			position = { x= @WINDOW_TEXT_X y = 390 }
+			font = "hoi_24header"
+			text = "ba_economic_window_income_consume"
+			format = left
+			maxHeight = 24
+		}
+
+		instantTextBoxType = {
+			name ="ba_economic_window_income_industry"
+			position = { x= @WINDOW_TEXT_X y = 420 }
+			font = "hoi_24header"
+			text = "ba_economic_window_income_industry"
+			format = left
+			maxHeight = 24
+		}
+
+		instantTextBoxType = {
+			name ="ba_economic_window_income_resource"
+			position = { x= @WINDOW_TEXT_X y = 450 }
+			font = "hoi_24header"
+			text = "ba_economic_window_income_resource"
+			format = left
+			maxHeight = 24
+		}
+
+		instantTextBoxType = {
+			name ="ba_economic_window_resource_demand_baseline"
+			position = { x= @WINDOW_TEXT_X y = 480 }
+			font = "hoi_24header"
+			text = "ba_economic_window_resource_demand_baseline"
+			format = left
+			maxHeight = 24
+			maxWidth = 250
+		}
+
+		instantTextBoxType = {
+			name ="ba_economic_window_resource_demand_ratio"
+			position = { x= @WINDOW_TEXT_X y = 510 }
+			font = "hoi_24header"
+			text = "ba_economic_window_resource_demand_ratio"
+			format = left
+			maxHeight = 24
+			maxWidth = 250
+		}
+
+		instantTextBoxType = {
+			name ="ba_economic_window_income_student"
+			position = { x= @WINDOW_TEXT_X y = 540 }
+			font = "hoi_24header"
+			text = "ba_economic_window_income_student"
+			format = left
+			maxHeight = 24
+		}
+
+		instantTextBoxType = {
+			name ="ba_economic_window_income_diplo"
+			position = { x= @WINDOW_TEXT_X y = 570 }
+			font = "hoi_24header"
+			text = "ba_economic_window_income_diplo"
+			format = left
+			maxHeight = 24
+		}
+
+		instantTextBoxType = {
+			name ="ba_economic_window_income_extra"
+			position = { x= @WINDOW_TEXT_X y = 600 }
+			font = "hoi_24header"
+			text = "ba_economic_window_income_extra"
+			format = left
+			maxHeight = 24
+		}
+
+		instantTextBoxType = {
+			name ="ba_economic_window_outlay_title"
+			position = { x= 30 y = 640 }
+			font = "hoi_30header"
+			text = "ba_economic_window_outlay_title"
+			format = left
+			maxHeight = 24
+		}
+
+		instantTextBoxType = {
+			name ="ba_economic_window_outlay"
+			position = { x= @WINDOW_TEXT_X y = 680 }
+			font = "hoi_24header"
+			text = "ba_economic_window_outlay"
+			format = left
+			maxHeight = 24
+		}
+
+		instantTextBoxType = {
+			name ="ba_economic_window_outlay_interest"
+			position = { x= @WINDOW_TEXT_X y = 710 }
+			font = "hoi_24header"
+			text = "ba_economic_window_outlay_interest"
+			format = left
+			maxHeight = 24
+		}
+
+		instantTextBoxType = {
+			name ="ba_economic_window_outlay_reserve_investment"
+			position = { x= @WINDOW_TEXT_X y = 740 }
+			font = "hoi_24header"
+			text = "ba_economic_window_outlay_reserve_investment"
+			format = left
+			maxHeight = 24
+		}
+
+		instantTextBoxType = {
+			name ="ba_economic_window_outlay_reserve_investment_rate"
+			position = { x= @WINDOW_TEXT_X y = 770 }
+			font = "hoi_24header"
+			text = "ba_economic_window_outlay_reserve_investment_rate"
+			format = left
+			maxHeight = 24
+		}
+
+		instantTextBoxType = {
+			name ="ba_economic_window_outlay_pop"
+			position = { x= @WINDOW_TEXT_X y = 800 }
+			font = "hoi_24header"
+			text = "ba_economic_window_outlay_pop"
+			format = left
+			maxHeight = 24
+		}
+
+		instantTextBoxType = {
+			name ="ba_economic_window_outlay_pop_rate"
+			position = { x= @WINDOW_TEXT_X y = 830 }
+			font = "hoi_24header"
+			text = "ba_economic_window_outlay_pop_rate"
+			format = left
+			maxHeight = 24
+			maxWidth = 250
+		}
+
+		instantTextBoxType = {
+			name ="ba_economic_window_outlay_tech"
+			position = { x= @WINDOW_TEXT_X y = 860 }
+			font = "hoi_24header"
+			text = "ba_economic_window_outlay_tech"
+			format = left
+			maxHeight = 24
+			maxWidth = 250
+		}
+
+		instantTextBoxType = {
+			name ="ba_economic_window_outlay_tech_rate"
+			position = { x= @WINDOW_TEXT_X y = 890 }
+			font = "hoi_24header"
+			text = "ba_economic_window_outlay_tech_rate"
+			format = left
+			maxHeight = 24
+		}
+
+		instantTextBoxType = {
+			name ="ba_economic_window_outlay_student"
+			position = { x= @WINDOW_TEXT_X y = 920 }
+			font = "hoi_24header"
+			text = "ba_economic_window_outlay_student"
+			format = left
+			maxHeight = 24
+		}
+
+		instantTextBoxType = {
+			name ="ba_economic_window_outlay_student_rate"
+			position = { x= @WINDOW_TEXT_X y = 950 }
+			font = "hoi_24header"
+			text = "ba_economic_window_outlay_student_rate"
+			format = left
+			maxHeight = 24
+		}
+
+		instantTextBoxType = {
+			name ="ba_economic_window_outlay_military"
+			position = { x= @WINDOW_TEXT_X y = 980 }
+			font = "hoi_24header"
+			text = "ba_economic_window_outlay_military"
+			format = left
+			maxHeight = 24
+		}
+
+		instantTextBoxType = {
+			name ="ba_economic_window_outlay_military_rate"
+			position = { x= @WINDOW_TEXT_X y = 1010 }
+			font = "hoi_24header"
+			text = "ba_economic_window_outlay_military_rate"
+			format = left
+			maxHeight = 24
+		}
+
+		instantTextBoxType = {
+			name ="ba_economic_window_outlay_admin"
+			position = { x= @WINDOW_TEXT_X y = 1040 }
+			font = "hoi_24header"
+			text = "ba_economic_window_outlay_admin"
+			format = left
+			maxHeight = 24
+		}
+
+		instantTextBoxType = {
+			name ="ba_economic_window_outlay_diplo"
+			position = { x= @WINDOW_TEXT_X y = 1070 }
+			font = "hoi_24header"
+			text = "ba_economic_window_outlay_diplo"
+			format = left
+			maxHeight = 24
+		}
+	}
+}
+
+guiTypes = {
+	containerWindowType = {
+		name = "debt_container"
+		position = { x = 980 y = 6 }
+		
+		buttonType ={
+			name ="debt_bg"
+			spriteType = "GFX_generic_box"
+			position = { x=0 y=0 }
+		}
+		
+		iconType = {
+			name ="ba_economic_icon"
+			spriteType = "GFX_resources_strip" #TODO 更换图标
+			position = { x= 2 y = 0 }
+			pdx_tooltip = "ba_econocmic_tip" #TODO 更换文本
+			pdx_tooltip_delayed = "ba_econocmic_tip_delay"
+		}
+		
+	
+		instantTextBoxType = {
+			name ="ba_economic_conclusion"
+			position = { x= 20 y = 4 }
+			font = "hoi_18mbs"
+			text = "ba_economic_text"
+			format = centre
+			maxWidth = 80
+			maxHeight = 24
+			fixedsize = yes
+			pdx_tooltip = "ba_econocmic_tip"
+			pdx_tooltip_delayed = "ba_econocmic_tip_delay"
+		}
+	}
+}
+
+
