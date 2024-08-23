@@ -1,0 +1,8 @@
+ba_bank = {
+	icon = GFX_decision_category_generic_economy
+	scripted_gui = ba_bank_decision_gui
+	priority = 60
+	visible = {
+		has_country_flag = economic_enabled_f	
+	}
+}

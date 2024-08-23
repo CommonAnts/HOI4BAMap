@@ -1,0 +1,68 @@
+scripted_gui = {
+	ba_bank_decision_gui = {
+		context_type = decision_category
+		window_name = "ba_bank_decision_gui_window"
+		properties = {
+
+		}
+		effects = {
+			ba_econmic_window_button_click = {
+				if = {
+					limit = {
+						not = {
+							has_country_flag = ba_econmic_window_visible
+						}
+					}
+					set_country_flag = ba_econmic_window_visible
+				}
+				else = {
+					clr_country_flag = ba_econmic_window_visible
+				}
+			}
+		}
+
+	}
+}
+
+scripted_gui = {
+	ba_econmic_gui = {
+		window_name = "ba_econmic_window"
+		visible = {
+			has_country_flag = ba_econmic_window_visible
+		}
+		properties = {
+
+		}
+		effects = {
+			close_button_click = {
+				clr_country_flag = ba_econmic_window_visible
+			}
+		}
+	}
+}
+
+scripted_gui = {
+	scp_debt = {
+		context_type = player_context
+		parent_window_token = top_bar
+		window_name = "debt_container"
+		properties = {
+			ba_economic_icon = {
+				frame = 1
+			}
+		}
+	}
+}
+
+scripted_gui = {
+	scp_autonomy = {
+		context_type = player_context
+		parent_window_token = top_bar
+		window_name = "autonomy_container"
+		properties = {
+			ba_economic_icon = {
+				frame = 1
+			}
+		}
+	}
+}
